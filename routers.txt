@@ -1,0 +1,70 @@
+ {
+        "route" : "/about",
+        "method" : ["GET", "POST"],
+        "page" : "about.php"
+    },
+    {
+        "route" : "/courses",
+        "method" : ["GET", "POST"],
+        "page" : "courses.php"
+    },
+    {
+        "route" : "/blog",
+        "method" : ["GET", "POST"],
+        "page" : "blog.php"
+    },
+    {
+        "route" : "/contact",
+        "method" : ["GET", "POST"],
+        "page" : "contact.php"
+    },
+    {
+        "route" : "/it-and-coding",
+        "method" : ["GET", "POST"],
+        "page" : "coding.php"
+    },
+    {
+        "route" : "/maths-physics-chemistry-grade-6-12",
+        "method" : ["GET", "POST"],
+        "page" : "pcm.php"
+    },
+    {
+        "route" : "/competitive-exams",
+        "method" : ["GET", "POST"],
+        "page" : "compitative.php"
+    },
+    {
+        "route" : "/additional-preparations",
+        "method" : ["GET", "POST"],
+        "page" : "additional_prepration.php"
+    },
+    {
+        "route" : "/e-books",
+        "method" : ["GET", "POST"],
+        "page" : "ebooks.php"
+    },
+    {
+        "route" : "/calculator",
+        "method" : ["GET", "POST"],
+        "page" : "calculator.php"
+    },
+    {
+        "route" : "/collab-with-us",
+        "method" : ["GET", "POST"],
+        "page" : "collab.php"
+    },
+    {
+        "route" : "/faq",
+        "method" : ["GET", "POST"],
+        "page" : "faq.php"     
+    },
+    {
+        "route" : "/privacy-policy",        
+        "method" : ["GET", "POST"],
+        "page" : "privacy_policy.php"
+    },
+    {
+        "route" : "/terms-and-conditions",
+        "method" : ["GET", "POST"],
+        "page" : "terms_conditions.php"
+    },

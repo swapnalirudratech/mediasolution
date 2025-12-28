@@ -1,0 +1,385 @@
+[
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/login",
+        "controller": "LoginController@index"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/admin",
+        "controller": "LoginController@index"
+    },
+    {
+        "methods": [
+            "GET"
+        ],
+        "path": "/logout",
+        "controller": "LoginController@logout"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/dashboard",
+        "controller": "DashboardController@index"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/",
+        "controller": "WebsiteController@home"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/about",
+        "controller": "WebsiteController@about"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/services",
+        "controller": "WebsiteController@services"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/our-team",
+        "controller": "WebsiteController@ourTeam"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/customer-feedback",
+        "controller": "WebsiteController@feedback"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/contact",
+        "controller": "WebsiteController@contact"
+    },
+     {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/contact-email",
+        "controller": "WebsiteController@contacteMail"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/faq",
+        "controller": "WebsiteController@faq"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/privacy-policy",
+        "controller": "WebsiteController@privacy"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/terms-and-conditions",
+        "controller": "WebsiteController@terms"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/testimonial/add-testimonial",
+        "controller": "TestimonialController@AddTestimonial"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/testimonial/testimonial-list",
+        "controller": "TestimonialController@TestimonialList"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/testimonial/edit-testimonial/[*:id]",
+        "controller": "TestimonialController@EditTestimonial"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/testimonial/delete-testimonial/[*:id]",
+        "controller": "TestimonialController@deleteTestimonial"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog/add-category",
+        "controller": "BlogController@AddCategory"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog/edit-blog-category/[*:id]",
+        "controller": "BlogController@editBlogCategory"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog/delete-blog-category/[*:id]",
+        "controller": "BlogController@deleteBlogCategory"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog/add-category",
+        "controller": "BlogController@AddCategory"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog/add-blog",
+        "controller": "BlogController@AddBlog"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog/blog-list",
+        "controller": "BlogController@blogList"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog/edit-blog/[*:id]",
+        "controller": "BlogController@EditBlog"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog/delete-blog/[*:id]",
+        "controller": "BlogController@deleteBlog"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/meta/add-meta",
+        "controller": "MetaController@AddMeta"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/meta/meta-list",
+        "controller": "MetaController@metaList"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/meta/edit-meta/[*:id]",
+        "controller": "MetaController@EditBlog"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/meta/delete-meta/[*:id]",
+        "controller": "MetaController@deleteMeta"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/master/roles",
+        "controller": "ModuleController@index"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/master/add-role",
+        "controller": "ModuleController@addRole"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/master/edit-role/[*:id]",
+        "controller": "ModuleController@editRole"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/master/delete-role/[*:id]",
+        "controller": "ModuleController@deleteRole"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/master/users",
+        "controller": "UserController"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/master/add-user",
+        "controller": "UserController@addUser"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/master/user/changeStatus",
+        "controller": "UserController@changeStatus"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/master/edit-user/[*:id]",
+        "controller": "UserController@editUser"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/master/company",
+        "controller": "CompanyController"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/master/machine",
+        "controller": "CompanyController@machine"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/module",
+        "controller": "ModuleController@Module"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/api/addModule/[i:id]?",
+        "controller": "ModuleController@addModule"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/api/getModules",
+        "controller": "ModuleController@getModules"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/pages",
+        "controller": "ModuleController@pages"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/api/addPage/[i:id]?",
+        "controller": "ModuleController@addPages"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/api/getPages",
+        "controller": "ModuleController@getPages"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog",
+        "controller": "WebsiteController@blog"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog-details/[*:id]",
+        "controller": "WebsiteController@blogDetails"
+    }
+]
