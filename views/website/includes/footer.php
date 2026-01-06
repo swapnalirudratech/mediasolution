@@ -1,17 +1,18 @@
- <footer class="relative py-20 bg-brand-dark overflow-hidden group w-full">
+ <footer class="relative py-10 bg-[#172010] overflow-hidden group w-full">
 
      <div class="absolute inset-0 z-0">
          <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=2613&auto=format&fit=crop" alt="City Night" class="w-full h-full object-cover opacity-50 group-hover:scale-105 transition duration-[2s]">
-         <div class="absolute inset-0 bg-gradient-to-r from-brand-dark/80 via-brand-dark/95 to-brand-dark/80"></div>
+         <div class="absolute inset-0 bg-gradient-to-r from-[#172010]/80 via-[#172010]/90 to-[#172010]/80"></div>
      </div>
 
      <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-brand-accent/20 rounded-full blur-[100px] animate-pulse"></div>
-     <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-blue-600/20 rounded-full blur-[100px]"></div>
+     <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-brand-accent/20 rounded-full blur-[100px]"></div>
 
      <div class="w-[80vw] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
          <div class="py-12">
-             <p class="text-8xl text-white text-center mb-10 font-extrabold font-display">Media Solutions</p>
+             <p class="text-8xl text-white text-center mb-8 font-extrabold font-display">Media <span class="text-brand-accent">Solutions</span></p>
+             <div class="w-[50%] mx-auto h-[1px] bg-gradient-to-r from-transparent via-brand-accent to-transparent mb-8"></div>
          </div>
 
          <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
@@ -58,7 +59,7 @@
          </div>
 
          <div class="border-t border-gray-500 pt-8 flex flex-col md:flex-row justify-between items-center text-white">
-             <p>&copy; <?= date('Y')?> Media Solutions. All Rights Reserved.</p>
+             <p>&copy; <?= date('Y') ?> Media Solutions. All Rights Reserved.</p>
              <div class="space-x-4 mt-4 md:mt-0">
                  <a href="#" class="hover:text-white">Privacy Policy</a>
                  <a href="#" class="hover:text-white">Terms of Service</a>

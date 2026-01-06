@@ -4,145 +4,151 @@ include 'includes/header.php';
 include 'includes/nav.php';
 ?>
 
-<body class="overflow-x-hidden">
-    <section class="relative h-screen max-md:h-[70vh] flex items-center justify-start bg-cover bg-center" style="background-image: url('/public/assets/images/6.jpg');">
-        <!-- Overlay -->
-        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
-
-        <div class="relative z-10 max-w-3xl px-6 lg:px-20">
-            <h1 class="lg:text-5xl md:text-4xl text-2xl font-bold text-white leading-tight">
-                <div class="md:mb-3">Our Services</div>
-                <div class="mb-3 text-brand">Simplifying Global Trade</div>
+<body>
+    <!-- <section class="relative pt-32 pb-20 bg-[#172010] overflow-hidden">
+        <div class="w-[80vw] mx-auto px-4 relative z-10 text-center">
+            <span class="text-brand-accent font-bold uppercase tracking-[0.4em] text-xs mb-6 block">Our Track Record</span>
+            <h1 class="text-6xl md:text-8xl font-black text-white leading-none uppercase mb-8">
+                Selected <br>
+                <span class="text-brand-accent">Campaigns</span>
             </h1>
-
-            <p class="mt-6 text-base text-gray-200 max-md:hidden">
-                End-to-end import and export solutions built on trust, quality, and global reach.
+            <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-12 italic">
+                "500+ campaigns executed with precision. From local activations in Thane to massive Pan-India product launches."
             </p>
+        </div>
+    </section> -->
+    <section class="relative pt-40 pb-32 bg-[#172010] overflow-hidden min-h-[85vh] flex items-center">
+        <div class="absolute inset-0 z-0">
+            <img src="/public/assets/images/3.jpg"
+                class="w-full h-full object-cover opacity-90"
+                alt="Campaign Portfolio Background">
+
+            <div class="absolute inset-0 bg-gradient-to-r from-[#172010] via-[#172010]/90 to-transparent"></div>
+
+            <div class="absolute top-0 left-0 w-[500px] h-[500px] bg-[#a3e635]/10 blur-[130px] rounded-full -translate-x-1/2 -translate-y-1/4"></div>
+
+            <div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#172010] to-transparent"></div>
+        </div>
+
+        <div class="w-[80vw] mx-auto px-4 relative z-10">
+            <div class="max-w-4xl">
+                <span class="text-[#a3e635] font-bold uppercase tracking-[0.4em] text-[10px] mb-6 block">Our Track Record</span>
+
+                <h1 class="text-6xl md:text-8xl font-black text-white leading-none uppercase mb-8">
+                    Selected <br>
+                    <span class="text-[#a3e635]">Campaigns</span>
+                </h1>
+
+                <p class="text-gray-300 text-lg md:text-xl max-w-2xl mb-12 italic border-l-4 border-[#a3e635] pl-8 leading-relaxed">
+                    "500+ campaigns executed with precision. From local activations in Thane to massive Pan-India product launches across every media touchpoint."
+                </p>
+
+                <div class="flex gap-12 pt-4">
+                    <div>
+                        <p class="text-white font-black text-2xl uppercase">500+</p>
+                        <p class="text-[#a3e635] text-[9px] font-bold uppercase tracking-widest">Successful Projects</p>
+                    </div>
+                    <div>
+                        <p class="text-white font-black text-2xl uppercase">50+</p>
+                        <p class="text-[#a3e635] text-[9px] font-bold uppercase tracking-widest">Cities Covered</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-
-    <section class="w-full mx-auto md:px-6 py-20 max-md:py-10">
-        <!-- Header -->
-        <div class="text-center mb-12 max-md:w-[90%] mx-auto">
-            <span class="text-brand font-semibold tracking-wide uppercase">
-                <span class="text-brand">✦</span> Featured Services</span>
-            <h2 class="text-4xl max-md:text-3xl font-extrabold mt-3 mb-4">
-                Find The Perfect Global Trade <br />
-                Solution With Our Service
-            </h2>
-            <p class="text-gray-600 max-w-2xl max-md:w-[90%] mx-auto">
-                From sourcing and procurement to logistics and distribution, Animocare Private Limited provides end-to-end import–export
-                services. Our experts ensure quality, compliance, and efficiency at every stage of the global supply chain.
-            </p>
-        </div>
-
-        <!-- Service Grid -->
-        <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 w-[80%] max-md:w-[90%] mx-auto">
-            <!-- Card 1 -->
-            <div class="bg-white h-full rounded-2xl shadow-sm p-6 max-md:border hover:shadow-lg transition flex flex-col justify-between">
-                <div>
-                    <div class="flex items-center justify-between mb-6 max-md:mb-3">
-                        <h3 class="text-2xl max-md:text-lg font-semibold">Global Sourcing</h3>
-                        <div class="bg-light p-2 rounded-full text-white h-14 w-14 max-md:h-10 max-md:w-10 flex items-center justify-center">
-                            <i class="fa-solid fa-globe text-2xl max-md:text-lg"></i>
-                        </div>
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        We identify and source premium-quality agricultural and industrial products from trusted global suppliers.
-                    </p>
-                </div>
-                <img src="/public/assets/images/banner1.jpg" alt="Global Sourcing" class="rounded-xl h-56 max-md:h-40 w-full object-cover mt-auto" />
-            </div>
-
-            <!-- Card 2 -->
-            <div class="bg-white h-full rounded-2xl shadow-sm p-6 max-md:border hover:shadow-lg transition flex flex-col justify-between">
-                <div>
-                    <div class="flex items-center justify-between mb-6 max-md:mb-3">
-                        <h3 class="text-2xl max-md:text-lg font-semibold">International Shipping & Logistics</h3>
-                        <div class="bg-light p-2 rounded-full text-white h-14 w-14 max-md:h-10 max-md:w-10 flex items-center justify-center">
-                            <i class="fa-solid fa-ship text-2xl max-md:text-lg"></i>
-                        </div>
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        Reliable, fast, and cost-effective shipping solutions across sea, air, and land—ensuring timely deliveries worldwide.
-                    </p>
-                </div>
-                <img src="/public/assets/images/s2.jpg" alt="International Shipping" class="rounded-xl h-56 max-md:h-40 w-full object-cover mt-auto" />
-            </div>
-
-            <!-- Card 3 -->
-            <!-- <div class="bg-white h-full rounded-2xl shadow-sm p-6 max-md:border hover:shadow-lg transition flex flex-col justify-between">
-                <div>
-                    <div class="flex items-center justify-between mb-6 max-md:mb-3">
-                        <h3 class="text-2xl max-md:text-lg font-semibold">Warehousing & Distribution</h3>
-                        <div class="bg-light p-2 rounded-full text-white h-14 w-14 max-md:h-10 max-md:w-10 flex items-center justify-center">
-                            <i class="fa-solid fa-warehouse text-2xl max-md:text-lg"></i>
-                        </div>
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        Comprehensive storage and fulfillment solutions ensuring product safety, accessibility, and real-time tracking.
-                    </p>
-                </div>
-                <img src="/public/assets/images/s3.jpg" alt="Warehousing" class="rounded-xl h-56 max-md:h-40 w-full object-cover mt-auto" />
-            </div> -->
-
-            <!-- Card 4 -->
-            <div class="bg-white h-full rounded-2xl shadow-sm p-6 max-md:border hover:shadow-lg transition flex flex-col justify-between">
-                <div>
-                    <div class="flex items-center justify-between mb-6 max-md:mb-3">
-                        <h3 class="text-2xl max-md:text-lg font-semibold">Customs & Compliance</h3>
-                        <div class="bg-light p-2 rounded-full text-white h-14 w-14 max-md:h-10 max-md:w-10 flex items-center justify-center">
-                            <i class="fa-solid fa-file-signature text-2xl max-md:text-lg"></i>
-                        </div>
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        Expert management of international trade regulations, customs documentation, and certification processes.
-                    </p>
-                </div>
-                <img src="/public/assets/images/s4.jpg" alt="Customs & Compliance" class="rounded-xl h-56 max-md:h-40 w-full object-cover mt-auto" />
-            </div>
-
-            <!-- Card 5 -->
-            <div class="bg-white h-full rounded-2xl shadow-sm p-6 max-md:border hover:shadow-lg transition flex flex-col justify-between">
-                <div>
-                    <div class="flex items-center justify-between mb-6 max-md:mb-3">
-                        <h3 class="text-2xl max-md:text-lg font-semibold">Sustainable & Ethical Sourcing</h3>
-                        <div class="bg-light p-2 rounded-full text-white h-14 w-14 max-md:h-10 max-md:w-10 flex items-center justify-center">
-                            <i class="fa-solid fa-leaf text-2xl max-md:text-lg"></i>
-                        </div>
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        Committed to responsible sourcing practices that protect the environment and support ethical global supply chains.
-                    </p>
-                </div>
-                <img src="/public/assets/images/s5.jpg" alt="Sustainable Sourcing" class="rounded-xl h-56 max-md:h-40 w-full object-cover mt-auto" />
-            </div>
-
-            <!-- Card 6 -->
-            <div class="bg-white h-full rounded-2xl shadow-sm p-6 max-md:border hover:shadow-lg transition flex flex-col justify-between">
-                <div>
-                    <div class="flex items-center justify-between mb-6 max-md:mb-3">
-                        <h3 class="text-2xl max-md:text-lg font-semibold">Food & Commodity Trading</h3>
-                        <div class="bg-light p-2 rounded-full text-white h-14 w-14 max-md:h-10 max-md:w-10 flex items-center justify-center">
-                            <i class="fa-solid fa-seedling text-2xl max-md:text-lg"></i>
-                        </div>
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        Specializing in the import and export of food items, edible oils, fertilizers, and agricultural commodities.
-                    </p>
-                </div>
-                <img src="/public/assets/images/s6.jpg" alt="Food & Commodity Trading" class="rounded-xl h-56 max-md:h-40 w-full object-cover mt-auto" />
+    <!-- <section class="py-8 bg-[#0d1309] sticky top-20 z-40 border-y border-white/5 backdrop-blur-md bg-[#0d1309]/80">
+        <div class="w-[80vw] mx-auto px-4">
+            <div class="flex flex-wrap justify-center gap-4 md:gap-8">
+                <button class="text-brand-accent text-[10px] font-black uppercase tracking-[0.2em] border-b-2 border-brand-accent pb-1">All Work</button>
+                <button class="text-white/60 hover:text-white text-[10px] font-black uppercase tracking-[0.2em] pb-1 transition">OOH & DOOH</button>
+                <button class="text-white/60 hover:text-white text-[10px] font-black uppercase tracking-[0.2em] pb-1 transition">Cinema</button>
+                <button class="text-white/60 hover:text-white text-[10px] font-black uppercase tracking-[0.2em] pb-1 transition">BTL & Events</button>
+                <button class="text-white/60 hover:text-white text-[10px] font-black uppercase tracking-[0.2em] pb-1 transition">Digital</button>
             </div>
         </div>
+    </section> -->
+    <section class="py-24 bg-[#0d1309]/90">
+        <div class="w-[80vw] mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
 
+                <div class="group cursor-pointer">
+                    <div class="relative overflow-hidden rounded-[2rem] aspect-[4/3] mb-6 bg-gray-900">
+                        <img src="/public/assets/images/b1.jpg" class="w-full h-full object-cover  group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" alt="OOH Campaign">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-black/50 backdrop-blur-md text-white text-[10px] font-bold px-4 py-2 rounded-full uppercase tracking-widest border border-white/10">OOH / Airport</span>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white uppercase group-hover:text-brand-accent transition-colors">Global E-Commerce Giant</h3>
+                    <p class="text-gray-500 text-sm mt-2">Dominated T3 International terminal for 6 months with high-impact static and digital displays.</p>
+                </div>
 
+                <div class="group cursor-pointer">
+                    <div class="relative overflow-hidden rounded-[2rem] aspect-[4/3] mb-6 bg-gray-900">
+                        <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1200" class="w-full h-full object-cover  group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" alt="Cinema Campaign">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-black/50 backdrop-blur-md text-white text-[10px] font-bold px-4 py-2 rounded-full uppercase tracking-widest border border-white/10">Cinema / Pan India</span>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white uppercase group-hover:text-brand-accent transition-colors">Blockbuster Launch Series</h3>
+                    <p class="text-gray-500 text-sm mt-2">Executed on-screen commercial campaigns across 450+ screens in PVR and Inox circuits.</p>
+                </div>
 
-        <!-- Pagination -->
-        <!-- <div class="flex justify-center items-center mt-12 space-x-2">
-            <button class="h-3 w-3 bg-brand rounded-full"></button>
-            <button class="h-3 w-3 bg-gray-300 rounded-full"></button>
-            <span class="text-gray-500 text-sm font-medium ml-4">1 / 2 →</span>
-        </div> -->
+                <div class="group cursor-pointer">
+                    <div class="relative overflow-hidden rounded-[2rem] aspect-[4/3] mb-6 bg-gray-900">
+                        <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1200" class="w-full h-full object-cover  group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" alt="BTL Activation">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-black/50 backdrop-blur-md text-white text-[10px] font-bold px-4 py-2 rounded-full uppercase tracking-widest border border-white/10">BTL / Corporate</span>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white uppercase group-hover:text-brand-accent transition-colors">Automobile Tech Showcase</h3>
+                    <p class="text-gray-500 text-sm mt-2">Strategic mall activations across top 10 metros, engaging over 50,000 potential customers.</p>
+                </div>
+
+                <div class="group cursor-pointer">
+                    <div class="relative overflow-hidden rounded-[2rem] aspect-[4/3] mb-6 bg-gray-900">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200" class="w-full h-full object-cover  group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" alt="Digital Campaign">
+                        <div class="absolute top-6 left-6">
+                            <span class="bg-black/50 backdrop-blur-md text-white text-[10px] font-bold px-4 py-2 rounded-full uppercase tracking-widest border border-white/10">Digital / Performance</span>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white uppercase group-hover:text-brand-accent transition-colors">Omnichannel Retail Strategy</h3>
+                    <p class="text-gray-500 text-sm mt-2">Integrated OOH with a hyper-local digital funnel, resulting in a 40% increase in store footfall.</p>
+                </div>
+
+            </div>
+
+            <div class="mt-20 text-center">
+                <button class="px-12 py-5 border border-brand-accent text-brand-accent font-black uppercase text-[10px] tracking-widest rounded-full hover:bg-brand-accent hover:text-[#172010] transition-all">Load More Projects</button>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 bg-[#172010] border-y border-white/5">
+        <div class="w-[80vw] mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+            <div>
+                <p class="text-brand-accent text-4xl font-black mb-2">300+</p>
+                <p class="text-gray-400 text-[10px] font-bold uppercase tracking-widest">Active Brands</p>
+            </div>
+            <div>
+                <p class="text-brand-accent text-4xl font-black mb-2">50+</p>
+                <p class="text-gray-400 text-[10px] font-bold uppercase tracking-widest">Cities Covered</p>
+            </div>
+            <div>
+                <p class="text-brand-accent text-4xl font-black mb-2">12M+</p>
+                <p class="text-gray-400 text-[10px] font-bold uppercase tracking-widest">Impressions Monthly</p>
+            </div>
+            <div>
+                <p class="text-brand-accent text-4xl font-black mb-2">98%</p>
+                <p class="text-gray-400 text-[10px] font-bold uppercase tracking-widest">Client Retention</p>
+            </div>
+        </div>
+    </section>
+    <section class="py-24 bg-[#0d1309]">
+        <div class="w-[80vw] mx-auto px-4 text-center">
+            <h2 class="text-4xl md:text-6xl font-black text-white uppercase mb-8 leading-tight">Your Brand Could <br>Be <span class="text-brand-accent">Next.</span></h2>
+            <p class="text-gray-400 mb-12 max-w-xl mx-auto italic text-lg">Let’s add your success story to our portfolio. We have the space, the tech, and the creative vision.</p>
+            <a href="/contact" class="inline-block px-12 py-5 bg-brand-accent text-black font-black uppercase text-xs tracking-[0.2em] rounded-full hover:shadow-[0_0_30px_rgba(163,230,53,0.3)] transition-all">Start a Conversation</a>
+        </div>
     </section>
 </body>
+
 <?php include 'includes/footer.php'; ?>

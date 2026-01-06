@@ -4,185 +4,141 @@ include 'includes/header.php';
 include 'includes/nav.php';
 ?>
 
-<body class="overflow-x-hidden">
-    <section class="relative h-screen max-md:h-[70vh] flex items-center justify-start bg-cover bg-center"
-        style="background-image: url('/public/assets/images/contactbg.jpg');">
-        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+<body>
+    <section class="relative pt-32 pb-12 bg-[#172010] overflow-hidden">
+        <div class="absolute top-0 right-0 w-1/3 h-full bg-[#a3e635]/5 -skew-x-12 transform translate-x-32"></div>
 
-        <div class="relative z-10 max-w-3xl px-6 lg:px-20">
-            <h1 class="lg:text-5xl flex gap-3 md:text-4xl text-3xl font-bold text-white leading-tight">
-                <div class="text-brand mb-3">Contact</div>
-                <div class=""> Us</div>
-            </h1>
-            <p class="mt-6 text-base text-gray-200 max-md:hidden">
-                Have questions about global trade or partnership opportunities? Get in touch with Animocare — your trusted partner in international import and export solutions.
-            </p>
+        <div class="w-[80vw] mx-auto px-4 relative z-10">
+            <div class="max-w-3xl">
+                <span class="text-[#a3e635] font-bold uppercase tracking-[0.4em] text-sm mb-4 block">Let's Collaborate</span>
+                <h1 class="text-6xl md:text-8xl font-black text-white leading-[0.9] uppercase mb-8">
+                    Start a <br><span class="text-[#a3e635]">Project.</span>
+                </h1>
+                <p class="text-gray-400 text-lg md:text-xl border-l-2 border-white/20 pl-8">
+                    Ready to dominate the market? Tell us about your brand goals, and our 360° team will craft a customized media strategy for you.
+                </p>
+            </div>
         </div>
     </section>
+    <section class="py-20 bg-[#172010]">
+        <div class="w-[80vw] mx-auto px-4 grid lg:grid-cols-3 gap-16">
 
-    <!-- Contact Section -->
-    <section class="w-[60vw] max-md:w-[90vw] mx-auto pb-16 grid md:grid-cols-2 gap-10 items-start py-16">
-        <!-- Right Column: Form -->
-        <div class="bg-white border rounded-lg p-8 max-md:p-6 max-md:order-2">
-            <h3 class="text-2xl font-semibold mb-6">Send Your Message</h3>
-
-            <form id="contactMail" action="/contact-email" method="post" class="space-y-4">
-                <input
-                    type="text" name="name" required
-                    placeholder="Enter Name"
-                    class="w-full border border-gray-300 rounded-md py-2 px-3 focus:ring-1 focus:ring-orange-500 focus:outline-none" />
-
-                <div class="grid grid-cols-2 gap-4">
-                    <input
-                        type="email" name="email" required
-                        placeholder="Email Address"
-                        class="border border-gray-300 rounded-md py-2 px-3 focus:ring-1 focus:ring-orange-500 focus:outline-none" />
-                    <input
-                        type="tel" name="phone" required
-                        placeholder="Phone Number"
-                        class="border border-gray-300 rounded-md py-2 px-3 focus:ring-1 focus:ring-orange-500 focus:outline-none" />
+            <div class="lg:col-span-1 space-y-12">
+                <div>
+                    <h4 class="text-white font-bold uppercase tracking-widest mb-6">Our Location</h4>
+                    <p class="text-gray-400 leading-relaxed">
+                        Media Solutions HQ<br>
+                        Thane, Maharashtra, India<br>
+                        Serving Brands Globally.
+                    </p>
                 </div>
 
-                <select name="services" required
-                    class="w-full border border-gray-300 rounded-md py-2 px-3 focus:ring-1 focus:ring-orange-500 focus:outline-none text-gray-600">
-                    <option disabled selected>Select Service</option>
-                    <option value="Import Assistance">Import Assistance</option>
-                    <option value="Export Services">Export Services</option>
-                    <option value="Logistics & Warehousing">Logistics & Warehousing</option>
-                    <option class="Compliance Support">Compliance Support</option>
-                </select>
+                <div>
+                    <h4 class="text-white font-bold uppercase tracking-widest mb-6">Contact Details</h4>
+                    <p class="text-gray-400 mb-2 hover:text-[#a3e635] transition cursor-pointer">hello@mediasolutions.in</p>
+                    <p class="text-gray-400 hover:text-[#a3e635] transition cursor-pointer">+91 98765 43210</p>
+                </div>
 
-                <textarea
-                    rows="4" name="message" require
-                    placeholder="Message"
-                    class="w-full border border-gray-300 rounded-md py-2 px-3 focus:ring-1 focus:ring-orange-500 focus:outline-none"></textarea>
+                <div class="p-8 bg-[#0d1309] rounded-3xl border border-white/5">
+                    <p class="text-[#a3e635] font-bold text-xs uppercase tracking-widest mb-4">Quick Fact</p>
+                    <p class="text-white/80 italic">"90% of our clients receive their first customized media plan within 24 hours of submitting this form."</p>
+                </div>
+            </div>
 
-                <button
-                    type="submit"
-                    class="bg-brand text-white px-6 py-3 rounded-md font-semibold hover:bg-orange-600 transition">
-                    SUBMIT
-                </button>
-            </form>
-        </div>
-        <div class=" max-md:order-1">
-            <img src="/public/assets/images/gif2.gif" alt="" class="w-auto h-auto">
+            <div class="lg:col-span-2">
+                <form action="#" class="space-y-8 bg-[#0d1309] p-8 md:p-12 rounded-[3rem] border border-white/10 shadow-2xl">
+
+                    <div>
+                        <label class="text-white font-bold uppercase text-sm tracking-[0.2em] mb-6 block">What services are you interested in?</label>
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                            <label class="cursor-pointer group">
+                                <input type="checkbox" class="hidden peer">
+                                <div class="px-4 py-3 bg-[#172010] border border-white/5 rounded-xl text-gray-400 text-sm font-bold uppercase tracking-widest text-center peer-checked:bg-[#a3e635] peer-checked:text-black peer-checked:border-[#a3e635] transition-all">OOH & DOOH</div>
+                            </label>
+                            <label class="cursor-pointer group">
+                                <input type="checkbox" class="hidden peer">
+                                <div class="px-4 py-3 bg-[#172010] border border-white/5 rounded-xl text-gray-400 text-sm font-bold uppercase tracking-widest text-center peer-checked:bg-[#a3e635] peer-checked:text-black peer-checked:border-[#a3e635] transition-all">Cinema</div>
+                            </label>
+                            <label class="cursor-pointer group">
+                                <input type="checkbox" class="hidden peer">
+                                <div class="px-4 py-3 bg-[#172010] border border-white/5 rounded-xl text-gray-400 text-sm font-bold uppercase tracking-widest text-center peer-checked:bg-[#a3e635] peer-checked:text-black peer-checked:border-[#a3e635] transition-all">BTL & Events</div>
+                            </label>
+                            <label class="cursor-pointer group">
+                                <input type="checkbox" class="hidden peer">
+                                <div class="px-4 py-3 bg-[#172010] border border-white/5 rounded-xl text-gray-400 text-sm font-bold uppercase tracking-widest text-center peer-checked:bg-[#a3e635] peer-checked:text-black peer-checked:border-[#a3e635] transition-all">Digital</div>
+                            </label>
+                            <label class="cursor-pointer group">
+                                <input type="checkbox" class="hidden peer">
+                                <div class="px-4 py-3 bg-[#172010] border border-white/5 rounded-xl text-gray-400 text-sm font-bold uppercase tracking-widest text-center peer-checked:bg-[#a3e635] peer-checked:text-black peer-checked:border-[#a3e635] transition-all">Mainline</div>
+                            </label>
+                            <label class="cursor-pointer group">
+                                <input type="checkbox" class="hidden peer">
+                                <div class="px-4 py-3 bg-[#172010] border border-white/5 rounded-xl text-gray-400 text-sm font-bold uppercase tracking-widest text-center peer-checked:bg-[#a3e635] peer-checked:text-black peer-checked:border-[#a3e635] transition-all">Other</div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="space-y-2">
+                            <label class="text-white/50 text-sm uppercase font-bold tracking-widest ml-2">Full Name</label>
+                            <input type="text" placeholder="e.g. Rahul Sharma" class="w-full bg-[#172010] border border-white/5 rounded-2xl px-6 py-4 text-white placeholder-gray-600 focus:outline-none focus:border-[#a3e635]/50 transition">
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-white/50 text-sm uppercase font-bold tracking-widest ml-2">Email Address</label>
+                            <input type="email" placeholder="rahul@company.com" class="w-full bg-[#172010] border border-white/5 rounded-2xl px-6 py-4 text-white placeholder-gray-600 focus:outline-none focus:border-[#a3e635]/50 transition">
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="space-y-2">
+                            <label class="text-white/50 text-sm uppercase font-bold tracking-widest ml-2">Estimated Budget</label>
+                            <select class="w-full bg-[#172010] border border-white/5 rounded-2xl px-6 py-4 text-gray-500 focus:outline-none focus:border-[#a3e635]/50 transition appearance-none">
+                                <option>Select Range</option>
+                                <option>Below 5L</option>
+                                <option>5L - 20L</option>
+                                <option>20L - 50L</option>
+                                <option>50L+</option>
+                            </select>
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-white/50 text-sm uppercase font-bold tracking-widest ml-2">Company Name</label>
+                            <input type="text" placeholder="Brand Name" class="w-full bg-[#172010] border border-white/5 rounded-2xl px-6 py-4 text-white placeholder-gray-600 focus:outline-none focus:border-[#a3e635]/50 transition">
+                        </div>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="text-white/50 text-sm uppercase font-bold tracking-widest ml-2">Tell us about your campaign goals</label>
+                        <textarea rows="4" placeholder="I want to launch a new product in Mumbai and Delhi..." class="w-full bg-[#172010] border border-white/5 rounded-2xl px-6 py-4 text-white placeholder-gray-600 focus:outline-none focus:border-[#a3e635]/50 transition"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full py-5 bg-[#a3e635] text-[#172010] font-black uppercase text-xs tracking-[0.3em] rounded-2xl hover:shadow-[0_20px_40px_rgba(163,230,53,0.2)] transition-all transform hover:-translate-y-1">
+                        Send Project Brief
+                    </button>
+                </form>
+            </div>
         </div>
     </section>
-
-    <section class="w-[60vw] max-md:w-[90vw] mx-auto pb-16 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10">
-        <!-- Email -->
-        <div class="bg-white shadow-sm p-6 rounded-lg border-t-4 border-brand">
-            <div class="flex items-center mb-4">
-                <div class="bg-brand text-white h-10 w-10 items-center justify-center flex rounded-md mr-3">
-                    <i class="fa-solid fa-envelope text-xl"></i>
+    <section class="py-24 bg-[#0d1309]">
+        <div class="w-[80vw] mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+                <div class="space-y-4">
+                    <div class="text-[#a3e635] text-4xl font-black">24h</div>
+                    <h5 class="text-white font-bold uppercase tracking-widest text-xs">Response Time</h5>
+                    <p class="text-gray-500 text-xs">We respect your time. Expect a call-back within one business day.</p>
                 </div>
-                <div>
-                    <h3 class="font-bold text-lg">Email Address</h3>
+                <div class="space-y-4">
+                    <div class="text-[#a3e635] text-4xl font-black">360°</div>
+                    <h5 class="text-white font-bold uppercase tracking-widest text-xs">Holistic Approach</h5>
+                    <p class="text-gray-500 text-xs">From planning to execution and digital reporting, we handle it all.</p>
                 </div>
-            </div>
-            <a href="mailto:info@animocare.com" class="text-gray-600">info@animocare.com</a>
-        </div>
-
-        <!-- Phone -->
-        <div class="bg-white shadow-sm p-6 rounded-lg border-t-4 border-brand">
-            <div class="flex items-center mb-4">
-                <div class="bg-brand text-white h-10 w-10 items-center justify-center flex rounded-md mr-3">
-                    <i class="fa-solid fa-phone-volume text-xl"></i>
-                </div>
-                <div>
-                    <h3 class="font-bold text-lg">Phone Number</h3>
+                <div class="space-y-4">
+                    <div class="text-[#a3e635] text-4xl font-black">PAN</div>
+                    <h5 class="text-white font-bold uppercase tracking-widest text-xs">India Presence</h5>
+                    <p class="text-gray-500 text-xs">Located in Thane, with local teams active in every major city.</p>
                 </div>
             </div>
-            <a href="tel:+022-22640051" class="text-gray-600">+022-22640051</a>
-        </div>
-
-        <!-- Location -->
-        <div class="bg-white shadow-sm p-6 rounded-lg border-t-4 border-brand">
-            <div class="flex items-center mb-4">
-                <div class="bg-brand text-white h-10 w-10 items-center justify-center flex rounded-md mr-3">
-                    <i class="fa-solid fa-location-dot text-xl"></i>
-                </div>
-                <div>
-                    <h3 class="font-bold text-lg">Office Address</h3>
-                </div>
-            </div>
-            <p class="text-gray-600">
-                303-304 Natwar Chambers, 94 Nagindas Master Road, Fort, Mumbai 400023
-            </p>
         </div>
     </section>
-
-
-    <div id="toast"
-        class="hidden fixed top-5 right-5 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg transition-opacity duration-300">
-        Thank you! Your message has been sent.
-    </div>
-
-    <style>
-        #toast {
-            display: none;
-            position: fixed;
-            align-items: center;
-            text-align: center;
-            top: 100px;
-            right: 20px;
-            background-color: #38a169;
-            color: white;
-            padding: 12px 20px;
-            border-radius: 5px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-            z-index: 1000;
-            transition: opacity 0.5s ease-in-out;
-        }
-
-        #toast.show {
-            display: block;
-            opacity: 1;
-        }
-    </style>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const form = document.getElementById("contactMail");
-            const toast = document.getElementById("toast");
-
-            form.addEventListener("submit", function (e) {
-                e.preventDefault(); 
-
-                const formData = new FormData(form);
-
-                showToast("Processing... Please wait.", "#3182ce");
-
-                fetch("/contact-email", {
-                    method: "POST",
-                    body: formData
-                })
-                    .then(response => response.json())
-                    .then(data => {
-                        const message = data.success ? "Message sent successfully! Thank you!" : "Failed to send message.";
-                        const color = data.success ? "#38a169" : "#e53e3e";
-                        showToast(message, color);
-                    })
-                    .catch(() => {
-                        showToast("Something went wrong. Please try again.", "#e53e3e");
-                    })
-                    .finally(() => {
-                        form.reset();
-                    });
-            });
-
-            function showToast(message, bgColor = "#38a169") {
-                toast.innerText = message;
-                toast.style.backgroundColor = bgColor;
-                toast.classList.add("show");
-
-                setTimeout(() => {
-                    toast.classList.remove("show");
-                }, 3000);
-            }
-        });
-    </script>
-
-
 </body>
+
 <?php include 'includes/footer.php'; ?>

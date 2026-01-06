@@ -48,6 +48,61 @@ class WebsiteController extends LoginController
         }
     }
 
+    public function services1()
+    {
+        $siteName = getDBObject()->getSiteName();
+        $pageTitle = "services";
+        // $this->checkSession();
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+
+            require 'views/website/OOH-DOOH.php';
+        }
+    }
+
+    public function services2()
+    {
+        $siteName = getDBObject()->getSiteName();
+        $pageTitle = "services";
+        // $this->checkSession();
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+
+            require 'views/website/Cinema-Advertising.php';
+        }
+    }
+
+    public function services3()
+    {
+        $siteName = getDBObject()->getSiteName();
+        $pageTitle = "services";
+        // $this->checkSession();
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+
+            require 'views/website/BTL-Activations.php';
+        }
+    }
+
+    public function services4()
+    {
+        $siteName = getDBObject()->getSiteName();
+        $pageTitle = "services";
+        // $this->checkSession();
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+
+            require 'views/website/Digital-Tech.php';
+        }
+    }
+
+    public function services5()
+    {
+        $siteName = getDBObject()->getSiteName();
+        $pageTitle = "services";
+        // $this->checkSession();
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+
+            require 'views/website/Events-Exhibitions.php';
+        }
+    }
+
     public function blog()
     {
         $siteName = getDBObject()->getSiteName();
@@ -133,7 +188,7 @@ class WebsiteController extends LoginController
         }
     }
 
-     public function contacteMail()
+    public function contacteMail()
     {
         $siteName = getDBObject()->getSiteName();
         $pageTitle = "contact email";

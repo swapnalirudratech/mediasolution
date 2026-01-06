@@ -72,15 +72,11 @@
         tailwind.config = {
             theme: {
                 extend: {
-                    fontFamily: {
-                        sans: ['Open Sans', 'sans-serif'],
-                        display: ['Oswald', 'sans-serif'],
-                    },
                     colors: {
                         brand: {
                             black: '#1a1a1a',
-                            dark: '#0f172a',
-                            accent: '#FF4C29', // A bold orange-red for CTAs (Ad agency style)
+                            dark: '#0f2a23ff',
+                            accent: '#ceff91', 
                             gray: '#f3f4f6'
                         }
                     },
@@ -103,11 +99,11 @@
     </script>
 
     <style>
-        /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); 
 
-        /* body {
+         body {
             font-family: 'Poppins', sans-serif;
-        } */
+        } 
 
         /* Custom scrollbar */
         ::-webkit-scrollbar {
@@ -119,12 +115,12 @@
         }
 
         ::-webkit-scrollbar-thumb {
-            background: #fb923c;
+            background: #ceff91;
             border-radius: 5px;
         }
 
         ::-webkit-scrollbar-thumb:hover {
-            background: #fb923c;
+            background: #ceff91;
         }
     </style>
 

@@ -59,6 +59,46 @@
             "GET",
             "POST"
         ],
+        "path": "/OOH-and-DOOH-Services",
+        "controller": "WebsiteController@services1"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/Cinema-Advertising-Services",
+        "controller": "WebsiteController@services2"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/BTL-and-Activations-Services",
+        "controller": "WebsiteController@services3"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/Digital-and-Tech-Services",
+        "controller": "WebsiteController@services4"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/Events-and-Exhibitions-Services",
+        "controller": "WebsiteController@services5"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
         "path": "/our-team",
         "controller": "WebsiteController@ourTeam"
     },
