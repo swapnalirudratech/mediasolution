@@ -79,21 +79,68 @@ include 'includes/nav.php';
         </div>
     </div>
 
-    <div class="bg-gradient-to-r from-[#0f1807] via-brand-accent/70 to-[#0f1807] py-6 overflow-hidden relative">
-        <div class="flex whitespace-nowrap animate-scroll w-max">
-            <span class="mx-8 text-gray-500  text-2xl font-bold uppercase">Trusted By Leading Brands</span>
-            <span class="mx-8 text-gray-500  text-2xl font-bold uppercase">•</span>
-            <span class="mx-8 text-gray-500  text-2xl font-bold uppercase">Real Estate Giants</span>
-            <span class="mx-8 text-gray-500  text-2xl font-bold uppercase">•</span>
-            <span class="mx-8 text-gray-500  text-2xl font-bold uppercase">FMCG Leaders</span>
-            <span class="mx-8 text-gray-500  text-2xl font-bold uppercase">•</span>
-            <span class="mx-8 text-gray-500  text-2xl font-bold uppercase">Retail Chains</span>
-            <span class="mx-8 text-gray-500  text-2xl font-bold uppercase">•</span>
-            <span class="mx-8 text-gray-500  text-2xl font-bold uppercase">Media Solutions</span>
-            <span class="mx-8 text-gray-500  text-2xl font-bold uppercase">•</span>
-            <span class="mx-8 text-gray-500  text-2xl font-bold uppercase">Trusted By Leading Brands</span>
-            <span class="mx-8 text-gray-500  text-2xl font-bold uppercase">•</span>
-            <span class="mx-8 text-gray-500  text-2xl font-bold uppercase">Real Estate Giants</span>
+    <style>
+        @keyframes scroll {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(-50%);
+            }
+        }
+
+        .animate-infinite-scroll {
+            animation: scroll 25s linear infinite;
+        }
+    </style>
+
+    <div class="relative py-6 overflow-hidden bg-[#0d1309] border-y border-[#a3e635]/10">
+
+        <div class="absolute inset-y-0 left-0 w-40 bg-gradient-to-r from-[#0d1309] to-transparent z-20"></div>
+        <div class="absolute inset-y-0 right-0 w-40 bg-gradient-to-l from-[#0d1309] to-transparent z-20"></div>
+
+        <div class="flex whitespace-nowrap animate-infinite-scroll w-max items-center">
+
+            <div class="flex items-center">
+                <span class="px-12 text-[#a3e635] text-3xl font-black uppercase tracking-tighter">OOH & DOOH</span>
+                <span class="w-3 h-3 rounded-full bg-[#a3e635] shadow-[0_0_20px_#a3e635]"></span>
+
+                <span class="px-12 text-white text-3xl font-black uppercase tracking-tighter italic">Cinema Advertising</span>
+                <span class="w-3 h-3 rounded-full bg-white/20"></span>
+
+                <span class="px-12 text-transparent text-3xl font-black uppercase tracking-tighter" style="-webkit-text-stroke: 1px rgba(163,230,53,0.5);">BTL Activations</span>
+                <span class="w-3 h-3 rounded-full bg-[#a3e635] shadow-[0_0_20px_#a3e635]"></span>
+
+                <span class="px-12 text-white text-3xl font-black uppercase tracking-tighter">Digital & Tech</span>
+                <span class="w-3 h-3 rounded-full bg-white/20"></span>
+
+                <span class="px-12 text-[#a3e635] text-3xl font-black uppercase tracking-tighter italic">Events & Exhibitions</span>
+                <span class="w-3 h-3 rounded-full bg-[#a3e635] shadow-[0_0_20px_#a3e635]"></span>
+
+                <span class="px-12 text-transparent text-3xl font-black uppercase tracking-tighter" style="-webkit-text-stroke: 1px #fff;">360° Media Solutions</span>
+                <span class="w-3 h-3 rounded-full bg-white/20"></span>
+            </div>
+
+            <div class="flex items-center">
+                <span class="px-12 text-[#a3e635] text-3xl font-black uppercase tracking-tighter">OOH & DOOH</span>
+                <span class="w-3 h-3 rounded-full bg-[#a3e635] shadow-[0_0_20px_#a3e635]"></span>
+
+                <span class="px-12 text-white text-3xl font-black uppercase tracking-tighter italic">Cinema Advertising</span>
+                <span class="w-3 h-3 rounded-full bg-white/20"></span>
+
+                <span class="px-12 text-transparent text-3xl font-black uppercase tracking-tighter" style="-webkit-text-stroke: 1px rgba(163,230,53,0.5);">BTL Activations</span>
+                <span class="w-3 h-3 rounded-full bg-[#a3e635] shadow-[0_0_20px_#a3e635]"></span>
+
+                <span class="px-12 text-white text-3xl font-black uppercase tracking-tighter">Digital & Tech</span>
+                <span class="w-3 h-3 rounded-full bg-white/20"></span>
+
+                <span class="px-12 text-[#a3e635] text-3xl font-black uppercase tracking-tighter italic">Events & Exhibitions</span>
+                <span class="w-3 h-3 rounded-full bg-[#a3e635] shadow-[0_0_20px_#a3e635]"></span>
+
+                <span class="px-12 text-transparent text-3xl font-black uppercase tracking-tighter" style="-webkit-text-stroke: 1px #fff;">360° Media Solutions</span>
+                <span class="w-3 h-3 rounded-full bg-white/20"></span>
+            </div>
         </div>
     </div>
 
@@ -115,22 +162,28 @@ include 'includes/nav.php';
                     </a>
                 </div>
 
-                <div class="grid grid-cols-2 gap-4">
-                    <div class=" p-8 text-center rounded-sm">
-                        <h3 class=" text-5xl font-bold text-brand-accent mb-2">10+</h3>
-                        <p class="font-semibold uppercase text-gray-200 text-sm tracking-wider">Years Experience</p>
+                <div class="relative grid grid-cols-2" id="stats-section">
+                    <div class="absolute top-1/2 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-brand-accent to-transparent -translate-y-1/2"></div>
+                    <div class="absolute top-0 left-1/2 w-[2px] h-full bg-gradient-to-b from-transparent via-brand-accent to-transparent -translate-x-1/2"></div>
+
+                    <div class="p-10 text-center group">
+                        <h3 class="text-5xl md:text-6xl font-black text-brand-accent mb-2 tracking-tighter transition-transform group-hover:scale-110 duration-500 counter" data-target="12">0</h3>
+                        <p class="font-bold uppercase text-gray-400 text-[10px] tracking-[0.2em]">Years Experience</p>
                     </div>
-                    <div class=" p-8 text-center rounded-sm">
-                        <h3 class=" text-5xl font-bold text-brand-accent mb-2">500+</h3>
-                        <p class="font-semibold uppercase text-gray-200 text-sm tracking-wider">Campaigns</p>
+
+                    <div class="p-10 text-center group">
+                        <h3 class="text-5xl md:text-6xl font-black text-brand-accent mb-2 tracking-tighter transition-transform group-hover:scale-110 duration-500 counter" data-target="500">0</h3>
+                        <p class="font-bold uppercase text-gray-400 text-[10px] tracking-[0.2em]">Campaigns Done</p>
                     </div>
-                    <div class=" p-8 text-center rounded-sm">
-                        <h3 class=" text-5xl font-bold text-brand-accent mb-2">100%</h3>
-                        <p class="font-semibold uppercase text-gray-200 text-sm tracking-wider">Pan India</p>
+
+                    <div class="p-10 text-center group">
+                        <h3 class="text-5xl md:text-6xl font-black text-brand-accent mb-2 tracking-tighter transition-transform group-hover:scale-110 duration-500 counter" data-target="100">0</h3>
+                        <p class="font-bold uppercase text-gray-400 text-[10px] tracking-[0.2em]">Pan India (%)</p>
                     </div>
-                    <div class=" p-8 text-center rounded-sm">
-                        <h3 class=" text-5xl font-bold text-brand-accent mb-2">24/7</h3>
-                        <p class="font-semibold uppercase text-gray-200 text-sm tracking-wider">Support</p>
+
+                    <div class="p-10 text-center group">
+                        <h3 class="text-5xl md:text-6xl font-black text-brand-accent mb-2 tracking-tighter transition-transform group-hover:scale-110 duration-500 counter" data-target="24">0</h3>
+                        <p class="font-bold uppercase text-gray-400 text-[10px] tracking-[0.2em]">Support (Hrs)</p>
                     </div>
                 </div>
             </div>
@@ -449,20 +502,28 @@ include 'includes/nav.php';
             <div class="relative w-full overflow-hidden">
                 <div class="flex animate-scroll-left whitespace-nowrap gap-16 w-max">
                     <div class="flex items-center gap-16">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
+                        <img src="/public/assets/logos/1.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/2.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/3.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/4.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/5.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/6.png" class="h-24 w-40 object-cover rounded-md">
                     </div>
                     <div class="flex items-center gap-16">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
+                        <img src="/public/assets/logos/1.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/2.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/3.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/4.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/5.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/6.png" class="h-24 w-40 object-cover rounded-md">
+                    </div>
+                    <div class="flex items-center gap-16">
+                        <img src="/public/assets/logos/1.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/2.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/3.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/4.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/5.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/6.png" class="h-24 w-40 object-cover rounded-md">
                     </div>
                 </div>
             </div>
@@ -470,26 +531,71 @@ include 'includes/nav.php';
             <div class="relative w-full overflow-hidden">
                 <div class="flex animate-scroll-right whitespace-nowrap gap-16 w-max">
                     <div class="flex items-center gap-16">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
+                        <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">    
                     </div>
                     <div class="flex items-center gap-16">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
-                        <img src="/public/assets/images/663c91e021d5068fcc78936a_amazon-seeklogo-01.png" class="h-10 w-auto opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition duration-300">
+                        <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
+                    </div>
+                     <div class="flex items-center gap-16">
+                        <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
                     </div>
                 </div>
             </div>
 
         </div>
     </section>
+
+    <script>
+        const observerOptions = {
+            threshold: 0.5 // Starts when 50% of the section is visible
+        };
+
+        const counterObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counters = entry.target.querySelectorAll('.counter');
+                    counters.forEach(counter => {
+                        const updateCount = () => {
+                            const target = +counter.getAttribute('data-target');
+                            const count = +counter.innerText.replace('+', '').replace('%', '').replace('/7', '');
+
+                            // Adjust speed here (higher = slower)
+                            const speed = target / 50;
+
+                            if (count < target) {
+                                counter.innerText = Math.ceil(count + speed);
+                                setTimeout(updateCount, 30);
+                            } else {
+                                // Add the symbols back once finished
+                                if (target === 12 || target === 500) counter.innerText = target + '+';
+                                else if (target === 100) counter.innerText = target + '%';
+                                else if (target === 24) counter.innerText = '24/7';
+                            }
+                        };
+                        updateCount();
+                    });
+                    observer.unobserve(entry.target); // Stop observing after animation runs
+                }
+            });
+        }, observerOptions);
+
+        counterObserver.observe(document.getElementById('stats-section'));
+    </script>
 
 </body>
 

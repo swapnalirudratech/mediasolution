@@ -37,6 +37,60 @@ include 'includes/nav.php';
       </div>
     </div>
   </section>
+  <section class=" bg-[#172010] relative overflow-hidden">
+    <div class="w-[80%] h-[1px] bg-gradient-to-r from-transparent via-brand-accent to-transparent mb-8 mx-auto"></div>
+  </section>
+  <section class="py-24 bg-[#172010] relative overflow-hidden">
+
+    <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-accent/5 blur-[120px] rounded-full -translate-y-1/2 translate-x-1/2"></div>
+
+    <div class="w-[80vw] mx-auto px-4 relative z-10">
+      <div class="grid lg:grid-cols-12 gap-12 items-start">
+
+        <div class="lg:col-span-4">
+          <div class="sticky top-32">
+            <span class="text-brand-accent font-bold uppercase tracking-widest text-xs mb-4 block">The Core Pulse</span>
+            <h2 class="text-4xl font-black text-white uppercase leading-tight mb-6">
+              Bridging <span class="text-transparent" style="-webkit-text-stroke: 1px #a3e635;">Physical Reach</span> <br>With Digital Intelligence.
+            </h2>
+            <div class="w-20 h-1 bg-brand-accent"></div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-8">
+          <div class="bg-white/[0.02] border border-white/5 p-8 md:p-12 rounded-[3rem] backdrop-blur-sm">
+            <h3 class="text-2xl font-bold text-white mb-8">Who We Are</h3>
+
+            <div class="space-y-6">
+              <p class="text-gray-300 text-lg leading-relaxed">
+                At <span class="text-brand-accent font-bold">Media Solutions</span>, we operate at the intersection of traditional impact and modern innovation. What began in 2012 as a local OOH firm in Thane has transformed into a high-octane media engine capable of executing complex, pan-India campaigns with surgical precision.
+              </p>
+
+              <p class="text-gray-400 leading-relaxed">
+                We recognize that today's consumer is constantly moving between worlds. Our expertise lies in capturing that movement. We don't just secure "space"—we secure "attention." By integrating premium Outdoor assets with cutting-edge DOOH, experiential BTL activations, and performance-led digital strategies, we provide a unified brand voice across every touchpoint.
+              </p>
+
+              <div class="grid sm:grid-cols-2 gap-8 pt-8 mt-8 border-t border-white/10">
+                <div>
+                  <h5 class="text-brand-accent uppercase font-black text-xs tracking-widest mb-3">Our Mission</h5>
+                  <p class="text-gray-400 text-sm leading-relaxed">
+                    To empower brands with media visibility that drives not just impressions, but measurable ROI and cultural relevance.
+                  </p>
+                </div>
+                <div>
+                  <h5 class="text-brand-accent uppercase font-black text-xs tracking-widest mb-3">Our Strength</h5>
+                  <p class="text-gray-400 text-sm leading-relaxed">
+                    A robust proprietary network of media assets combined with a rapid-deployment team that treats every campaign as a mission.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
   <section class="py-24 bg-[#0d1309]">
     <div class="w-[80vw] mx-auto px-4">
       <div class="max-w-3xl mb-20">

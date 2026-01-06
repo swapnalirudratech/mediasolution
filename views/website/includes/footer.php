@@ -31,6 +31,10 @@
                  <h4 class="text-white font-display font-bold text-xl uppercase mb-6 tracking-wide">Contact</h4>
                  <ul class="space-y-4">
                      <li class="flex items-center gap-3">
+                         <i class="fas fa-phone text-brand-accent"></i>
+                         <a href="tel:+918976309837" class="hover:text-white transition">+91 89763 09837</a>
+                     </li>
+                     <li class="flex items-center gap-3">
                          <i class="fas fa-envelope text-brand-accent"></i>
                          <a href="mailto:info@mediasolutions.com" class="hover:text-white transition">info@mediasolutions.com</a>
                      </li>

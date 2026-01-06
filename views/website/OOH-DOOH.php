@@ -74,7 +74,7 @@ include 'includes/nav.php';
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="group relative overflow-hidden rounded-2xl bg-[#172010] border border-white/5 p-8 hover:border-brand-accent/30 transition-all duration-500">
                     <div class="h-48 mb-6 overflow-hidden rounded-lg bg-gray-800">
-                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80" alt="Billboards" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80" alt="Billboards" class="w-full h-full object-cover group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110">
                     </div>
                     <h3 class="text-2xl font-bold text-white mb-3">Traditional Billboards</h3>
                     <ul class="text-gray-400 space-y-2 text-sm">
@@ -98,7 +98,7 @@ include 'includes/nav.php';
 
                 <div class="group relative overflow-hidden rounded-2xl bg-[#172010] border border-white/5 p-8 hover:border-brand-accent/30 transition-all duration-500">
                     <div class="h-48 mb-6 overflow-hidden rounded-lg bg-gray-800">
-                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80" alt="Transit" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110">
+                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80" alt="Transit" class="w-full h-full object-cover group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110">
                     </div>
                     <h3 class="text-2xl font-bold text-white mb-3">Transit Media</h3>
                     <ul class="text-gray-400 space-y-2 text-sm">
@@ -172,7 +172,7 @@ include 'includes/nav.php';
         <div class="w-[80vw] mx-auto px-4 bg-brand-accent py-16 rounded-[3rem]">
             <h2 class="text-4xl md:text-5xl font-black text-[#172010] uppercase mb-6">Ready to dominate <br>the outdoors?</h2>
             <p class="text-[#172010]/70 font-medium mb-10 max-w-lg mx-auto italic">Get a customized media plan for your brand today across our Pan India network.</p>
-            <a href="#contact" class="inline-block px-10 py-5 bg-[#172010] text-white font-bold uppercase text-[11px] tracking-[0.2em] rounded-full hover:shadow-2xl transition-all">Request a Media Deck</a>
+            <a href="/contact" class="inline-block px-10 py-5 bg-[#172010] text-white font-bold uppercase text-[11px] tracking-[0.2em] rounded-full hover:shadow-2xl transition-all">Request a Media Deck</a>
         </div>
     </section>
 
