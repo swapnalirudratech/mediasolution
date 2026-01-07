@@ -5,24 +5,6 @@ include 'includes/nav.php';
 ?>
 
 <body>
-    <!-- <section class="relative pt-32 pb-20 bg-[#172010] overflow-hidden">
-        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[400px] bg-brand-accent/5 blur-[120px] rounded-full"></div>
-
-        <div class="w-[80vw] mx-auto px-4 relative z-10 text-center">
-            <span class="text-brand-accent font-bold uppercase tracking-[0.4em] text-sm mb-6 block">Memorable Brand Experiences</span>
-            <h1 class="text-6xl md:text-8xl font-black text-white leading-none uppercase mb-8">
-                Events <span class="text-transparent" style="-webkit-text-stroke: 1px #a3e635;">&</span> <br>
-                Exhibitions
-            </h1>
-            <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-12 italic">
-                "From conceptual stall designing to large-scale corporate launches. We build the stage where your brand becomes the protagonist."
-            </p>
-            <div class="flex flex-wrap justify-center gap-6">
-                <a href="/services" class="px-10 py-4 bg-brand-accent text-black font-bold uppercase text-sm tracking-widest rounded-full hover:shadow-[0_10px_30px_rgba(163,230,53,0.3)] transition-all">Our Capabilities</a>
-                <a href="/contact" class="px-10 py-4 border border-white/20 text-white font-bold uppercase text-sm tracking-widest rounded-full hover:bg-white/5 transition">Book a Consultation</a>
-            </div>
-        </div>
-    </section> -->
     <section class="relative pt-40 pb-32 bg-[#172010] overflow-hidden min-h-[85vh] flex items-center">
         <div class="absolute inset-0 z-0">
             <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1920&q=80"
@@ -36,32 +18,32 @@ include 'includes/nav.php';
             <div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#172010] to-transparent"></div>
         </div>
 
-        <div class="w-[80vw] mx-auto px-4 relative z-10">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">
             <div class="max-w-4xl">
                 <span class="text-[#a3e635] font-bold uppercase tracking-[0.4em] text-sm mb-6 block">Memorable Brand Experiences</span>
 
-                <h1 class="text-6xl md:text-8xl font-black text-white leading-[0.9] uppercase mb-8">
+                <h1 class="text-4xl md:text-8xl font-black text-white leading-[0.9] uppercase mb-8">
                     Events <span class="text-transparent" style="-webkit-text-stroke: 1px #a3e635;">&</span> <br>
                     Exhibitions
                 </h1>
 
-                <p class="text-gray-300 text-lg md:text-xl max-w-2xl mb-12 italic border-l-4 border-[#a3e635] pl-8 leading-relaxed">
+                <p class="text-gray-300 text-sm md:text-xl max-w-2xl mb-12 italic border-l-4 border-[#a3e635] pl-8 max-md:pl-4 leading-relaxed">
                     "From conceptual stall designing to large-scale corporate launches. We build the stage where your brand becomes the protagonist."
                 </p>
 
                 <div class="flex flex-wrap gap-6">
-                    <a href="/services" class="px-10 py-4 bg-[#a3e635] text-black font-bold uppercase text-sm tracking-widest rounded-full hover:shadow-[0_10px_30px_rgba(163,230,53,0.3)] hover:scale-105 transition-all">
+                    <a href="/services" class="px-10 py-4 max-md:py-3 bg-[#a3e635] text-black font-bold uppercase text-sm tracking-widest rounded-full hover:shadow-[0_10px_30px_rgba(163,230,53,0.3)] hover:scale-105 transition-all">
                         Our Capabilities
                     </a>
-                    <a href="/contact" class="px-10 py-4 border border-white/20 text-white font-bold uppercase text-sm tracking-widest rounded-full hover:bg-white/10 transition backdrop-blur-sm">
+                    <a href="/contact" class="px-10 py-4 max-md:py-3 border border-white/20 text-white font-bold uppercase text-sm tracking-widest rounded-full hover:bg-white/10 transition backdrop-blur-sm">
                         Book a Consultation
                     </a>
                 </div>
             </div>
         </div>
     </section>
-    <section id="services" class="py-24 bg-[#0d1309]">
-        <div class="w-[80vw] mx-auto px-4">
+    <section id="services" class="py-24 max-md:py-14 bg-[#0d1309]">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4">
             <div class="grid md:grid-cols-2 gap-12">
 
                 <div class="group bg-[#172010] p-1 rounded-[2.5rem] overflow-hidden border border-white/5 hover:border-brand-accent/30 transition-all duration-500">
@@ -69,7 +51,7 @@ include 'includes/nav.php';
                         <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&w=800&q=80" alt="Exhibition Design" class="w-full h-full object-cover group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-[#172010] via-transparent to-transparent"></div>
                     </div>
-                    <div class="p-10">
+                    <div class="p-10 max-md:p-6">
                         <h3 class="text-3xl font-bold text-white uppercase mb-4">Stall Designing <br><span class="text-brand-accent">& Fabrication</span></h3>
                         <p class="text-gray-400 text-sm leading-relaxed mb-6">Customized 3D designs that maximize space and brand visibility. We handle the entire process from structural design to on-site fabrication.</p>
                         <div class="flex flex-wrap gap-3">
@@ -85,7 +67,7 @@ include 'includes/nav.php';
                         <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80" alt="Corporate Events" class="w-full h-full object-cover group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700">
                         <div class="absolute inset-0 bg-gradient-to-t from-[#172010] via-transparent to-transparent"></div>
                     </div>
-                    <div class="p-10">
+                    <div class="p-10 max-md:p-6">
                         <h3 class="text-3xl font-bold text-white uppercase mb-4">Corporate <br><span class="text-brand-accent">Engagements</span></h3>
                         <p class="text-gray-400 text-sm leading-relaxed mb-6">Flawless execution of product launches, dealer meets, and corporate award ceremonies with end-to-end tech and stage support.</p>
                         <div class="flex flex-wrap gap-3">
@@ -99,9 +81,9 @@ include 'includes/nav.php';
             </div>
         </div>
     </section>
-    <section class="py-24 bg-[#172010]">
+    <section class="py-24 max-md:py-14 bg-[#172010]">
         <div class="w-[80vw] mx-auto px-4">
-            <h2 class="text-4xl font-black text-white uppercase mb-16">The Journey to <br><span class="text-brand-accent">Opening Day</span></h2>
+            <h2 class="text-4xl font-black text-white max-md:text-center uppercase mb-16">The Journey to <br><span class="text-brand-accent">Opening Day</span></h2>
 
             <div class="grid md:grid-cols-4 gap-12 relative">
                 <div class="hidden md:block absolute top-12 left-0 w-full h-px bg-white/10 z-0"></div>
@@ -132,8 +114,8 @@ include 'includes/nav.php';
             </div>
         </div>
     </section>
-    <section class="py-24 bg-[#0d1309] overflow-hidden">
-        <div class="w-[80vw] mx-auto px-4 grid md:grid-cols-2 gap-20 items-center">
+    <section class="py-24 max-md:py-14 bg-[#0d1309] overflow-hidden">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 grid md:grid-cols-2 gap-20 items-center">
             <div class="order-2 md:order-1">
                 <h2 class="text-4xl font-black text-white uppercase mb-6 leading-tight">Thane Roots, <br><span class="text-brand-accent">Global Standards</span></h2>
                 <p class="text-gray-400 mb-8 italic">"We bring Indian craftsmanship and global design trends together to make your exhibition presence stand out in any city, worldwide."</p>
@@ -156,14 +138,14 @@ include 'includes/nav.php';
             </div>
         </div>
     </section>
-    <section class="py-24 bg-[#172010]">
-        <div class="w-[80vw] mx-auto px-4">
-            <div class="bg-brand-accent rounded-[3.5rem] p-12 md:p-24 text-center">
-                <h2 class="text-4xl md:text-6xl font-black text-[#172010] uppercase mb-8">Ready to own <br>the floor?</h2>
-                <p class="text-[#172010]/70 font-bold mb-12 max-w-xl mx-auto italic">Get a custom 3D design concept and quotation for your upcoming exhibition or corporate event.</p>
+    <section class="py-24 max-md:py-14 bg-[#172010]">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4">
+            <div class="bg-brand-accent rounded-[3.5rem] p-8 md:p-24 text-center">
+                <h2 class="text-3xl md:text-6xl font-black text-[#172010] uppercase mb-8">Ready to own <br>the floor?</h2>
+                <p class="text-[#172010]/70 font-bold mb-12 max-md:text-sm max-w-xl mx-auto italic">Get a custom 3D design concept and quotation for your upcoming exhibition or corporate event.</p>
                 <div class="flex flex-col sm:flex-row justify-center gap-4">
-                    <a href="/contact" class="px-12 py-5 bg-[#172010] text-white font-black uppercase text-xs tracking-[0.2em] rounded-full hover:shadow-2xl transition-all">Request a Design</a>
-                    <a href="/services" class="px-12 py-5 border-2 border-[#172010] text-[#172010] font-black uppercase text-xs tracking-[0.2em] rounded-full hover:bg-[#172010] hover:text-white transition-all">View Our Gallery</a>
+                    <a href="/contact" class="px-12 py-5 max-md:py-3 bg-[#172010] text-white font-black uppercase text-xs tracking-[0.2em] rounded-full hover:shadow-2xl transition-all">Request a Design</a>
+                    <a href="/services" class="px-12 py-5 max-md:py-3 border-2 border-[#172010] text-[#172010] font-black uppercase text-xs tracking-[0.2em] rounded-full hover:bg-[#172010] hover:text-white transition-all">View Our Gallery</a>
                 </div>
             </div>
         </div>

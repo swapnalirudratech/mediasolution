@@ -30,16 +30,16 @@ include 'includes/nav.php';
             <div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#172010] to-transparent"></div>
         </div>
 
-        <div class="w-[80vw] mx-auto px-4 relative z-10">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">
             <div class="max-w-4xl">
                 <span class="text-[#a3e635] font-bold uppercase tracking-[0.4em] text-[10px] mb-6 block">Our Track Record</span>
 
-                <h1 class="text-6xl md:text-8xl font-black text-white leading-none uppercase mb-8">
+                <h1 class="text-4xl md:text-8xl font-black text-white leading-none uppercase mb-8">
                     Selected <br>
                     <span class="text-[#a3e635]">Campaigns</span>
                 </h1>
 
-                <p class="text-gray-300 text-lg md:text-xl max-w-2xl mb-12 italic border-l-4 border-[#a3e635] pl-8 leading-relaxed">
+                <p class="text-gray-300 text-sm md:text-xl max-w-2xl mb-12 italic border-l-4 border-[#a3e635] pl-8 max-md:pl-4 leading-relaxed">
                     "500+ campaigns executed with precision. From local activations in Thane to massive Pan-India product launches across every media touchpoint."
                 </p>
 
@@ -56,19 +56,9 @@ include 'includes/nav.php';
             </div>
         </div>
     </section>
-    <!-- <section class="py-8 bg-[#0d1309] sticky top-20 z-40 border-y border-white/5 backdrop-blur-md bg-[#0d1309]/80">
-        <div class="w-[80vw] mx-auto px-4">
-            <div class="flex flex-wrap justify-center gap-4 md:gap-8">
-                <button class="text-brand-accent text-[10px] font-black uppercase tracking-[0.2em] border-b-2 border-brand-accent pb-1">All Work</button>
-                <button class="text-white/60 hover:text-white text-[10px] font-black uppercase tracking-[0.2em] pb-1 transition">OOH & DOOH</button>
-                <button class="text-white/60 hover:text-white text-[10px] font-black uppercase tracking-[0.2em] pb-1 transition">Cinema</button>
-                <button class="text-white/60 hover:text-white text-[10px] font-black uppercase tracking-[0.2em] pb-1 transition">BTL & Events</button>
-                <button class="text-white/60 hover:text-white text-[10px] font-black uppercase tracking-[0.2em] pb-1 transition">Digital</button>
-            </div>
-        </div>
-    </section> -->
-    <section class="py-24 bg-[#0d1309]/90">
-        <div class="w-[80vw] mx-auto px-4">
+
+    <section class="py-24 max-md:py-14 bg-[#0d1309]/90">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
 
                 <div class="group cursor-pointer">
@@ -122,8 +112,9 @@ include 'includes/nav.php';
             </div>
         </div>
     </section>
+
     <section class="py-20 bg-[#172010] border-y border-white/5">
-        <div class="w-[80vw] mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
             <div>
                 <p class="text-brand-accent text-4xl font-black mb-2">300+</p>
                 <p class="text-gray-400 text-[10px] font-bold uppercase tracking-widest">Active Brands</p>
@@ -142,11 +133,12 @@ include 'includes/nav.php';
             </div>
         </div>
     </section>
-    <section class="py-24 bg-[#0d1309]">
-        <div class="w-[80vw] mx-auto px-4 text-center">
+
+    <section class="py-24 max-md:py-14 bg-[#0d1309]">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 text-center">
             <h2 class="text-4xl md:text-6xl font-black text-white uppercase mb-8 leading-tight">Your Brand Could <br>Be <span class="text-brand-accent">Next.</span></h2>
             <p class="text-gray-400 mb-12 max-w-xl mx-auto italic text-lg">Let’s add your success story to our portfolio. We have the space, the tech, and the creative vision.</p>
-            <a href="/contact" class="inline-block px-12 py-5 bg-brand-accent text-black font-black uppercase text-xs tracking-[0.2em] rounded-full hover:shadow-[0_0_30px_rgba(163,230,53,0.3)] transition-all">Start a Conversation</a>
+            <a href="/contact" class="inline-block px-12 py-5 max-md:py-3 bg-brand-accent text-black font-black uppercase text-xs tracking-[0.2em] rounded-full hover:shadow-[0_0_30px_rgba(163,230,53,0.3)] transition-all">Start a Conversation</a>
         </div>
     </section>
 </body>

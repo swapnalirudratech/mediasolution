@@ -9,13 +9,13 @@ include 'includes/nav.php';
         <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-accent/5 blur-[120px] rounded-full translate-x-1/2 -translate-y-1/2"></div>
         <div class="absolute bottom-0 left-0 w-[300px] h-[300px] bg-brand-accent/5 blur-[100px] rounded-full -translate-x-1/2 translate-y-1/2"></div>
 
-        <div class="w-[80vw] mx-auto px-4 relative z-10">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">
             <div class="max-w-4xl">
                 <span class="text-brand-accent font-bold uppercase tracking-[0.4em] text-base mb-6 block animate-pulse">Available for New Projects</span>
-                <h1 class="text-6xl md:text-8xl font-black text-white leading-[0.85] uppercase mb-10">
+                <h1 class="text-4xl md:text-8xl font-black text-white leading-[0.85] uppercase mb-10">
                     Let’s Build <br><span class="text-transparent" style="-webkit-text-stroke: 1.5px #a3e635;">Your Legacy.</span>
                 </h1>
-                <p class="text-gray-400 text-base md:text-lg max-w-2xl border-l-4 border-brand-accent pl-8 leading-relaxed">
+                <p class="text-gray-400 text-sm md:text-lg max-w-2xl border-l-4 border-brand-accent pl-8 max-md:pl-4 leading-relaxed">
                     Ready to dominate the market? Tell us about your brand goals, and our 360° team will craft a customized media strategy for you.
                 </p>
             </div>
@@ -23,7 +23,7 @@ include 'includes/nav.php';
     </section>
 
     <section class="py-24 bg-[#0d1309] relative">
-        <div class="w-[80vw] mx-auto px-4 grid lg:grid-cols-12 gap-16">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 grid lg:grid-cols-12 gap-16">
 
             <div class="lg:col-span-4 space-y-12">
                 <div class="group cursor-default">
@@ -66,17 +66,17 @@ include 'includes/nav.php';
             </div>
 
             <div class="lg:col-span-8">
-                <form action="#" class="space-y-10 bg-[#172010] p-10 md:p-16 rounded-[4rem] border border-white/5 shadow-[0_30px_100px_rgba(0,0,0,0.4)]">
+                <form action="#" class="space-y-10 bg-[#172010] p-8 md:p-16 rounded-[4rem] border border-white/5 shadow-[0_30px_100px_rgba(0,0,0,0.4)]">
 
                     <div>
                         <label class="text-white font-black uppercase text-base tracking-[0.3em] mb-8 block opacity-70">Step 1: Select Your Channels</label>
-                        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-md:gap-2">
                             <?php
                             $services = ['OOH & DOOH', 'Cinema', 'BTL & Events', 'Digital', 'Mainline', 'Other'];
                             foreach ($services as $s): ?>
                                 <label class="cursor-pointer">
                                     <input type="checkbox" class="hidden peer">
-                                    <div class="px-4 py-5 bg-[#0d1309] border border-white/5 rounded-2xl text-gray-500 text-sm font-black uppercase tracking-widest text-center peer-checked:bg-brand-accent peer-checked:text-black peer-checked:shadow-[0_0_20px_#a3e63544] transition-all hover:border-brand-accent/50">
+                                    <div class="px-4 py-5 max-md:py-2 max-md:px-3 bg-[#0d1309] border border-white/5 rounded-2xl text-gray-500 text-sm font-black uppercase tracking-widest text-center peer-checked:bg-brand-accent peer-checked:text-black peer-checked:shadow-[0_0_20px_#a3e63544] transition-all hover:border-brand-accent/50">
                                         <?php echo $s; ?>
                                     </div>
                                 </label>
@@ -124,7 +124,7 @@ include 'includes/nav.php';
                     </div>
 
                     <div>
-                        <button type="submit" class="flex w-fit items-center justify-center text-center px-8 py-2.5 bg-brand-accent rounded-full text-black text-lg tracking-wider group">
+                        <button type="submit" class="flex w-fit items-center justify-center text-center px-8 py-2.5 bg-brand-accent rounded-full text-black text-lg max-md:text-sm tracking-wider group">
                         Send Project Brief
                         <i class="fas fa-arrow-right ml-2 -rotate-45 group-hover:rotate-0 transition text-black"></i>
                     </button>
@@ -135,7 +135,7 @@ include 'includes/nav.php';
     </section>
 
     <section class="py-24 bg-[#172010] border-t border-white/5">
-        <div class="w-[80vw] mx-auto px-4">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-16">
                 <div class="flex items-start gap-6">
                     <div class="text-brand-accent text-5xl font-black opacity-40">01</div>

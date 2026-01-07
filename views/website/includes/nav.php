@@ -352,9 +352,9 @@
     </div>
 </nav> -->
 
-<nav class="fixed w-full z-50 bg-[#172010]/95 backdrop-blur-md text-white border-b border-white/10">
-    <div class="w-[85vw] mx-auto px-4 flex justify-between items-center">
-        
+<nav id="navbar" class="fixed w-full z-50 bg-[#172010]/95 backdrop-blur-md text-white border-b border-white/10">
+    <div class="w-[85vw] max-md:w-[90vw] mx-auto px-4 max-md:px-0 max-md:py-4 flex justify-between items-center">
+
         <a href="/" class="font-display font-black text-3xl tracking-tighter uppercase group relative">
             MEDIA <span class="text-brand-accent">SOLUTIONS</span>
             <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-accent group-hover:w-full transition-all duration-500"></span>
@@ -364,7 +364,7 @@
             <a href="/" class="hover:text-brand-accent transition text-base font-black uppercase tracking-[0.2em]">Home</a>
 
             <a href="/about" class="hover:text-brand-accent transition text-base font-black uppercase tracking-[0.2em]">About</a>
-            
+
             <div class="relative group h-24 flex items-center">
                 <button class="flex items-center hover:text-brand-accent transition text-base font-black uppercase tracking-[0.2em] outline-none">
                     Services
@@ -375,9 +375,9 @@
                 </button>
 
                 <div class="fixed top-24 left-0 w-full bg-[#f8fafc] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] shadow-[0_40px_100px_rgba(0,0,0,0.3)] border-b-4 border-brand-accent">
-                    
+
                     <div class="w-[85vw] mx-auto py-16 grid grid-cols-12 gap-12">
-                        
+
                         <div class="col-span-3 border-r border-black/5">
                             <p class="text-sm font-black text-[#a3e635] uppercase tracking-[0.4em] mb-8">Service Index</p>
                             <ul class="space-y-6">
@@ -413,23 +413,23 @@
                         <div class="col-span-3">
                             <a href="/Cinema-Advertising-Services">
                                 <div class="bg-[#172010] rounded-[2rem] p-8 h-full relative overflow-hidden group/promo cursor-pointer">
-                                <div class="relative z-10">
-                                    <p class="text-brand-accent text-sm font-black uppercase tracking-widest">New Offering</p>
-                                    <h4 class="text-white text-xl font-black uppercase mt-4">Cinema Advertising</h4>
-                                    <p class="text-gray-400 text-sm mt-4 leading-relaxed">Reach captive audiences in 450+ screens nationwide.</p>
-                                </div>
-                                <div class="mt-8 relative z-10">
-                                    <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-white group-hover/promo:bg-brand-accent group-hover/promo:text-black transition-all">
-                                        →
+                                    <div class="relative z-10">
+                                        <p class="text-brand-accent text-sm font-black uppercase tracking-widest">New Offering</p>
+                                        <h4 class="text-white text-xl font-black uppercase mt-4">Cinema Advertising</h4>
+                                        <p class="text-gray-400 text-sm mt-4 leading-relaxed">Reach captive audiences in 450+ screens nationwide.</p>
                                     </div>
+                                    <div class="mt-8 relative z-10">
+                                        <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-white group-hover/promo:bg-brand-accent group-hover/promo:text-black transition-all">
+                                            →
+                                        </div>
+                                    </div>
+                                    <i class="fas fa-video absolute -bottom-4 -right-4 text-white/5 text-8xl transform rotate-12"></i>
                                 </div>
-                                <i class="fas fa-video absolute -bottom-4 -right-4 text-white/5 text-8xl transform rotate-12"></i>
-                            </div>
                             </a>
                         </div>
 
                     </div>
-                    
+
                     <div class="bg-black py-4">
                         <div class="w-[85vw] mx-auto flex justify-between items-center">
                             <div class="flex gap-6">
@@ -446,9 +446,107 @@
 
             <a href="/services" class="hover:text-brand-accent transition text-base font-black uppercase tracking-[0.2em]">Work</a>
             <a href="/contact" class="bg-brand-accent text-black px-8 py-3 group rounded-full text-base font-black uppercase tracking-widest hover:shadow-[0_20px_40px_rgba(163,230,53,0.2)] transition-all transform hover:-translate-y-1">
-                Start Project 
+                Start Project
                 <i class="fas fa-arrow-right ml-2 -rotate-45 group-hover:rotate-0 transition text-black"></i>
             </a>
         </div>
+        <button id="menu-btn" class="md:hidden flex flex-col gap-1.5 z-[60]">
+            <span class="w-8 h-1 bg-white transition-all duration-300 origin-center" id="line1"></span>
+            <span class="w-8 h-1 bg-brand-accent transition-all duration-300" id="line2"></span>
+            <span class="w-8 h-1 bg-white transition-all duration-300 origin-center" id="line3"></span>
+        </button>
+    </div>
+    <div id="mobile-menu" class="fixed inset-0 bg-[#172010] h-screen z-50 translate-x-full transition-transform duration-500 ease-in-out md:hidden flex flex-col p-10 pt-14 space-y-5">
+        <a href="/" class="text-2xl font-black uppercase tracking-tighter">Home</a>
+        <a href="/about" class="text-2xl font-black uppercase tracking-tighter">About</a>
+        <a href="/services" class="text-2xl font-black uppercase tracking-tighter">Work</a>
+        <p class="text-2xl font-black uppercase tracking-tighter text-brand-accent">Services</p>
+        <hr class="border-white/10">
+        <!-- <div class="grid grid-cols-1 gap-4">
+            <a href="/OOH-and-DOOH-Services" class="text-sm font-bold text-gray-400 uppercase">OOH & DOOH</a>
+            <a href="/Digital-and-Tech-Services" class="text-sm font-bold text-gray-400 uppercase">Digital & Tech</a>
+            <a href="/Events-and-Exhibitions-Services" class="text-sm font-bold text-gray-400 uppercase">Events & Exhibitions</a>
+            <a href="/Cinema-Advertising-Services" class="text-sm font-bold text-gray-400 uppercase">Cinema Advertising</a>
+            <a href="/BTL-and-Activations-Services" class="text-sm font-bold text-gray-400 uppercase">BTL Activations</a>
+        </div> -->
+        <div class="grid grid-cols-1 gap-4">
+            <a href="/OOH-and-DOOH-Services" class="group flex items-center">
+                <div class="w-10 h-10 rounded-xl bg-brand-accent/10 flex items-center justify-center text-brand-accent group-hover:bg-brand-accent group-hover:text-black transition-colors">
+                    <i class="fas fa-ad text-lg"></i>
+                </div>
+                <div class="ml-4">
+                    <span class="text-sm font-black text-white uppercase tracking-wider block">OOH & DOOH</span>
+                    <span class="text-[10px] text-gray-500 uppercase tracking-widest">Outdoor Media</span>
+                </div>
+            </a>
+
+            <a href="/Digital-and-Tech-Services" class="group flex items-center">
+                <div class="w-10 h-10 rounded-xl bg-brand-accent/10 flex items-center justify-center text-brand-accent group-hover:bg-brand-accent group-hover:text-black transition-colors">
+                    <i class="fas fa-laptop-code text-lg"></i>
+                </div>
+                <div class="ml-4">
+                    <span class="text-sm font-black text-white uppercase tracking-wider block">Digital & Tech</span>
+                    <span class="text-[10px] text-gray-500 uppercase tracking-widest">Growth & Data</span>
+                </div>
+            </a>
+
+            <a href="/Events-and-Exhibitions-Services" class="group flex items-center">
+                <div class="w-10 h-10 rounded-xl bg-brand-accent/10 flex items-center justify-center text-brand-accent group-hover:bg-brand-accent group-hover:text-black transition-colors">
+                    <i class="fas fa-microphone-alt text-lg"></i>
+                </div>
+                <div class="ml-4">
+                    <span class="text-sm font-black text-white uppercase tracking-wider block">Events & Exhibitions</span>
+                    <span class="text-[10px] text-gray-500 uppercase tracking-widest">Corporate Hub</span>
+                </div>
+            </a>
+
+            <a href="/Cinema-Advertising-Services" class="group flex items-center">
+                <div class="w-10 h-10 rounded-xl bg-brand-accent/10 flex items-center justify-center text-brand-accent group-hover:bg-brand-accent group-hover:text-black transition-colors">
+                    <i class="fas fa-film text-lg"></i>
+                </div>
+                <div class="ml-4">
+                    <span class="text-sm font-black text-white uppercase tracking-wider block">Cinema Ads</span>
+                    <span class="text-[10px] text-gray-500 uppercase tracking-widest">National Screens</span>
+                </div>
+            </a>
+
+            <a href="/BTL-and-Activations-Services" class="group flex items-center">
+                <div class="w-10 h-10 rounded-xl bg-brand-accent/10 flex items-center justify-center text-brand-accent group-hover:bg-brand-accent group-hover:text-black transition-colors">
+                    <i class="fas fa-bullhorn text-lg"></i>
+                </div>
+                <div class="ml-4">
+                    <span class="text-sm font-black text-white uppercase tracking-wider block">BTL Activations</span>
+                    <span class="text-[10px] text-gray-500 uppercase tracking-widest">Brand Experience</span>
+                </div>
+            </a>
+        </div>
+        <a href="/contact" class="bg-brand-accent text-black text-center py-4 rounded-full font-black uppercase tracking-widest mt-auto">
+            Start Project <i class="fas fa-arrow-right ml-2"></i>
+        </a>
     </div>
 </nav>
+
+<script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const line1 = document.getElementById('line1');
+    const line2 = document.getElementById('line2');
+    const line3 = document.getElementById('line3');
+
+    menuBtn.addEventListener('click', () => {
+        // Toggle Menu Slide
+        mobileMenu.classList.toggle('translate-x-full');
+
+        // Animate Hamburger to "X"
+        line1.classList.toggle('rotate-45');
+        line1.classList.toggle('translate-y-2.5');
+
+        line2.classList.toggle('opacity-0');
+
+        line3.classList.toggle('-rotate-45');
+        line3.classList.toggle('-translate-y-2.5');
+
+        // Prevent body scroll when menu is open
+        document.body.classList.toggle('overflow-hidden');
+    });
+</script>

@@ -59,15 +59,15 @@ include 'includes/nav.php';
     <div class="hero-bg h-[90vh] flex items-center justify-center text-white relative">
         <div class="absolute inset-0 bg-black/40"></div>
         <div class="relative z-10 text-center px-4 max-w-5xl mx-auto">
-            <p class="text-brand-accent text-lg md:text-xl uppercase tracking-[0.3em] mb-4 animate-fade-in-up">Since 2012</p>
-            <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-8">
+            <p class="text-brand-accent text-base md:text-xl uppercase tracking-[0.3em] mb-4 animate-fade-in-up">Since 2012</p>
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-8">
                 WE TURN SPACES <br> INTO <span class="text-stroke text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">EXPERIENCES</span>
             </h1>
-            <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-10 font-light">
+            <p class="text-sm md:text-xl text-gray-300 max-w-2xl mx-auto mb-10 font-light">
                 India's premier OOH, Digital, and Brand Experience Agency. We don't just advertise; we create measurable impact.
             </p>
             <div class="flex flex-col sm:flex-row gap-5 justify-center">
-                <a href="/contact" class="px-8 py-2.5 bg-brand-accent rounded-full text-black text-lg tracking-wider group">
+                <a href="/contact" class="px-8 py-2.5 bg-brand-accent rounded-full text-black text-lg max-md:text-base tracking-wider group">
                     Start Campaign
                     <i class="fas fa-arrow-right ml-2 -rotate-45 group-hover:rotate-0 transition text-black"></i>
                 </a>
@@ -144,8 +144,8 @@ include 'includes/nav.php';
         </div>
     </div>
 
-    <section class="py-24 bg-[#0f1807]">
-        <div class="w-[80vw] max-md:w-[90vw] mx-auto px-4 sm:px-6 lg:px-8">
+    <section class="py-24 max-md:py-14 bg-[#0f1807]">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto px-0 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 <div>
                     <h2 class=" text-brand-accent text-4xl md:text-5xl font-bold mb-6">MORE THAN JUST<br>OUTDOOR ADVERTISING</h2>
@@ -166,22 +166,22 @@ include 'includes/nav.php';
                     <div class="absolute top-1/2 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-brand-accent to-transparent -translate-y-1/2"></div>
                     <div class="absolute top-0 left-1/2 w-[2px] h-full bg-gradient-to-b from-transparent via-brand-accent to-transparent -translate-x-1/2"></div>
 
-                    <div class="p-10 text-center group">
+                    <div class="p-10 max-md:p-6 text-center group">
                         <h3 class="text-5xl md:text-6xl font-black text-brand-accent mb-2 tracking-tighter transition-transform group-hover:scale-110 duration-500 counter" data-target="12">0</h3>
                         <p class="font-bold uppercase text-gray-400 text-[10px] tracking-[0.2em]">Years Experience</p>
                     </div>
 
-                    <div class="p-10 text-center group">
+                    <div class="p-10 max-md:p-6 text-center group">
                         <h3 class="text-5xl md:text-6xl font-black text-brand-accent mb-2 tracking-tighter transition-transform group-hover:scale-110 duration-500 counter" data-target="500">0</h3>
                         <p class="font-bold uppercase text-gray-400 text-[10px] tracking-[0.2em]">Campaigns Done</p>
                     </div>
 
-                    <div class="p-10 text-center group">
+                    <div class="p-10 max-md:p-6 text-center group">
                         <h3 class="text-5xl md:text-6xl font-black text-brand-accent mb-2 tracking-tighter transition-transform group-hover:scale-110 duration-500 counter" data-target="100">0</h3>
                         <p class="font-bold uppercase text-gray-400 text-[10px] tracking-[0.2em]">Pan India (%)</p>
                     </div>
 
-                    <div class="p-10 text-center group">
+                    <div class="p-10 max-md:p-6 text-center group">
                         <h3 class="text-5xl md:text-6xl font-black text-brand-accent mb-2 tracking-tighter transition-transform group-hover:scale-110 duration-500 counter" data-target="24">0</h3>
                         <p class="font-bold uppercase text-gray-400 text-[10px] tracking-[0.2em]">Support (Hrs)</p>
                     </div>
@@ -190,8 +190,8 @@ include 'includes/nav.php';
         </div>
     </section>
 
-    <section class="py-24 bg-[#172010] text-white">
-        <div class="w-[80vw] max-md:w-[90vw] mx-auto px-4 sm:px-6 lg:px-8">
+    <section class="py-24 max-md:py-14 bg-[#172010] text-white">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto px-0 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <span class="text-brand-accent font-bold uppercase tracking-widest text-sm">What We Do</span>
                 <h2 class=" text-4xl md:text-5xl font-bold mt-2">INTEGRATED MEDIA SERVICES</h2>
@@ -261,8 +261,8 @@ include 'includes/nav.php';
         </div>
     </section>
 
-    <section class="py-24 bg-[#0f1807]">
-        <div class="w-[80vw] max-md:w-[90vw] mx-auto px-4 sm:px-6 lg:px-8">
+    <section class="py-24 max-md:py-14 bg-[#0f1807]">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto px-0 sm:px-6 lg:px-8">
             <div class="mb-12">
                 <span class="text-brand-accent font-bold uppercase tracking-widest text-sm">Media Inventory</span>
                 <h2 class=" text-4xl font-bold mt-2 text-white">ADVERTISING FORMATS</h2>
@@ -270,23 +270,23 @@ include 'includes/nav.php';
 
             <div class="ad-grid">
                 <div class="grid-span-2 grid-row-2 relative rounded-xl overflow-hidden group bg-brand-dark">
-                    <img src="/public/assets/images/b1.jpg" alt="Billboard" class="w-full h-full object-cover opacity-60 transition duration-500 group-hover:opacity-40 group-hover:scale-105">
-                    <div class="absolute bottom-0 left-0 p-8">
-                        <h3 class="text-white  text-3xl font-bold uppercase">Large Format Billboards</h3>
-                        <p class="text-gray-300 mt-2">Unmissable impact on major highways and arterials.</p>
+                    <img src="/public/assets/images/b1.jpg" alt="Billboard" class="w-full h-full max-md:h-52 object-cover opacity-60 transition duration-500 group-hover:opacity-40 group-hover:scale-105">
+                    <div class="absolute bottom-0 left-0 p-8 max-md:p-4">
+                        <h3 class="text-white  text-3xl max-md:text-base font-bold uppercase">Large Format Billboards</h3>
+                        <p class="text-gray-300 mt-2 max-md:text-xs">Unmissable impact on major highways and arterials.</p>
                     </div>
                 </div>
 
                 <div class="relative rounded-xl overflow-hidden group bg-brand-dark h-64 md:h-auto">
                     <img src="/public/assets/images/b2.jpg" alt="Bus Shelter" class="w-full h-full object-cover opacity-60 transition duration-500 group-hover:opacity-40 group-hover:scale-105">
                     <div class="absolute bottom-0 left-0 p-6">
-                        <h3 class="text-white  text-xl font-bold uppercase">Bus Shelters (BQS)</h3>
+                        <h3 class="text-white text-xl max-md:text-base font-bold uppercase">Bus Shelters (BQS)</h3>
                     </div>
                 </div>
                 <div class="relative rounded-xl overflow-hidden group bg-brand-dark h-64 md:h-auto">
                     <img src="/public/assets/images/b1.jpg" alt="Mall Media" class="w-full h-full object-cover opacity-60 transition duration-500 group-hover:opacity-40 group-hover:scale-105">
                     <div class="absolute bottom-0 left-0 p-6">
-                        <h3 class="text-white  text-xl font-bold uppercase">Mall Media</h3>
+                        <h3 class="text-white text-xl max-md:text-base font-bold uppercase">Mall Media</h3>
                     </div>
                 </div>
 
@@ -295,8 +295,8 @@ include 'includes/nav.php';
                     <div class="absolute bottom-0 left-0 p-6 flex items-center">
                         <i class="fas fa-play-circle text-brand-accent text-4xl mr-4"></i>
                         <div>
-                            <h3 class="text-white  text-2xl font-bold uppercase">DOOH Networks</h3>
-                            <p class="text-gray-300 text-sm">Programmatic digital screens in high-dwell areas.</p>
+                            <h3 class="text-white text-2xl max-md:text-base font-bold uppercase">DOOH Networks</h3>
+                            <p class="text-gray-300 text-sm max-md:text-xs">Programmatic digital screens in high-dwell areas.</p>
                         </div>
                     </div>
                 </div>
@@ -304,9 +304,9 @@ include 'includes/nav.php';
         </div>
     </section>
 
-    <section class="py-24 bg-[#172010]">
-        <div class="w-[80vw] max-md:w-[90vw] mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+    <section class="py-24 max-md:py-14 bg-[#172010]">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto px-0 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between md:items-end mb-12">
                 <div>
                     <span class="text-brand-accent font-bold uppercase tracking-widest text-sm">Portfolio</span>
                     <h2 class=" text-4xl font-bold mt-2 text-white">RECENT WORKS</h2>
@@ -315,27 +315,27 @@ include 'includes/nav.php';
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="portfolio-card relative group h-80 rounded-lg overflow-hidden cursor-pointer">
+                <div class="portfolio-card relative group h-80 max-md:h-40 rounded-lg overflow-hidden cursor-pointer">
                     <img src="/public/assets/images/1.jpg" alt="Billboard" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
                     <div class="overlay absolute inset-0 bg-brand-dark/80 opacity-0 transition duration-300 flex flex-col justify-end p-6">
                         <span class="text-brand-accent text-xs font-bold uppercase tracking-wider">OOH Campaign</span>
-                        <h3 class="text-white  text-2xl font-bold">Fashion Week City Launch</h3>
+                        <h3 class="text-white text-2xl max-md:text-lg font-bold">Fashion Week City Launch</h3>
                     </div>
                 </div>
 
-                <div class="portfolio-card relative group h-80 rounded-lg overflow-hidden cursor-pointer">
+                <div class="portfolio-card relative group h-80 max-md:h-40 rounded-lg overflow-hidden cursor-pointer">
                     <img src="/public/assets/images/3.jpg" alt="Meeting" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
                     <div class="overlay absolute inset-0 bg-brand-dark/80 opacity-0 transition duration-300 flex flex-col justify-end p-6">
                         <span class="text-brand-accent text-xs font-bold uppercase tracking-wider">Event Management</span>
-                        <h3 class="text-white  text-2xl font-bold">Corporate Summit 2024</h3>
+                        <h3 class="text-white text-2xl max-md:text-lg font-bold">Corporate Summit 2024</h3>
                     </div>
                 </div>
 
-                <div class="portfolio-card relative group h-80 rounded-lg overflow-hidden cursor-pointer">
+                <div class="portfolio-card relative group h-80 max-md:h-40 rounded-lg overflow-hidden cursor-pointer">
                     <img src="/public/assets/images/7.avif" alt="Digital" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
                     <div class="overlay absolute inset-0 bg-brand-dark/80 opacity-0 transition duration-300 flex flex-col justify-end p-6">
                         <span class="text-brand-accent text-xs font-bold uppercase tracking-wider">Digital & BTL</span>
-                        <h3 class="text-white  text-2xl font-bold">Product Activation</h3>
+                        <h3 class="text-white text-2xl max-md:text-lg font-bold">Product Activation</h3>
                     </div>
                 </div>
             </div>
@@ -346,13 +346,13 @@ include 'includes/nav.php';
         </div>
     </section>
 
-    <section class="py-24 bg-[#0f1807] relative overflow-hidden">
+    <section class="py-24 max-md:py-14 bg-[#0f1807] relative overflow-hidden">
         <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl pointer-events-none">
             <div class="absolute top-20 left-20 w-72 h-72 bg-brand-accent/10 rounded-full blur-[100px]"></div>
             <div class="absolute bottom-20 right-20 w-96 h-96 bg-blue-600/10 rounded-full blur-[100px]"></div>
         </div>
 
-        <div class="w-[80vw] max-md:w-[90vw] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto px-0 sm:px-6 lg:px-8 relative z-10">
 
             <div class="text-center mb-16">
                 <span class="text-brand-accent font-bold uppercase tracking-widest text-sm">Client Success</span>
@@ -364,14 +364,14 @@ include 'includes/nav.php';
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-                <div class="bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl hover:border-brand-accent/50 transition duration-300 group flex flex-col relative">
+                <div class="bg-white/5 backdrop-blur-sm border border-white/10 p-8 max-md:p-4 rounded-2xl hover:border-brand-accent/50 transition duration-300 group flex flex-col relative">
                     <i class="fas fa-quote-right absolute top-8 right-8 text-6xl text-white/5 group-hover:text-brand-accent/10 transition"></i>
 
                     <div class="text-brand-accent text-sm mb-6 space-x-1">
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
 
-                    <p class="text-gray-300 text-base italic leading-relaxed mb-8 flex-grow">
+                    <p class="text-gray-300 text-base max-md:text-sm italic leading-relaxed mb-8 flex-grow">
                         "Media Solutions executed our pan-India billboard campaign flawlessly. The <span class="text-white font-bold">prime locations</span> they secured in Mumbai and Delhi gave us visibility we didn't think was possible within our budget."
                     </p>
 
@@ -390,14 +390,14 @@ include 'includes/nav.php';
                     </div>
                 </div>
 
-                <div class="bg-brand-accent/10 backdrop-blur-sm border border-brand-accent/30 p-8 rounded-2xl hover:bg-brand-accent/20 transition duration-300 group flex flex-col relative transform md:-translate-y-8 shadow-2xl shadow-black/50">
+                <div class="bg-brand-accent/10 backdrop-blur-sm border border-brand-accent/30 p-8 max-md:p-4 rounded-2xl hover:bg-brand-accent/20 transition duration-300 group flex flex-col relative transform md:-translate-y-8 shadow-2xl shadow-black/50">
                     <i class="fas fa-quote-right absolute top-8 right-8 text-6xl text-brand-accent/20 transition"></i>
 
                     <div class="text-brand-accent text-sm mb-6 space-x-1">
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
 
-                    <p class="text-gray-300 text-base italic leading-relaxed mb-8 flex-grow">
+                    <p class="text-gray-300 text-base max-md:text-sm italic leading-relaxed mb-8 flex-grow">
                         "We needed a partner who understood both OOH and Digital. Their team integrated our bus shelter ads with a geo-targeted mobile campaign. The results were immediate and measurable."
                     </p>
 
@@ -416,14 +416,14 @@ include 'includes/nav.php';
                     </div>
                 </div>
 
-                <div class="bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl hover:border-brand-accent/50 transition duration-300 group flex flex-col relative">
+                <div class="bg-white/5 backdrop-blur-sm border border-white/10 p-8 max-md:p-4 rounded-2xl hover:border-brand-accent/50 transition duration-300 group flex flex-col relative">
                     <i class="fas fa-quote-right absolute top-8 right-8 text-6xl text-white/5 group-hover:text-brand-accent/10 transition"></i>
 
                     <div class="text-brand-accent text-sm mb-6 space-x-1">
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
                     </div>
 
-                    <p class="text-gray-300 text-base italic leading-relaxed mb-8 flex-grow">
+                    <p class="text-gray-300 text-base max-md:text-sm italic leading-relaxed mb-8 flex-grow">
                         "Professionalism at its peak. From the initial pitch to the final execution report, the team at Media Solutions kept us informed. Their network in Thane and suburbs is unmatched."
                     </p>
 
@@ -488,7 +488,7 @@ include 'includes/nav.php';
         }
     </style>
 
-    <section class="py-24 bg-[#172010] overflow-hidden w-full">
+    <section class="py-24 max-md:py-14 bg-[#172010] overflow-hidden w-full">
         <div class="max-w-7xl mx-auto px-4 text-center mb-16">
             <span class="text-[#a3e635] font-bold uppercase tracking-widest text-sm">Our Ecosystem</span>
             <h2 class="text-4xl font-bold mt-2 text-white uppercase">Strategic Partners</h2>
@@ -497,65 +497,65 @@ include 'includes/nav.php';
             </p>
         </div>
 
-        <div class="marquee-wrapper w-full flex flex-col gap-20 fade-edges">
+        <div class="marquee-wrapper w-full flex flex-col gap-20 max-md:gap-10 fade-edges">
 
             <div class="relative w-full overflow-hidden">
-                <div class="flex animate-scroll-left whitespace-nowrap gap-16 w-max">
-                    <div class="flex items-center gap-16">
-                        <img src="/public/assets/logos/1.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/2.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/3.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/4.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/5.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/6.png" class="h-24 w-40 object-cover rounded-md">
+                <div class="flex animate-scroll-left whitespace-nowrap gap-16 max-md:gap-8 w-max">
+                    <div class="flex items-center gap-16 max-md:gap-8">
+                        <img src="/public/assets/logos/1.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/2.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/3.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/4.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/5.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/6.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
                     </div>
-                    <div class="flex items-center gap-16">
-                        <img src="/public/assets/logos/1.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/2.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/3.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/4.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/5.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/6.png" class="h-24 w-40 object-cover rounded-md">
+                    <div class="flex items-center gap-16 max-md:gap-8">
+                        <img src="/public/assets/logos/1.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/2.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/3.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/4.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/5.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/6.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
                     </div>
-                    <div class="flex items-center gap-16">
-                        <img src="/public/assets/logos/1.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/2.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/3.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/4.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/5.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/6.png" class="h-24 w-40 object-cover rounded-md">
+                    <div class="flex items-center gap-16 max-md:gap-8">
+                        <img src="/public/assets/logos/1.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/2.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/3.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/4.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/5.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/6.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
                     </div>
                 </div>
             </div>
 
             <div class="relative w-full overflow-hidden">
-                <div class="flex animate-scroll-right whitespace-nowrap gap-16 w-max">
-                    <div class="flex items-center gap-16">
-                        <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/10.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/11.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/12.png" class="h-24 w-40 object-cover rounded-md"> 
-                        <img src="/public/assets/logos/13.png" class="h-24 w-40 object-cover rounded-md">    
+                <div class="flex animate-scroll-right whitespace-nowrap gap-16 max-md:gap-8 w-max">
+                    <div class="flex items-center gap-16 max-md:gap-8">
+                        <img src="/public/assets/logos/7.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/8.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/9.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/10.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/11.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/12.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md"> 
+                        <img src="/public/assets/logos/13.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">    
                     </div>
-                    <div class="flex items-center gap-16">
-                        <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/10.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/11.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/12.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/13.png" class="h-24 w-40 object-cover rounded-md"> 
+                    <div class="flex items-center gap-16 max-md:gap-8">
+                        <img src="/public/assets/logos/7.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/8.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/9.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/10.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/11.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/12.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/13.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md"> 
                     </div>
-                     <div class="flex items-center gap-16">
-                        <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/10.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/11.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/12.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/13.png" class="h-24 w-40 object-cover rounded-md"> 
+                     <div class="flex items-center gap-16 max-md:gap-8">
+                        <img src="/public/assets/logos/7.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/8.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/9.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/10.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/11.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/12.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md">
+                        <img src="/public/assets/logos/13.png" class="h-24 w-40 max-md:h-20 max-md:w-32 object-cover rounded-md"> 
                     </div>
                 </div>
             </div>

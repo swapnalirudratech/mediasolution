@@ -4,28 +4,7 @@ include 'includes/header.php';
 include 'includes/nav.php';
 ?>
 
-<body>
-    <!-- <section class="relative pt-32 pb-20 bg-[#172010] overflow-hidden">
-        <div class="absolute top-0 right-0 w-1/3 h-full bg-brand-accent/5 skew-x-12 transform translate-x-20"></div>
-
-        <div class="w-[80vw] mx-auto px-4 relative z-10">
-            <div class="max-w-3xl">
-                <span class="text-brand-accent font-bold uppercase tracking-[0.3em] text-sm mb-4 block">Dominating the Skyline</span>
-                <h1 class="text-6xl md:text-8xl font-black text-white leading-none uppercase mb-8">
-                    OOH <span class="text-transparent stroke-white" style="-webkit-text-stroke: 1px white;">&</span> <br>
-                    <span class="text-brand-accent">DOOH</span>
-                </h1>
-                <p class="text-gray-400 text-xl leading-relaxed mb-10 border-l-4 border-brand-accent pl-6">
-                    From prime billboards to high-tech digital screens at India's highest traffic locations. We don't just place ads; we claim territory.
-                </p>
-                <div class="flex flex-wrap gap-4">
-                    <a href="/services" class="px-8 py-4 bg-brand-accent text-black font-bold uppercase text-xs tracking-widest rounded-full hover:scale-105 transition-transform">Explore Inventory</a>
-                    <a href="/contact" class="px-8 py-4 border border-white/20 text-white font-bold uppercase text-xs tracking-widest rounded-full hover:bg-white/10 transition">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
+<body>  
     <section class="relative pt-40 pb-32 bg-[#172010] overflow-hidden min-h-[80vh] flex items-center">
         <div class="absolute inset-0 z-0">
             <img src="/public/assets/images/9.avif"
@@ -39,16 +18,16 @@ include 'includes/nav.php';
 
         <div class="absolute top-0 right-0 w-1/3 h-full bg-[#a3e635]/5 skew-x-12 transform translate-x-20 z-1"></div>
 
-        <div class="w-[80vw] mx-auto px-4 relative z-10">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">
             <div class="max-w-3xl">
                 <span class="text-[#a3e635] font-bold uppercase tracking-[0.3em] text-sm mb-4 block">Dominating the Skyline</span>
 
-                <h1 class="text-6xl md:text-8xl font-black text-white leading-none uppercase mb-8">
+                <h1 class="text-4xl md:text-8xl font-black text-white leading-none uppercase mb-8">
                     OOH <span class="text-transparent" style="-webkit-text-stroke: 1px white;">&</span> <br>
                     <span class="text-[#a3e635]">DOOH</span>
                 </h1>
 
-                <p class="text-gray-300 text-xl leading-relaxed mb-10 border-l-4 border-[#a3e635] pl-6 drop-shadow-lg">
+                <p class="text-gray-300 text-xl max-md:text-sm leading-relaxed mb-10 border-l-4 border-[#a3e635] pl-6 max-md:pl-4 drop-shadow-lg">
                     From prime billboards to high-tech digital screens at India's highest traffic locations. We don't just place ads; we claim territory.
                 </p>
 
@@ -64,8 +43,8 @@ include 'includes/nav.php';
         </div>
     </section>
 
-    <section id="inventory" class="py-24 bg-[#0d1309]">
-        <div class="w-[80vw] mx-auto px-4">
+    <section id="inventory" class="py-24 max-md:py-14 bg-[#0d1309]">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4">
             <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
                 <h2 class="text-4xl font-bold text-white uppercase max-w-md">Our Premium Media Inventory</h2>
                 <p class="text-gray-500 max-w-sm">Strategically located assets designed for maximum dwell time and visibility.</p>
@@ -114,26 +93,26 @@ include 'includes/nav.php';
     <section id="stats" class="py-20 bg-[#172010]">
         <div class="w-[80vw] mx-auto grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
             <div>
-                <div class="text-5xl font-black text-brand-accent mb-2">30+</div>
+                <div class="text-5xl max-md:text-3xl font-black text-brand-accent mb-2">30+</div>
                 <div class="text-white font-bold uppercase text-xs tracking-widest">Major Cities</div>
             </div>
             <div>
-                <div class="text-5xl font-black text-brand-accent mb-2">1.2M+</div>
+                <div class="text-5xl max-md:text-3xl font-black text-brand-accent mb-2">1.2M+</div>
                 <div class="text-white font-bold uppercase text-xs tracking-widest">Daily Impressions</div>
             </div>
             <div>
-                <div class="text-5xl font-black text-brand-accent mb-2">1500+</div>
+                <div class="text-5xl max-md:text-3xl font-black text-brand-accent mb-2">1500+</div>
                 <div class="text-white font-bold uppercase text-xs tracking-widest">Premium Sites</div>
             </div>
             <div>
-                <div class="text-5xl font-black text-brand-accent mb-2">100%</div>
+                <div class="text-5xl max-md:text-3xl font-black text-brand-accent mb-2">100%</div>
                 <div class="text-white font-bold uppercase text-xs tracking-widest">Campaign Audit</div>
             </div>
         </div>
     </section>
 
-    <section class="py-24 bg-[#0d1309] relative">
-        <div class="w-[80vw] mx-auto px-4 grid md:grid-cols-2 items-center gap-20">
+    <section class="py-24 max-md:py-14 bg-[#0d1309] relative">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 grid md:grid-cols-2 items-center gap-20">
             <div class="relative">
                 <div class="absolute -top-10 -left-10 w-40 h-40 border-t-2 border-l-2 border-brand-accent/30"></div>
                 <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80" class="rounded-3xl shadow-2xl relative z-10" alt="Campaign Planning">
@@ -168,11 +147,11 @@ include 'includes/nav.php';
         </div>
     </section>
 
-    <section class="py-24 bg-[#172010] text-center">
-        <div class="w-[80vw] mx-auto px-4 bg-brand-accent py-16 rounded-[3rem]">
-            <h2 class="text-4xl md:text-5xl font-black text-[#172010] uppercase mb-6">Ready to dominate <br>the outdoors?</h2>
-            <p class="text-[#172010]/70 font-medium mb-10 max-w-lg mx-auto italic">Get a customized media plan for your brand today across our Pan India network.</p>
-            <a href="/contact" class="inline-block px-10 py-5 bg-[#172010] text-white font-bold uppercase text-[11px] tracking-[0.2em] rounded-full hover:shadow-2xl transition-all">Request a Media Deck</a>
+    <section class="py-24 max-md:py-14 bg-[#172010] text-center">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto px-4 bg-brand-accent py-16 max-md:py-10 rounded-[3rem]">
+            <h2 class="text-3xl md:text-5xl font-black text-[#172010] uppercase mb-6">Ready to dominate <br>the outdoors?</h2>
+            <p class="text-[#172010]/70 font-medium mb-10 max-w-lg max-md:text-sm mx-auto italic">Get a customized media plan for your brand today across our Pan India network.</p>
+            <a href="/contact" class="inline-block px-10 py-5 max-md:py-3 bg-[#172010] text-white font-bold uppercase text-[11px] tracking-[0.2em] rounded-full hover:shadow-2xl transition-all">Request a Media Deck</a>
         </div>
     </section>
 
