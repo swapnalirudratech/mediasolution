@@ -534,25 +534,28 @@ include 'includes/nav.php';
                         <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
                         <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
                         <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">    
+                        <img src="/public/assets/logos/10.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/11.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/12.png" class="h-24 w-40 object-cover rounded-md"> 
+                        <img src="/public/assets/logos/13.png" class="h-24 w-40 object-cover rounded-md">    
                     </div>
                     <div class="flex items-center gap-16">
                         <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
                         <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
                         <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/10.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/11.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/12.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/13.png" class="h-24 w-40 object-cover rounded-md"> 
                     </div>
                      <div class="flex items-center gap-16">
                         <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
                         <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
                         <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
-                        <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/10.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/11.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/12.png" class="h-24 w-40 object-cover rounded-md">
+                        <img src="/public/assets/logos/13.png" class="h-24 w-40 object-cover rounded-md"> 
                     </div>
                 </div>
             </div>

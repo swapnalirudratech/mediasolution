@@ -32,14 +32,16 @@ include 'includes/nav.php';
         </div>
         <div class="relative">
           <div class="absolute -inset-4 bg-brand-accent/10 blur-3xl rounded-full"></div>
-          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80" class="rounded-[2rem] shadow-2xl relative z-10 border border-white/10" alt="Team Collaboration">
+          <img src="/public/assets/images/3.jpg" class="rounded-[2rem] shadow-2xl relative z-10 border border-white/10" alt="Team Collaboration">
         </div>
       </div>
     </div>
   </section>
+
   <section class=" bg-[#172010] relative overflow-hidden">
     <div class="w-[80%] h-[1px] bg-gradient-to-r from-transparent via-brand-accent to-transparent mb-8 mx-auto"></div>
   </section>
+
   <section class="py-24 bg-[#172010] relative overflow-hidden">
 
     <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-accent/5 blur-[120px] rounded-full -translate-y-1/2 translate-x-1/2"></div>
@@ -91,6 +93,7 @@ include 'includes/nav.php';
       </div>
     </div>
   </section>
+
   <section class="py-24 bg-[#0d1309]">
     <div class="w-[80vw] mx-auto px-4">
       <div class="max-w-3xl mb-20">
@@ -114,6 +117,7 @@ include 'includes/nav.php';
       </div>
     </div>
   </section>
+
   <section class="py-24 bg-[#172010] border-y border-white/5">
     <div class="w-[80vw] mx-auto px-4 grid md:grid-cols-4 gap-12">
       <div class="text-center md:text-left">
@@ -154,13 +158,121 @@ include 'includes/nav.php';
       </div>
     </div>
   </section>
+
+  <style>
+    /* KEYFRAMES */
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    @keyframes scroll-right {
+      0% {
+        transform: translateX(-50%);
+      }
+
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+    .animate-scroll-left {
+      animation: scroll-left 40s linear infinite;
+    }
+
+    .animate-scroll-right {
+      animation: scroll-right 40s linear infinite;
+    }
+
+    .marquee-wrapper:hover .animate-scroll-left,
+    .marquee-wrapper:hover .animate-scroll-right {
+      animation-play-state: paused;
+    }
+
+    /* Optional: Fades the edges for a cleaner look */
+    .fade-edges {
+      mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    }
+  </style>
+
   <section class="py-24 bg-[#0d1309] overflow-hidden">
     <div class="w-[80vw] mx-auto px-4 text-center mb-16">
       <h2 class="text-4xl font-bold text-white uppercase">Our Ecosystem</h2>
       <p class="text-gray-500 mt-4 max-w-xl mx-auto italic">Trusted by the biggest names in the industry.</p>
     </div>
 
+    <div class="marquee-wrapper w-full flex flex-col gap-20 fade-edges">
+
+      <div class="relative w-full overflow-hidden">
+        <div class="flex animate-scroll-left whitespace-nowrap gap-16 w-max">
+          <div class="flex items-center gap-16">
+            <img src="/public/assets/logos/1.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/2.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/3.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/4.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/5.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/6.png" class="h-24 w-40 object-cover rounded-md">
+          </div>
+          <div class="flex items-center gap-16">
+            <img src="/public/assets/logos/1.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/2.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/3.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/4.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/5.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/6.png" class="h-24 w-40 object-cover rounded-md">
+          </div>
+          <div class="flex items-center gap-16">
+            <img src="/public/assets/logos/1.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/2.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/3.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/4.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/5.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/6.png" class="h-24 w-40 object-cover rounded-md">
+          </div>
+        </div>
+      </div>
+
+      <div class="relative w-full overflow-hidden">
+        <div class="flex animate-scroll-right whitespace-nowrap gap-16 w-max">
+          <div class="flex items-center gap-16">
+            <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/10.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/11.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/12.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/13.png" class="h-24 w-40 object-cover rounded-md">
+          </div>
+          <div class="flex items-center gap-16">
+            <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/10.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/11.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/12.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/13.png" class="h-24 w-40 object-cover rounded-md">
+          </div>
+          <div class="flex items-center gap-16">
+            <img src="/public/assets/logos/7.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/8.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/9.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/10.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/11.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/12.png" class="h-24 w-40 object-cover rounded-md">
+            <img src="/public/assets/logos/13.png" class="h-24 w-40 object-cover rounded-md">
+          </div>
+        </div>
+      </div>
+
+    </div>
   </section>
+
   <section class="py-24 bg-[#172010]">
     <div class="w-[80vw] mx-auto px-4">
       <div class="relative bg-brand-accent rounded-[4rem] p-12 md:p-24 overflow-hidden">
@@ -174,6 +286,106 @@ include 'includes/nav.php';
             <a href="/services" class="px-12 py-5 border-2 border-[#172010] text-[#172010] font-black uppercase text-xs tracking-[0.2em] rounded-full hover:bg-[#172010] hover:text-white transition-all">Explore Services</a>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 bg-[#0f1807] relative overflow-hidden">
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl pointer-events-none">
+      <div class="absolute top-20 left-20 w-72 h-72 bg-brand-accent/10 rounded-full blur-[100px]"></div>
+      <div class="absolute bottom-20 right-20 w-96 h-96 bg-blue-600/10 rounded-full blur-[100px]"></div>
+    </div>
+
+    <div class="w-[80vw] max-md:w-[90vw] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+      <div class="text-center mb-16">
+        <span class="text-brand-accent font-bold uppercase tracking-widest text-sm">Client Success</span>
+        <h2 class=" text-4xl md:text-5xl font-bold mt-2 text-white">TRUSTED BY THE BEST</h2>
+        <p class="text-gray-400 mt-4 max-w-xl mx-auto">
+          Don't just take our word for it. Here is what leading brands say about our OOH and media campaigns.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <div class="bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl hover:border-brand-accent/50 transition duration-300 group flex flex-col relative">
+          <i class="fas fa-quote-right absolute top-8 right-8 text-6xl text-white/5 group-hover:text-brand-accent/10 transition"></i>
+
+          <div class="text-brand-accent text-sm mb-6 space-x-1">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+
+          <p class="text-gray-300 text-base italic leading-relaxed mb-8 flex-grow">
+            "Media Solutions executed our pan-India billboard campaign flawlessly. The <span class="text-white font-bold">prime locations</span> they secured in Mumbai and Delhi gave us visibility we didn't think was possible within our budget."
+          </p>
+
+          <!-- <div class="mb-6">
+                        <span class="inline-block bg-green-500/20 text-green-400 text-xs font-bold px-3 py-1 rounded-full border border-green-500/30">
+                            <i class="fas fa-arrow-up mr-1"></i> 40% Increase in Footfall
+                        </span>
+                    </div> -->
+
+          <div class="flex items-center pt-6 border-t border-white/10">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client" class="w-12 h-12 rounded-full border-2 border-brand-accent mr-4">
+            <div>
+              <h4 class="text-white font-bold  uppercase tracking-wide text-sm">Vikram Mehta</h4>
+              <p class="text-gray-500 text-xs uppercase">VP Marketing, Urban Estates</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-brand-accent/10 backdrop-blur-sm border border-brand-accent/30 p-8 rounded-2xl hover:bg-brand-accent/20 transition duration-300 group flex flex-col relative transform md:-translate-y-8 shadow-2xl shadow-black/50">
+          <i class="fas fa-quote-right absolute top-8 right-8 text-6xl text-brand-accent/20 transition"></i>
+
+          <div class="text-brand-accent text-sm mb-6 space-x-1">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+
+          <p class="text-gray-300 text-base italic leading-relaxed mb-8 flex-grow">
+            "We needed a partner who understood both OOH and Digital. Their team integrated our bus shelter ads with a geo-targeted mobile campaign. The results were immediate and measurable."
+          </p>
+
+          <!-- <div class="mb-6">
+                        <span class="inline-block bg-brand-accent text-black text-xs font-bold px-3 py-1 rounded-full shadow-lg shadow-brand-accent/50">
+                            <i class="fas fa-check-circle mr-1"></i> Best Campaign 2024
+                        </span>
+                    </div> -->
+
+          <div class="flex items-center pt-6 border-t border-white/20">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client" class="w-12 h-12 rounded-full border-2 border-white mr-4">
+            <div>
+              <h4 class="text-white font-bold  uppercase tracking-wide text-sm">Anjali Kapoor</h4>
+              <p class="text-white/70 text-xs uppercase">Brand Head, Fresh Foods</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white/5 backdrop-blur-sm border border-white/10 p-8 rounded-2xl hover:border-brand-accent/50 transition duration-300 group flex flex-col relative">
+          <i class="fas fa-quote-right absolute top-8 right-8 text-6xl text-white/5 group-hover:text-brand-accent/10 transition"></i>
+
+          <div class="text-brand-accent text-sm mb-6 space-x-1">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+
+          <p class="text-gray-300 text-base italic leading-relaxed mb-8 flex-grow">
+            "Professionalism at its peak. From the initial pitch to the final execution report, the team at Media Solutions kept us informed. Their network in Thane and suburbs is unmatched."
+          </p>
+
+          <!-- <div class="mb-6">
+                        <span class="inline-block bg-blue-500/20 text-blue-400 text-xs font-bold px-3 py-1 rounded-full border border-blue-500/30">
+                            <i class="fas fa-chart-line mr-1"></i> Brand Awareness
+                        </span>
+                    </div> -->
+
+          <div class="flex items-center pt-6 border-t border-white/10">
+            <img src="https://randomuser.me/api/portraits/men/86.jpg" alt="Client" class="w-12 h-12 rounded-full border-2 border-brand-accent mr-4">
+            <div>
+              <h4 class="text-white font-bold  uppercase tracking-wide text-sm">Sameer Khan</h4>
+              <p class="text-gray-500 text-xs uppercase">Director, TechNova Solutions</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
