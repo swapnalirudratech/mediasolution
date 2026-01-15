@@ -1,8 +1,8 @@
- <footer class="relative py-10 bg-[#172010] overflow-hidden group w-full">
+ <footer class="relative py-10 bg-[#1a1a1a] overflow-hidden group w-full">
 
      <div class="absolute inset-0 z-0">
          <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=2613&auto=format&fit=crop" alt="City Night" class="w-full h-full object-cover opacity-50 group-hover:scale-105 transition duration-[2s]">
-         <div class="absolute inset-0 bg-gradient-to-r from-[#172010]/80 via-[#172010]/90 to-[#172010]/80"></div>
+         <div class="absolute inset-0 bg-gradient-to-r from-[#1a1a1a]/70 via-[#1a1a1a]/80 to-[#1a1a1a]/70"></div>
      </div>
 
      <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-brand-accent/20 rounded-full blur-[100px] animate-pulse"></div>

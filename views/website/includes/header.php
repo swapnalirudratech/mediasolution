@@ -74,14 +74,21 @@
                 extend: {
                     colors: {
                         brand: {
-                            black: '#1a1a1a',
-                            dark: '#0f2a23ff',
-                            accent: '#ceff91', 
-                            gray: '#f3f4f6'
+                            black: '#0f0f0f', // Richer Black
+                            dark: '#111827', // Neutral Dark (Headings)
+                            accent: '#7c3aed', // Vibrant Purple (Creative/Premium)
+                            accentLight: '#ddd6fe', // Light Purple for backgrounds
+                            gray: '#f8fafc', // Cool Gray background
+                            light: '#ffffff'
                         }
                     },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'], // Assumes you might have Inter, falls back to sans
+                    },
                     animation: {
-                        'scroll': 'scroll 20s linear infinite',
+                        'scroll': 'scroll 30s linear infinite',
+                        'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
                     },
                     keyframes: {
                         scroll: {
@@ -91,6 +98,16 @@
                             '100%': {
                                 transform: 'translateX(-100%)'
                             },
+                        },
+                        fadeInUp: {
+                            '0%': {
+                                opacity: '0',
+                                transform: 'translateY(20px)'
+                            },
+                            '100%': {
+                                opacity: '1',
+                                transform: 'translateY(0)'
+                            },
                         }
                     }
                 }
@@ -99,11 +116,11 @@
     </script>
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); 
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-         body {
+        body {
             font-family: 'Poppins', sans-serif;
-        } 
+        }
 
         /* Custom scrollbar */
         ::-webkit-scrollbar {
@@ -115,12 +132,12 @@
         }
 
         ::-webkit-scrollbar-thumb {
-            background: #ceff91;
+            background: #7c3aed;
             border-radius: 5px;
         }
 
         ::-webkit-scrollbar-thumb:hover {
-            background: #ceff91;
+            background: #7c3aed;
         }
     </style>
 

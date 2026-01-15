@@ -37,14 +37,14 @@ class WebsiteController extends LoginController
         }
     }
 
-    public function services()
+    public function work()
     {
         $siteName = getDBObject()->getSiteName();
         $pageTitle = "services";
         // $this->checkSession();
         if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 
-            require 'views/website/services.php';
+            require 'views/website/work.php';
         }
     }
 

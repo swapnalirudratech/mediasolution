@@ -51,8 +51,8 @@
             "GET",
             "POST"
         ],
-        "path": "/services",
-        "controller": "WebsiteController@services"
+        "path": "/work",
+        "controller": "WebsiteController@work"
     },
     {
         "methods": [
