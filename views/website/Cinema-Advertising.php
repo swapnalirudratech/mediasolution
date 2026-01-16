@@ -6,17 +6,18 @@ include 'includes/nav.php';
 
 <body class="bg-brand-light">
 
-   <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden min-h-[85vh] flex items-center">
+    <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden min-h-[85vh] flex items-center">
         <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80"
-                class="w-full h-full object-cover opacity-15 transition-transform duration-1000 hover:scale-105"
+            <img src="/public/assets/images/Cinema-Ads.png"
+                class="w-full h-full object-cover transition-transform duration-1000 hover:scale-105"
                 alt="Multiplex Cinema Branding">
 
-            <div class="absolute inset-0 bg-gradient-to-r from-brand-gray via-brand-gray/85 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-brand-gray via-brand-gray/60 to-transparent"></div>
 
-            <div class="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-1/3 w-[600px] h-[600px] bg-brand-accent/10 rounded-full blur-[120px] pointer-events-none"></div>
+            <!-- <div class="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-1/3 w-[600px] h-[600px] bg-brand-accent/10 rounded-full blur-[120px] pointer-events-none"></div> -->
 
-            <div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-brand-gray to-transparent"></div>
+            <div class="absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-black/50 to-transparent"></div>
+            <div class="absolute inset-x-0 top-0 h-44 bg-gradient-to-b from-black/50 to-transparent"></div>
         </div>
 
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">
@@ -46,14 +47,14 @@ include 'includes/nav.php';
 
     <section id="formats" class="py-32 bg-brand-light overflow-hidden">
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 space-y-32">
-            
+
             <div class="grid md:grid-cols-2 gap-16 items-center group">
                 <div class="relative order-2 md:order-1">
                     <div class="absolute inset-0 bg-brand-accent/10 rounded-[3rem] rotate-3 group-hover:rotate-6 transition-transform duration-500"></div>
                     <div class="relative rounded-[3rem] overflow-hidden shadow-2xl border border-gray-100 aspect-[4/3]">
-                        <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=800&q=80" 
-                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
-                             alt="On Screen Advertising">
+                        <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=800&q=80"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                            alt="On Screen Advertising">
                         <div class="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-black/80 to-transparent">
                             <span class="text-white font-bold uppercase tracking-widest text-sm">On-Screen</span>
                         </div>
@@ -88,9 +89,9 @@ include 'includes/nav.php';
                 <div class="order-1 md:order-2 relative">
                     <div class="absolute inset-0 bg-brand-dark/5 rounded-[3rem] -rotate-3 group-hover:-rotate-6 transition-transform duration-500"></div>
                     <div class="relative rounded-[3rem] overflow-hidden shadow-2xl border border-gray-100 aspect-[4/3]">
-                        <img src="https://images.unsplash.com/photo-1595769816263-9b910be24d5f?auto=format&fit=crop&w=800&q=80" 
-                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
-                             alt="Lobby Advertising">
+                        <img src="https://images.unsplash.com/photo-1595769816263-9b910be24d5f?auto=format&fit=crop&w=800&q=80"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                            alt="Lobby Advertising">
                         <div class="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-black/80 to-transparent">
                             <span class="text-white font-bold uppercase tracking-widest text-sm">Off-Screen / Lobby</span>
                         </div>
@@ -169,7 +170,7 @@ include 'includes/nav.php';
         <div class="w-[80vw] mx-auto mb-8 text-center">
             <p class="text-gray-400 text-xs font-bold uppercase tracking-[0.3em]">Partnering with India's Largest Chains</p>
         </div>
-        
+
         <div class="relative flex overflow-x-hidden">
             <div class="animate-scroll whitespace-nowrap flex items-center gap-24 py-4">
                 <span class="text-4xl font-black text-white/20 uppercase">PVR Cinemas</span>
@@ -197,7 +198,7 @@ include 'includes/nav.php';
                 <div class="relative z-10">
                     <h2 class="text-3xl md:text-6xl font-black text-white uppercase mb-8">Ready for your <br>Blockbuster Moment?</h2>
                     <p class="text-purple-100 text-lg mb-12 max-w-xl mx-auto font-medium">Get a custom media plan tailored to your budget and target audience within 24 hours.</p>
-                    
+
                     <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <a href="/contact" class="px-12 py-5 bg-white text-brand-accent font-black uppercase text-xs tracking-widest rounded-full hover:shadow-xl hover:scale-105 transition-all">
                             Get A Quote

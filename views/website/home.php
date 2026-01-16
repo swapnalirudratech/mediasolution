@@ -96,37 +96,49 @@ include 'includes/nav.php';
 
 <body class="bg-brand-gray text-gray-600 font-sans selection:bg-brand-accent selection:text-white">
 
-    <div class="hero-bg h-[90vh] flex items-center justify-center text-white relative overflow-hidden">
-        <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-accent/20 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2"></div>
+    <div class="hero-bg h-[90vh] flex items-center justify-center text-white relative overflow-hidden bg-gray-900">
 
-        <div class="relative z-10 text-center px-4 max-w-6xl mx-auto">
-            <div class="inline-block mb-6 px-4 py-1.5 rounded-full border border-white/20 bg-white/5 backdrop-blur-sm animate-fade-in-up">
-                <span class="text-brand-accent font-bold tracking-widest text-xs uppercase">Est. 2012 • Global Reach</span>
+        <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover opacity-60">
+            <source src="/public/assets/video/bg-vdo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-brand-accent/30 rounded-[100%] blur-[120px] opacity-60"></div>
+        <div class="absolute bottom-0 right-0 w-[600px] h-[600px] bg-blue-600/10 rounded-full blur-[100px]"></div>
+
+        <div class="relative z-10 text-center px-4 max-w-7xl mx-auto">
+
+            <div class="inline-flex items-center gap-2 mb-8 px-5 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-md animate-fade-in-up shadow-[0_0_20px_rgba(255,255,255,0.1)]">
+                <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
+                <span class="text-gray-300 font-bold tracking-[0.2em] text-xs uppercase">
+                    Now Streaming
+                </span>
             </div>
 
-            <h1 class="text-5xl md:text-7xl lg:text-8xl font-black leading-tight mb-8 tracking-tight">
-                TURNING SPACES <br>
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-gray-400">INTO IMPACT</span>
+            <h1 class="text-6xl md:text-7xl lg:text-8xl font-black leading-[0.95] mb-8 tracking-tighter">
+                <span class="block text-white drop-shadow-lg">
+                    ICONIC <span class="text-transparent" style="-webkit-text-stroke: 1px #ffffff;">OOH</span>
+                </span>
+
+                <span class="relative inline-block mt-2">
+                    <span class="relative inline-block mt-2">
+                        DYNAMIC <span class="text-brand-accent bg-white px-2 py-0.5 rounded-lg">DOOH</span>
+                    </span>
+                </span>
             </h1>
 
-            <p class="text-base md:text-xl text-gray-300 max-w-3xl mx-auto mb-10 font-light leading-relaxed">
-                India's premier <strong>Integrated Media Agency</strong>. We combine the scale of OOH with the precision of Digital to create brand experiences that people can't ignore.
+            <p class="text-lg md:text-xl text-white max-w-4xl mx-auto mb-12 font-light leading-relaxed text-balance">
+                We blend the <strong>massive scale of OOH</strong> with the <strong>programmatic precision of DOOH</strong>.
+                Dominate city skylines and cinema screens with <span class="text-white border-b border-brand-accent/50 pb-0.5">campaigns that are impossible to ignore</span>.
             </p>
 
-            <div class="flex flex-col sm:flex-row gap-5 justify-center items-center">
-                <a href="/contact" class="px-10 py-4 bg-brand-accent hover:bg-brand-accent/90 rounded-full text-white font-bold text-lg transition duration-300 shadow-lg shadow-brand-accent/25 flex items-center gap-3 group">
-                    Launch Campaign
-                    <i class="fas fa-arrow-right -rotate-45 group-hover:rotate-0 transition duration-300"></i>
-                </a>
-                <a href="#work" class="px-10 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/10 rounded-full text-white font-bold text-lg transition duration-300">
-                    View Portfolio
+            <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                <a href="/contact" class="bg-brand-accent text-white px-8 py-3 group rounded-full text-sm font-bold uppercase tracking-widest hover:bg-brand-accent/90 hover:shadow-lg hover:shadow-brand-accent/30 transition-all transform hover:-translate-y-0.5">
+                    Start Your Campaign
+                    <i class="fas fa-arrow-right ml-2 -rotate-45 group-hover:rotate-0 transition text-white"></i>
                 </a>
             </div>
         </div>
 
-        <div class="absolute bottom-10 animate-bounce">
-            <i class="fas fa-chevron-down text-2xl text-white/30"></i>
-        </div>
     </div>
 
     <style>
@@ -319,7 +331,7 @@ include 'includes/nav.php';
 
             <div class="ad-grid">
                 <div class="grid-span-2 grid-row-2 relative rounded-3xl overflow-hidden group cursor-pointer">
-                    <img src="/public/assets/images/b1.jpg" alt="Billboard" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <img src="/public/assets/images/Billboards.png" alt="Billboard" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
                     <div class="absolute bottom-0 left-0 p-8">
                         <span class="bg-brand-accent text-white px-3 py-1 rounded text-xs font-bold uppercase mb-3 inline-block">Premium</span>
@@ -329,7 +341,7 @@ include 'includes/nav.php';
                 </div>
 
                 <div class="relative rounded-3xl overflow-hidden group cursor-pointer min-h-[250px]">
-                    <img src="/public/assets/images/b2.jpg" alt="Bus Shelter" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <img src="/public/assets/images/Bus-Shelters.png" alt="Bus Shelter" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition duration-500"></div>
                     <div class="absolute bottom-0 left-0 p-6">
                         <h3 class="text-white text-xl font-bold uppercase">Bus Shelters</h3>
@@ -337,7 +349,7 @@ include 'includes/nav.php';
                 </div>
 
                 <div class="relative rounded-3xl overflow-hidden group cursor-pointer min-h-[250px]">
-                    <img src="/public/assets/images/b1.jpg" alt="Mall Media" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <img src="/public/assets/images/Mall-Media.png" alt="Mall Media" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition duration-500"></div>
                     <div class="absolute bottom-0 left-0 p-6">
                         <h3 class="text-white text-xl font-bold uppercase">Mall Media</h3>
@@ -352,10 +364,34 @@ include 'includes/nav.php';
                                 <h3 class="text-white text-2xl font-bold uppercase mb-1">DOOH Networks</h3>
                                 <p class="text-gray-400 text-xs">Programmatic digital screens</p>
                             </div>
-                            <div class="w-12 h-12 rounded-full bg-brand-accent flex items-center justify-center text-white group-hover:scale-110 transition">
-                                <i class="fas fa-play"></i>
-                            </div>
                         </div>
+                    </div>
+                </div>
+
+                <div class="relative rounded-3xl overflow-hidden group cursor-pointer min-h-[250px]">
+                    <img src="/public/assets/images/airport.png" alt="Airport Media" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition duration-500"></div>
+                    <div class="absolute bottom-0 left-0 p-6">
+                        <h3 class="text-white text-xl font-bold uppercase">Airport Media</h3>
+                    </div>
+                </div>
+
+                <div class="md:col-span-2 relative rounded-3xl overflow-hidden group cursor-pointer min-h-[250px]">
+                    <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover ">
+                        <source src="/public/assets/video/vdo2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="absolute bottom-0 right-0 p-8">
+                        <div class="w-12 h-12 rounded-full bg-brand-accent flex items-center justify-center text-white group-hover:scale-110 transition">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative rounded-3xl overflow-hidden group cursor-pointer min-h-[250px]">
+                    <img src="/public/assets/images/btl-img-3.png" alt="Transit Advertising" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition duration-500"></div>
+                    <div class="absolute bottom-0 left-0 p-6">
+                        <h3 class="text-white text-xl font-bold uppercase">Transit Ads</h3>
                     </div>
                 </div>
             </div>
@@ -563,7 +599,7 @@ include 'includes/nav.php';
         </div>
     </section>
 
- <?php include 'views/website/includes/partners_carousel.php'; ?> 
+    <?php include 'views/website/includes/partners_carousel.php'; ?>
 
     <script>
         const observerOptions = {

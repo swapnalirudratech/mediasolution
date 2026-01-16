@@ -7,17 +7,18 @@ include 'includes/nav.php';
 <body>
     <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden min-h-[85vh] flex items-center">
         <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1920&q=80"
-                class="w-full h-full object-cover opacity-20"
+            <img src="/public/assets/images/btl-bg-2.png"
+                class="w-full h-full object-cover"
                 alt="BTL Activation Background">
 
-            <div class="absolute inset-0 bg-gradient-to-r from-brand-gray via-brand-gray/80 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-brand-gray via-brand-gray/60 to-transparent"></div>
 
-            <svg class="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none" viewBox="0 0 500 500">
+            <!-- <svg class="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none" viewBox="0 0 500 500">
                 <path d="M0,100 C150,200 350,0 500,100 L500,500 L0,500 Z" class="fill-brand-accent"></path>
-            </svg>
+            </svg> -->
 
-            <div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-brand-gray to-transparent"></div>
+            <div class="absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-black/50 to-transparent"></div>
+            <div class="absolute inset-x-0 top-0 h-44 bg-gradient-to-b from-black/50 to-transparent"></div>
         </div>
 
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">
@@ -25,7 +26,7 @@ include 'includes/nav.php';
                 <span class="text-brand-accent font-bold uppercase tracking-[0.3em] text-xs mb-6 block">Direct Consumer Engagement</span>
 
                 <h1 class="text-3xl md:text-8xl font-black text-brand-dark leading-[0.9] uppercase mb-8">
-                    BTL & <br>
+                    BTL <span class="text-transparent" style="-webkit-text-stroke: 1px #7c3aed;">&</span> <br>
                     <span class="text-brand-accent">Activations</span>
                 </h1>
 
@@ -78,6 +79,39 @@ include 'includes/nav.php';
                     <h3 class="text-2xl max-md:text-xl font-bold text-brand-dark mb-4 uppercase">Sampling & Demos</h3>
                     <p class="text-gray-500 text-sm leading-relaxed">Product trials and live demonstrations that convert "leads" into "loyal customers" through first-hand experience.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                <div class="group relative overflow-hidden rounded-xl shadow-lg cursor-pointer">
+                    <img
+                        src="/public/assets/images/btl-img-1.png"
+                        alt="Service 1"
+                        class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 transition-opacity duration-300 group-hover:bg-opacity-10"></div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-xl shadow-lg cursor-pointer">
+                    <img
+                        src="/public/assets/images/btl-img-3.png"
+                        alt="Service 3"
+                        class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 transition-opacity duration-300 group-hover:bg-opacity-10"></div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-xl shadow-lg cursor-pointer">
+                    <img
+                        src="/public/assets/images/btl-img-2.png"
+                        alt="Service 2"
+                        class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 transition-opacity duration-300 group-hover:bg-opacity-10"></div>
+                </div>
+
             </div>
         </div>
     </section>

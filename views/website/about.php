@@ -5,11 +5,12 @@ include 'includes/nav.php';
 ?>
 
 <body>
-  <section class="relative pt-40 max-md:pt-28 pb-24 bg-brand-gray overflow-hidden">
+  <section class="relative pt-44 max-md:pt-28 pb-32 bg-brand-gray overflow-hidden">
     <div class="absolute inset-0 opacity-[0.05] pointer-events-none" style="background-image: url('https://www.transparenttextures.com/patterns/carbon-fibre.png');"></div>
 
     <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">
       <div class="grid lg:grid-cols-2 gap-16 items-center">
+
         <div>
           <span class="text-brand-accent font-bold uppercase tracking-[0.4em] text-xs mb-6 block">Est. 2012 • Thane, India</span>
           <h1 class="text-4xl md:text-8xl font-black text-brand-dark leading-[0.9] uppercase mb-8">
@@ -30,10 +31,16 @@ include 'includes/nav.php';
             </div>
           </div>
         </div>
+
         <div class="relative">
           <div class="absolute -inset-4 bg-brand-accentLight blur-3xl rounded-full opacity-60"></div>
-          <img src="/public/assets/images/3.jpg" class="rounded-[2rem] shadow-2xl shadow-brand-accent/10 relative z-10 border border-white" alt="Team Collaboration">
+
+          <video autoplay muted loop playsinline class="w-full h-auto rounded-[2rem] shadow-2xl shadow-brand-accent/10 relative z-10 border border-white object-cover">
+            <source src="/public/assets/video/vdo3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
+
       </div>
     </div>
   </section>
@@ -159,7 +166,7 @@ include 'includes/nav.php';
     </div>
   </section>
 
- <?php include 'views/website/includes/partners_carousel.php'; ?> 
+  <?php include 'views/website/includes/partners_carousel.php'; ?>
 
   <section class="py-24 max-md:py-14">
     <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4">

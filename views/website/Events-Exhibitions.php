@@ -7,15 +7,15 @@ include 'includes/nav.php';
 <body>
     <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden min-h-[85vh] flex items-center">
         <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1920&q=80"
-                class="w-full h-full object-cover opacity-20"
+            <img src="/public/assets/images/Events-Exhibitions-bg.png"
+                class="w-full h-full object-cover"
                 alt="Exhibition Stall Design">
 
-            <div class="absolute inset-0 bg-gradient-to-r from-brand-gray via-brand-gray/80 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-brand-gray via-brand-gray/60 to-transparent"></div>
 
-            <div class="absolute top-0 left-0 w-[600px] h-[600px] bg-brand-accent/10 blur-[150px] rounded-full -translate-x-1/2 -translate-y-1/2"></div>
-
-            <div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-brand-gray to-transparent"></div>
+            <!-- <div class="absolute top-0 left-0 w-[600px] h-[600px] bg-brand-accent/10 blur-[150px] rounded-full -translate-x-1/2 -translate-y-1/2"></div> -->
+            <div class="absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-black/50 to-transparent"></div>
+            <div class="absolute inset-x-0 top-0 h-44 bg-gradient-to-b from-black/50 to-transparent"></div>
         </div>
 
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">

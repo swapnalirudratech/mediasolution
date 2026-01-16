@@ -7,16 +7,18 @@ include 'includes/nav.php';
 <body>
     <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden min-h-[80vh] flex items-center">
         <div class="absolute inset-0 z-0">
-            <img src="/public/assets/images/9.avif"
-                class="w-full h-full object-cover opacity-20"
+            <img src="/public/assets/images/bg11.png"
+                class="w-full h-full object-cover"
                 alt="Billboard Skyline">
 
-            <div class="absolute inset-0 bg-gradient-to-r from-brand-gray via-brand-gray/80 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-brand-gray via-brand-gray/60 to-transparent"></div>
 
-            <div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-brand-gray to-transparent"></div>
+            <div class="absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-black/50 to-transparent"></div>
+            <div class="absolute inset-x-0 top-0 h-44 bg-gradient-to-b from-black/50 to-transparent"></div>
+
         </div>
 
-        <div class="absolute top-0 right-0 w-1/3 h-full bg-brand-accentLight/30 skew-x-12 transform translate-x-20 z-1"></div>
+        <!-- <div class="absolute top-0 right-0 w-1/3 h-full bg-brand-accentLight/30 skew-x-12 transform translate-x-20 z-1"></div> -->
 
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">
             <div class="max-w-3xl">
@@ -53,7 +55,7 @@ include 'includes/nav.php';
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="group relative overflow-hidden rounded-2xl bg-white border border-gray-200 p-8 hover:border-brand-accent/30 hover:shadow-xl shadow-gray-200/50 transition-all duration-500">
                     <div class="h-48 mb-6 overflow-hidden rounded-lg bg-gray-100">
-                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80" alt="Billboards" class="w-full h-full object-cover group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110">
+                        <img src="/public/assets/images/OOH-ser-1.png" alt="Billboards" class="w-full h-full object-cover group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110">
                     </div>
                     <h3 class="text-2xl font-bold text-brand-dark mb-3">Traditional Billboards</h3>
                     <ul class="text-gray-500 space-y-2 text-sm">
@@ -77,7 +79,7 @@ include 'includes/nav.php';
 
                 <div class="group relative overflow-hidden rounded-2xl bg-white border border-gray-200 p-8 hover:border-brand-accent/30 hover:shadow-xl shadow-gray-200/50 transition-all duration-500">
                     <div class="h-48 mb-6 overflow-hidden rounded-lg bg-gray-100">
-                        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80" alt="Transit" class="w-full h-full object-cover group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110">
+                        <img src="/public/assets/images/OOH-ser-2.png" alt="Transit" class="w-full h-full object-cover group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110">
                     </div>
                     <h3 class="text-2xl font-bold text-brand-dark mb-3">Transit Media</h3>
                     <ul class="text-gray-500 space-y-2 text-sm">
@@ -115,7 +117,7 @@ include 'includes/nav.php';
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 grid md:grid-cols-2 items-center gap-20">
             <div class="relative">
                 <div class="absolute -top-10 -left-10 w-40 h-40 border-t-2 border-l-2 border-brand-accent/30"></div>
-                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80" class="rounded-3xl shadow-2xl shadow-gray-300 relative z-10" alt="Campaign Planning">
+                <img src="/public/assets/images/3.jpg" class="rounded-3xl shadow-2xl shadow-gray-300 relative z-10" alt="Campaign Planning">
             </div>
 
             <div>

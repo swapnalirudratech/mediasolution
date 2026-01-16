@@ -7,15 +7,16 @@ include 'includes/nav.php';
 <body>
     <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden min-h-[85vh] flex items-center">
         <div class="absolute inset-0 z-0">
-            <img src="/public/assets/images/1.jpg"
-                class="w-full h-full object-cover opacity-20"
+            <img src="/public/assets/images/digital.png"
+                class="w-full h-full object-cover"
                 alt="Tech Infrastructure">
 
-            <div class="absolute inset-0 bg-gradient-to-r from-brand-gray via-brand-gray/90 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-brand-gray via-brand-gray/60 to-transparent"></div>
 
             <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#7c3aed 0.5px, transparent 0.5px); background-size: 30px 30px;"></div>
 
-            <div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-brand-gray to-transparent"></div>
+            <div class="absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-black/50 to-transparent"></div>
+            <div class="absolute inset-x-0 top-0 h-44 bg-gradient-to-b from-black/50 to-transparent"></div>
         </div>
 
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">
@@ -25,8 +26,8 @@ include 'includes/nav.php';
                 </div>
 
                 <h1 class="text-4xl md:text-8xl font-black text-brand-dark leading-none uppercase mb-8">
-                    Digital <span class="text-brand-accent">&</span> <br>
-                    <span class="relative">
+                    Digital <span class="text-transparent" style="-webkit-text-stroke: 1px #7c3aed;">&</span> <br>
+                    <span class="relative text-brand-accent">
                         Technology
                     </span>
                 </h1>
@@ -46,6 +47,8 @@ include 'includes/nav.php';
             </div>
         </div>
     </section>
+
+    
 
     <section id="solutions" class="py-24 max-md:py-14 bg-brand-gray">
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4">
@@ -100,6 +103,42 @@ include 'includes/nav.php';
         </div>
     </section>
 
+    <section class="py-12 bg-white">
+  <div class="container mx-auto px-4">
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <div class="group relative overflow-hidden rounded-xl shadow-lg cursor-pointer">
+        <img 
+          src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=800" 
+          alt="Service 1" 
+          class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
+        >
+        <div class="absolute inset-0 bg-black bg-opacity-0 transition-opacity duration-300 group-hover:bg-opacity-10"></div>
+      </div>
+
+      <div class="group relative overflow-hidden rounded-xl shadow-lg cursor-pointer">
+        <img 
+          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800" 
+          alt="Service 2" 
+          class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
+        >
+        <div class="absolute inset-0 bg-black bg-opacity-0 transition-opacity duration-300 group-hover:bg-opacity-10"></div>
+      </div>
+
+      <div class="group relative overflow-hidden rounded-xl shadow-lg cursor-pointer">
+        <img 
+          src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800" 
+          alt="Service 3" 
+          class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
+        >
+        <div class="absolute inset-0 bg-black bg-opacity-0 transition-opacity duration-300 group-hover:bg-opacity-10"></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
     <section class="py-24 max-md:py-14 bg-brand-light relative overflow-hidden">
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 grid lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -124,7 +163,7 @@ include 'includes/nav.php';
 
             <div class="relative">
                 <div class="absolute -inset-4 bg-brand-accent/10 blur-3xl rounded-full"></div>
-                
+
                 <div class="relative bg-white border border-gray-100 rounded-3xl p-8 shadow-2xl">
                     <div class="flex items-end gap-2 h-40 mb-6">
                         <div class="flex-1 bg-gray-100 h-[30%] rounded-t-lg transition-all hover:h-[80%] hover:bg-brand-accent"></div>
@@ -148,7 +187,7 @@ include 'includes/nav.php';
     <section class="py-24 max-md:py-14 bg-brand-gray">
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4">
             <div class="bg-gradient-to-br from-brand-light to-brand-accentLight/30 border-2 border-brand-accent/20 rounded-[3rem] p-8 md:p-20 text-center relative overflow-hidden shadow-lg">
-                
+
                 <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-brand-accent to-transparent opacity-30"></div>
 
                 <h2 class="text-3xl md:text-5xl font-black text-brand-dark uppercase mb-8">Upgrade Your Brand's <br><span class="text-brand-accent">Digital Intelligence</span></h2>
