@@ -203,7 +203,7 @@ include 'includes/nav.php';
 
                     <div class="prose prose-lg text-gray-600 mb-10">
                         <p>
-                            Founded in 2012, <strong>Media Solutions</strong> has evolved into one of India's most effective marketing communication companies. While our roots are deep in OOH (Out of Home), we have branched out to become a complete 360-degree agency.
+                            Founded in 2012, <strong>Mediaa Solutions</strong> has evolved into one of India's most effective marketing communication companies. While our roots are deep in OOH (Out of Home), we have branched out to become a complete 360-degree agency.
                         </p>
                         <p>
                             Located in Thane, we serve clients globally. We blend the massive reach of billboards with the precision of digital marketing and the engagement of BTL activities.
@@ -461,7 +461,7 @@ include 'includes/nav.php';
                     <div class="flex text-yellow-400 mb-6 text-sm gap-1">
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                     </div>
-                    <p class="text-gray-600 italic leading-relaxed mb-8 flex-grow">"Media Solutions executed our pan-India billboard campaign flawlessly. The prime locations they secured gave us visibility we didn't think was possible."</p>
+                    <p class="text-gray-600 italic leading-relaxed mb-8 flex-grow">"Mediaa Solutions executed our pan-India billboard campaign flawlessly. The prime locations they secured gave us visibility we didn't think was possible."</p>
                     <div class="flex items-center gap-4 border-t border-gray-100 pt-6">
                         <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-12 h-12 rounded-full ring-2 ring-gray-100">
                         <div>
@@ -490,7 +490,7 @@ include 'includes/nav.php';
                     <div class="flex text-yellow-400 mb-6 text-sm gap-1">
                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
                     </div>
-                    <p class="text-gray-600 italic leading-relaxed mb-8 flex-grow">"Professionalism at its peak. From the initial pitch to the final execution report, the team at Media Solutions kept us informed."</p>
+                    <p class="text-gray-600 italic leading-relaxed mb-8 flex-grow">"Professionalism at its peak. From the initial pitch to the final execution report, the team at Mediaa Solutions kept us informed."</p>
                     <div class="flex items-center gap-4 border-t border-gray-100 pt-6">
                         <img src="https://randomuser.me/api/portraits/men/86.jpg" class="w-12 h-12 rounded-full ring-2 ring-gray-100">
                         <div>

@@ -17,7 +17,7 @@ include 'includes/nav.php';
             The <span class="text-brand-accent">Agency</span> <br>Redefined.
           </h1>
           <p class="text-gray-600 text-lg leading-relaxed mb-10 border-l-2 border-brand-accent pl-8">
-            Media Solutions started with a single billboard and a bold vision. Today, we are a 360-degree engine driving growth for 300+ global brands.
+            Mediaa Solutions started with a single billboard and a bold vision. Today, we are a 360-degree engine driving growth for 300+ global brands.
           </p>
           <div class="flex items-center gap-8">
             <div class="text-center">
@@ -72,7 +72,7 @@ include 'includes/nav.php';
 
             <div class="space-y-6">
               <p class="text-gray-600 text-lg leading-relaxed">
-                At <span class="text-brand-accent font-bold">Media Solutions</span>, we operate at the intersection of traditional impact and modern innovation. What began in 2012 as a local OOH firm in Thane has transformed into a high-octane media engine capable of executing complex, pan-India campaigns with surgical precision.
+                At <span class="text-brand-accent font-bold">Mediaa Solutions</span>, we operate at the intersection of traditional impact and modern innovation. What began in 2012 as a local OOH firm in Thane has transformed into a high-octane media engine capable of executing complex, pan-India campaigns with surgical precision.
               </p>
 
               <p class="text-gray-600 leading-relaxed">
@@ -211,7 +211,7 @@ include 'includes/nav.php';
           </div>
 
           <p class="text-gray-600 text-base max-md:text-sm italic leading-relaxed mb-8 flex-grow">
-            "Media Solutions executed our pan-India billboard campaign flawlessly. The <span class="text-brand-dark font-bold">prime locations</span> they secured in Mumbai and Delhi gave us visibility we didn't think was possible within our budget."
+            "Mediaa Solutions executed our pan-India billboard campaign flawlessly. The <span class="text-brand-dark font-bold">prime locations</span> they secured in Mumbai and Delhi gave us visibility we didn't think was possible within our budget."
           </p>
 
           <div class="flex items-center pt-6 border-t border-gray-100">
@@ -251,7 +251,7 @@ include 'includes/nav.php';
           </div>
 
           <p class="text-gray-600 text-base max-md:text-sm italic leading-relaxed mb-8 flex-grow">
-            "Professionalism at its peak. From the initial pitch to the final execution report, the team at Media Solutions kept us informed. Their network in Thane and suburbs is unmatched."
+            "Professionalism at its peak. From the initial pitch to the final execution report, the team at Mediaa Solutions kept us informed. Their network in Thane and suburbs is unmatched."
           </p>
 
           <div class="flex items-center pt-6 border-t border-gray-100">

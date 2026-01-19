@@ -2,7 +2,7 @@
     <div class="w-[85vw] max-md:w-[90vw] mx-auto px-4 max-md:px-0 max-md:py-4 flex justify-between items-center h-20">
 
         <a href="/" class="font-display font-black text-3xl tracking-tighter uppercase group relative">
-            MEDIA <span class="text-brand-accent">SOLUTIONS</span>
+            MEDIAA <span class="text-brand-accent">SOLUTIONS</span>
             <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-accent group-hover:w-full transition-all duration-500"></span>
         </a>
 

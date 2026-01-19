@@ -11,7 +11,7 @@
      <div class="w-[80vw] max-md:w-[90vw] mx-auto px-0 sm:px-6 lg:px-8 relative z-10">
 
          <div class="py-12 max-md:py-4">
-             <p class="text-8xl max-md:text-4xl whitespace-nowrap text-white text-center mb-8 font-extrabold font-display">Media <span class="text-brand-accent">Solutions</span></p>
+             <p class="text-8xl max-md:text-4xl whitespace-nowrap text-white text-center mb-8 font-extrabold font-display">Mediaa <span class="text-brand-accent">Solutions</span></p>
              <div class="w-[50%] mx-auto h-[1px] bg-gradient-to-r from-transparent via-brand-accent to-transparent mb-8"></div>
          </div>
 
@@ -42,15 +42,15 @@
                          <i class="fas fa-envelope text-brand-accent"></i>
                          <a href="mailto:contact@mediasolutions.com" class="hover:text-white transition">contact@mediasolutions.com</a>
                      </li>
-                     <li class="flex items-center gap-3">
+                     <!-- <li class="flex items-center gap-3">
                          <i class="fas fa-globe text-brand-accent"></i>
                          <a href="http://www.mediasolutions.com" class="hover:text-white transition">www.mediasolutions.com</a>
-                     </li>
+                     </li> -->
                  </ul>
              </div>
 
              <div class="mb-12 max-md:mb-4 text-white">
-                 <h4 class="text-white font-display font-bold text-xl uppercase mb-6 tracking-wide">Media Solutions</h4>
+                 <h4 class="text-white font-display font-bold text-xl uppercase mb-6 tracking-wide">Mediaa Solutions</h4>
                  <p class="mb-6">
                      Driven by creativity, innovation, measurability, and sustainability. Connecting brands with audiences since 2012.
                  </p>
@@ -63,7 +63,7 @@
          </div>
 
          <div class="border-t border-gray-500 pt-8 flex flex-col md:flex-row justify-between items-center text-white">
-             <p class="max-md:text-center">&copy; <?= date('Y') ?> Media Solutions. All Rights Reserved.</p>
+             <p class="max-md:text-center">&copy; <?= date('Y') ?> Mediaa Solutions. All Rights Reserved.</p>
              <div class="space-x-4 mt-4 md:mt-0">
                  <a href="#" class="hover:text-white">Privacy Policy</a>
                  <a href="#" class="hover:text-white">Terms of Service</a>

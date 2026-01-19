@@ -34,7 +34,7 @@ include 'includes/nav.php';
                         <span class="w-8 h-px bg-brand-accent mr-4"></span> Our Location
                     </h4>
                     <div class="p-8 bg-brand-gray border border-gray-200 rounded-[2rem] transition-all group-hover:border-brand-accent/30 shadow-sm">
-                        <p class="text-brand-dark font-bold mb-2">Media Solutions HQ</p>
+                        <p class="text-brand-dark font-bold mb-2">Mediaa Solutions HQ</p>
                         <p class="text-gray-500 text-sm leading-relaxed mb-6">
                             Thane, Maharashtra, India<br>
                             Serving Brands Globally.
