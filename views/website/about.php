@@ -5,11 +5,11 @@ include 'includes/nav.php';
 ?>
 
 <body>
-  <section class="relative pt-44 max-md:pt-28 pb-32 bg-brand-gray overflow-hidden">
+  <section class="relative pt-44 max-md:pt-28 pb-32 max-md:pb-20 bg-brand-gray overflow-hidden">
     <div class="absolute inset-0 opacity-[0.05] pointer-events-none" style="background-image: url('https://www.transparenttextures.com/patterns/carbon-fibre.png');"></div>
 
     <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">
-      <div class="grid lg:grid-cols-2 gap-16 items-center">
+      <div class="grid lg:grid-cols-2 gap-16 max-md:gap-8 items-center">
 
         <div>
           <span class="text-brand-accent font-bold uppercase tracking-[0.4em] text-xs mb-6 block">Est. 2012 • Thane, India</span>
@@ -46,7 +46,7 @@ include 'includes/nav.php';
   </section>
 
   <section class="bg-brand-gray relative overflow-hidden">
-    <div class="w-[80%] h-[1px] bg-gradient-to-r from-transparent via-brand-accent to-transparent mb-8 mx-auto"></div>
+    <div class="w-[80%] h-[1px] bg-gradient-to-r from-transparent via-brand-accent to-transparent mx-auto"></div>
   </section>
 
   <section class="py-24 max-md:py-14 bg-brand-gray relative overflow-hidden">
@@ -67,15 +67,15 @@ include 'includes/nav.php';
         </div>
 
         <div class="lg:col-span-8">
-          <div class="bg-white border border-gray-200 p-6 md:p-12 rounded-[3rem] shadow-xl shadow-gray-200/50">
+          <div class="bg-white border border-gray-200 p-6 md:p-12 rounded-[3rem] max-md:rounded-xl shadow-xl shadow-gray-200/50">
             <h3 class="text-2xl font-bold text-brand-dark mb-8">Who We Are</h3>
 
             <div class="space-y-6">
-              <p class="text-gray-600 text-lg leading-relaxed">
+              <p class="text-gray-600 text-lg max-md:text-base leading-relaxed">
                 At <span class="text-brand-accent font-bold">Mediaa Solutions</span>, we operate at the intersection of traditional impact and modern innovation. What began in 2012 as a local OOH firm in Thane has transformed into a high-octane media engine capable of executing complex, pan-India campaigns with surgical precision.
               </p>
 
-              <p class="text-gray-600 leading-relaxed">
+              <p class="text-gray-600 max-md:text-base leading-relaxed">
                 We recognize that today's consumer is constantly moving between worlds. Our expertise lies in capturing that movement. We don't just secure "space"—we secure "attention." By integrating premium Outdoor assets with cutting-edge DOOH, experiential BTL activations, and performance-led digital strategies, we provide a unified brand voice across every touchpoint.
               </p>
 
@@ -178,7 +178,7 @@ include 'includes/nav.php';
           <p class="text-white/80 font-bold mb-12 max-md:mb-6 max-w-xl max-md:text-sm italic">"We are more than just a vendor; we are your strategic communication partner. Let's build something unforgettable together."</p>
           <div class="flex flex-col sm:flex-row gap-4">
             <a href="/contact" class="px-12 py-5 bg-white text-brand-accent font-black uppercase text-xs tracking-[0.2em] rounded-full hover:scale-105 transition-all">Work With Us</a>
-            <a href="/services" class="px-12 py-5 border-2 border-white text-white font-black uppercase text-xs tracking-[0.2em] rounded-full hover:bg-white hover:text-brand-accent transition-all">Explore Services</a>
+            <a href="/work" class="px-12 py-5 border-2 border-white text-white font-black uppercase text-xs tracking-[0.2em] rounded-full hover:bg-white hover:text-brand-accent transition-all">Explore Services</a>
           </div>
         </div>
       </div>

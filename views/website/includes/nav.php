@@ -104,17 +104,17 @@
         </button>
     </div>
 
-    <div id="mobile-menu" class="fixed inset-0 bg-white h-screen z-50 translate-x-full transition-transform duration-500 ease-in-out md:hidden flex flex-col p-8 pt-24 space-y-6 overflow-y-auto">
+    <div id="mobile-menu" class="fixed inset-0 bg-white h-screen z-50 translate-x-full transition-transform duration-500 ease-in-out md:hidden flex flex-col p-8 pt-10 space-y-5 overflow-y-auto">
 
-        <div class="flex flex-col gap-4 border-b border-gray-100 pb-6">
-            <a href="/" class="text-4xl font-black uppercase tracking-tighter text-brand-dark hover:text-brand-accent transition">Home</a>
-            <a href="/about" class="text-4xl font-black uppercase tracking-tighter text-brand-dark hover:text-brand-accent transition">About</a>
-            <a href="/work" class="text-4xl font-black uppercase tracking-tighter text-brand-dark hover:text-brand-accent transition">Work</a>
+        <div class="flex flex-col gap-2 border-b border-gray-100 pb-5">
+            <a href="/" class="text-2xl font-black uppercase tracking-tighter text-brand-dark hover:text-brand-accent transition">Home</a>
+            <a href="/about" class="text-2xl font-black uppercase tracking-tighter text-brand-dark hover:text-brand-accent transition">About</a>
+            <a href="/work" class="text-2xl font-black uppercase tracking-tighter text-brand-dark hover:text-brand-accent transition">Work</a>
         </div>
 
-        <p class="text-xs font-bold uppercase tracking-widest text-gray-400 mt-4">Our Services</p>
+        <p class="text-2xl font-bold uppercase tracking-widest text-brand-dark mt-4">Our Services</p>
 
-        <div class="grid grid-cols-1 gap-4">
+        <div class="grid grid-cols-1">
             <a href="/OOH-and-DOOH-Services" class="group flex items-center p-3 rounded-xl hover:bg-gray-50 transition">
                 <div class="w-12 h-12 rounded-xl bg-brand-accent/10 flex items-center justify-center text-brand-accent group-hover:bg-brand-accent group-hover:text-white transition-colors">
                     <i class="fas fa-city text-xl"></i>
@@ -166,7 +166,7 @@
             </a>
         </div>
 
-        <a href="/contact" class="bg-brand-dark text-white text-center py-4 rounded-full font-bold uppercase tracking-widest mt-auto shadow-lg shadow-brand-dark/20">
+        <a href="/contact" class="bg-brand-accent text-white text-center py-2.5 rounded-full font-bold uppercase tracking-widest mt-auto shadow-lg shadow-brand-dark/20">
             Start Project <i class="fas fa-arrow-right ml-2"></i>
         </a>
     </div>

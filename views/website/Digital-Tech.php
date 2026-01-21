@@ -5,7 +5,7 @@ include 'includes/nav.php';
 ?>
 
 <body>
-    <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden min-h-[85vh] flex items-center">
+    <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden h-[85vh] max-md:h-[60vh] flex items-center">
         <div class="absolute inset-0 z-0">
             <img src="/public/assets/images/digital.png"
                 class="w-full h-full object-cover"
@@ -21,7 +21,7 @@ include 'includes/nav.php';
 
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">
             <div class="max-w-3xl">
-                <div class="inline-block px-4 py-1.5 border border-brand-accent/30 rounded-full bg-brand-accent/10 mb-8">
+                <div class="inline-block max-md:hidden px-4 py-1.5 border border-brand-accent/30 rounded-full bg-brand-accent/10 mb-8">
                     <span class="text-brand-accent font-bold uppercase tracking-widest text-[10px]">Data-Driven Brand Growth</span>
                 </div>
 
@@ -32,15 +32,15 @@ include 'includes/nav.php';
                     </span>
                 </h1>
 
-                <p class="text-gray-600 text-sm md:text-xl leading-relaxed mb-12 border-l-4 border-brand-accent pl-6 max-md:pl-4">
+                <p class="text-gray-600 max-md:hidden text-sm md:text-xl leading-relaxed mb-12 border-l-4 border-brand-accent pl-6 max-md:pl-4">
                     Bridging the gap between traditional OOH and modern performance marketing with measurable, result-oriented tech solutions.
                 </p>
 
                 <div class="flex flex-wrap gap-6">
-                    <a href="/services" class="px-10 py-4 bg-brand-accent text-white font-bold uppercase text-[10px] tracking-widest rounded-full hover:scale-105 hover:shadow-[0_0_30px_rgba(124,58,237,0.4)] transition-all">
+                    <a href="/work" class="px-10 py-4 max-md:py-2 max-md:text-sm max-md:px-6 bg-brand-accent text-white font-bold uppercase text-[10px] tracking-widest rounded-full hover:scale-105 hover:shadow-[0_0_30px_rgba(124,58,237,0.4)] transition-all">
                         Our Tech Stack
                     </a>
-                    <a href="/contact" class="px-10 py-4 border border-brand-dark/20 text-brand-dark font-bold uppercase text-[10px] tracking-widest rounded-full hover:bg-brand-dark hover:text-white transition backdrop-blur-sm">
+                    <a href="/contact" class="px-10 py-4 max-md:hidden border border-brand-dark/20 text-brand-dark font-bold uppercase text-[10px] tracking-widest rounded-full hover:bg-brand-dark hover:text-white transition backdrop-blur-sm">
                         Get Started
                     </a>
                 </div>
@@ -195,7 +195,7 @@ include 'includes/nav.php';
 
                 <div class="flex flex-col sm:flex-row justify-center gap-4">
                     <a href="/contact" class="px-12 py-5 max-md:py-3 bg-brand-accent text-white font-black uppercase text-sm tracking-widest rounded-full hover:scale-105 transition-all shadow-lg shadow-brand-accent/20">Start My Audit</a>
-                    <a href="/services" class="px-12 py-5 max-md:py-3 border border-brand-dark/10 text-brand-dark font-black uppercase text-sm tracking-widest rounded-full hover:bg-brand-dark hover:text-white transition-all">View Case Studies</a>
+                    <a href="/work" class="px-12 py-5 max-md:py-3 border border-brand-dark/10 text-brand-dark font-black uppercase text-sm tracking-widest rounded-full hover:bg-brand-dark hover:text-white transition-all">View Case Studies</a>
                 </div>
             </div>
         </div>

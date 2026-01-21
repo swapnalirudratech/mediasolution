@@ -5,7 +5,7 @@ include 'includes/nav.php';
 ?>
 
 <body>
-    <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden min-h-[80vh] flex items-center">
+    <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden h-[85vh] max-md:h-[60vh] flex items-center">
         <div class="absolute inset-0 z-0">
             <img src="/public/assets/images/bg11.png"
                 class="w-full h-full object-cover"
@@ -22,22 +22,22 @@ include 'includes/nav.php';
 
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">
             <div class="max-w-3xl">
-                <span class="text-brand-accent font-bold uppercase tracking-[0.3em] text-sm mb-4 block">Dominating the Skyline</span>
+                <span class="text-brand-accent max-md:hidden font-bold uppercase tracking-[0.3em] text-sm md:text-xs mb-4 block">Dominating the Skyline</span>
 
                 <h1 class="text-4xl md:text-8xl font-black text-brand-dark leading-none uppercase mb-8">
                     OOH <span class="text-transparent" style="-webkit-text-stroke: 1px #7c3aed;">&</span> <br>
                     <span class="text-brand-accent">DOOH</span>
                 </h1>
 
-                <p class="text-gray-600 text-xl max-md:text-sm leading-relaxed mb-10 border-l-4 border-brand-accent pl-6 max-md:pl-4">
+                <p class="text-gray-600 max-md:hidden text-xl max-md:text-sm leading-relaxed mb-10 border-l-4 border-brand-accent pl-6 max-md:pl-4">
                     From prime billboards to high-tech digital screens at India's highest traffic locations. We don't just place ads; we claim territory.
                 </p>
 
                 <div class="flex flex-wrap gap-4">
-                    <a href="/services" class="px-8 py-4 bg-brand-accent text-white font-bold uppercase text-xs tracking-widest rounded-full hover:scale-105 hover:shadow-[0_0_30px_rgba(124,58,237,0.4)] transition-all">
+                    <a href="/work" class="px-8 py-4 max-md:py-2 max-md:text-sm max-md:px-6 bg-brand-accent text-white font-bold uppercase text-xs tracking-widest rounded-full hover:scale-105 hover:shadow-[0_0_30px_rgba(124,58,237,0.4)] transition-all">
                         Explore Inventory
                     </a>
-                    <a href="/contact" class="px-8 py-4 border border-brand-accent text-brand-accent font-bold uppercase text-xs tracking-widest rounded-full hover:bg-brand-accent hover:text-white transition backdrop-blur-sm">
+                    <a href="/contact" class="px-8 py-4 max-md:hidden border border-brand-accent text-brand-accent font-bold uppercase text-xs tracking-widest rounded-full hover:bg-brand-accent hover:text-white transition backdrop-blur-sm">
                         Get Started
                     </a>
                 </div>
@@ -53,7 +53,7 @@ include 'includes/nav.php';
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="group relative overflow-hidden rounded-2xl bg-white border border-gray-200 p-8 hover:border-brand-accent/30 hover:shadow-xl shadow-gray-200/50 transition-all duration-500">
+                <div class="group relative overflow-hidden rounded-2xl bg-white border border-gray-200 p-8 max-md:p-5 hover:border-brand-accent/30 hover:shadow-xl shadow-gray-200/50 transition-all duration-500">
                     <div class="h-48 mb-6 overflow-hidden rounded-lg bg-gray-100">
                         <img src="/public/assets/images/OOH-ser-1.png" alt="Billboards" class="w-full h-full object-cover group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110">
                     </div>
@@ -65,7 +65,7 @@ include 'includes/nav.php';
                     </ul>
                 </div>
 
-                <div class="group relative overflow-hidden rounded-2xl bg-brand-accent p-8 shadow-[0_20px_50px_rgba(124,58,237,0.3)] transition-all duration-500 transform md:-translate-y-4">
+                <div class="group relative overflow-hidden rounded-2xl bg-brand-accent p-8 max-md:p-5 shadow-[0_20px_50px_rgba(124,58,237,0.3)] transition-all duration-500 transform md:-translate-y-4">
                     <div class="h-48 mb-6 overflow-hidden rounded-lg bg-black/20">
                         <img src="https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?auto=format&fit=crop&w=800&q=80" alt="Digital OOH" class="w-full h-full object-cover transition-all duration-700">
                     </div>
@@ -77,7 +77,7 @@ include 'includes/nav.php';
                     </ul>
                 </div>
 
-                <div class="group relative overflow-hidden rounded-2xl bg-white border border-gray-200 p-8 hover:border-brand-accent/30 hover:shadow-xl shadow-gray-200/50 transition-all duration-500">
+                <div class="group relative overflow-hidden rounded-2xl bg-white border border-gray-200 p-8 max-md:p-5 hover:border-brand-accent/30 hover:shadow-xl shadow-gray-200/50 transition-all duration-500">
                     <div class="h-48 mb-6 overflow-hidden rounded-lg bg-gray-100">
                         <img src="/public/assets/images/OOH-ser-2.png" alt="Transit" class="w-full h-full object-cover group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110">
                     </div>

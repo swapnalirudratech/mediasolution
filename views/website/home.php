@@ -96,7 +96,7 @@ include 'includes/nav.php';
 
 <body class="bg-brand-gray text-gray-600 font-sans selection:bg-brand-accent selection:text-white">
 
-    <div class="hero-bg h-[90vh] flex items-center justify-center text-white relative overflow-hidden bg-gray-900">
+    <div class="hero-bg h-[90vh] max-md:h-[60vh] flex items-center justify-center text-white relative overflow-hidden bg-gray-900">
 
         <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover opacity-60">
             <source src="/public/assets/video/bg-vdo.mp4" type="video/mp4">
@@ -107,14 +107,14 @@ include 'includes/nav.php';
 
         <div class="relative z-10 text-center px-4 max-w-7xl mx-auto">
 
-            <div class="inline-flex items-center gap-2 mb-8 px-5 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-md animate-fade-in-up shadow-[0_0_20px_rgba(255,255,255,0.1)]">
+            <div class="inline-flex items-center gap-2 mb-8 max-md:mt-10 px-5 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-md animate-fade-in-up shadow-[0_0_20px_rgba(255,255,255,0.1)]">
                 <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
                 <span class="text-gray-300 font-bold tracking-[0.2em] text-xs uppercase">
                     Now Streaming
                 </span>
             </div>
 
-            <h1 class="text-6xl md:text-7xl lg:text-8xl font-black leading-[0.95] mb-8 tracking-tighter">
+            <h1 class="text-4xl md:text-7xl lg:text-8xl font-black leading-[0.95] mb-8 tracking-tighter">
                 <span class="block text-white drop-shadow-lg">
                     ICONIC <span class="text-transparent" style="-webkit-text-stroke: 1px #ffffff;">OOH</span>
                 </span>
@@ -126,13 +126,14 @@ include 'includes/nav.php';
                 </span>
             </h1>
 
-            <p class="text-lg md:text-xl text-white max-w-4xl mx-auto mb-12 font-light leading-relaxed text-balance">
+            <p class="text-lg md:text-xl text-white max-w-4xl mx-auto mb-12 font-light leading-relaxed text-balance max-md:hidden">
                 We blend the <strong>massive scale of OOH</strong> with the <strong>programmatic precision of DOOH</strong>.
                 Dominate city skylines and cinema screens with <span class="text-white border-b border-brand-accent/50 pb-0.5">campaigns that are impossible to ignore</span>.
             </p>
 
             <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
-                <a href="/contact" class="bg-brand-accent text-white px-8 py-3 group rounded-full text-sm font-bold uppercase tracking-widest hover:bg-brand-accent/90 hover:shadow-lg hover:shadow-brand-accent/30 transition-all transform hover:-translate-y-0.5">
+                <a href="/contact" 
+                class="bg-brand-accent text-white px-8 py-3 group rounded-full text-sm font-bold uppercase tracking-widest hover:bg-brand-accent/90 hover:shadow-lg hover:shadow-brand-accent/30 transition-all transform hover:-translate-y-0.5">
                     Start Your Campaign
                     <i class="fas fa-arrow-right ml-2 -rotate-45 group-hover:rotate-0 transition text-white"></i>
                 </a>
@@ -157,43 +158,43 @@ include 'includes/nav.php';
         }
     </style>
 
-    <div class="relative py-8 overflow-hidden bg-white border-b border-gray-100">
-        <div class="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-white to-transparent z-20"></div>
-        <div class="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-white to-transparent z-20"></div>
+    <div class="relative py-8 max-md:py-4 overflow-hidden bg-white border-b border-gray-100">
+        <div class="absolute inset-y-0 left-0 w-32 max-md:w-16 bg-gradient-to-r from-white to-transparent z-20"></div>
+        <div class="absolute inset-y-0 right-0 w-32 max-md:w-16 bg-gradient-to-l from-white to-transparent z-20"></div>
 
         <div class="flex whitespace-nowrap animate-scroll w-max items-center">
             <div class="flex items-center">
-                <span class="px-12 text-brand-dark text-4xl font-black uppercase tracking-tighter">OOH & DOOH</span>
+                <span class="px-12 max-md:px-5 text-brand-dark text-4xl max-md:text-2xl font-black uppercase tracking-tighter">OOH & DOOH</span>
                 <i class="fas fa-star text-brand-accent text-xl"></i>
-                <span class="px-12 text-gray-300 text-4xl font-black uppercase tracking-tighter italic">Cinema Ads</span>
+                <span class="px-12 max-md:px-5 text-gray-300 text-4xl max-md:text-2xl font-black uppercase tracking-tighter italic">Cinema Ads</span>
                 <i class="fas fa-circle text-xs text-gray-300"></i>
-                <span class="px-12 text-stroke-dark text-4xl font-black uppercase tracking-tighter">BTL Activations</span>
+                <span class="px-12 max-md:px-5 text-stroke-dark text-4xl max-md:text-2xl font-black uppercase tracking-tighter">BTL Activations</span>
                 <i class="fas fa-star text-brand-accent text-xl"></i>
-                <span class="px-12 text-brand-dark text-4xl font-black uppercase tracking-tighter">Digital Tech</span>
+                <span class="px-12 max-md:px-5 text-brand-dark text-4xl max-md:text-2xl font-black uppercase tracking-tighter">Digital Tech</span>
                 <i class="fas fa-circle text-xs text-gray-300"></i>
-                <span class="px-12 text-gray-300 text-4xl font-black uppercase tracking-tighter italic">Events</span>
+                <span class="px-12 max-md:px-5 text-gray-300 text-4xl max-md:text-2xl font-black uppercase tracking-tighter italic">Events</span>
                 <i class="fas fa-star text-brand-accent text-xl"></i>
-                <span class="px-12 text-stroke-dark text-4xl font-black uppercase tracking-tighter">Media Buying</span>
+                <span class="px-12 max-md:px-5 text-stroke-dark text-4xl max-md:text-2xl font-black uppercase tracking-tighter">Media Buying</span>
             </div>
             <div class="flex items-center">
-                <span class="px-12 text-brand-dark text-4xl font-black uppercase tracking-tighter">OOH & DOOH</span>
+                <span class="px-12 max-md:px-5 text-brand-dark text-4xl max-md:text-2xl font-black uppercase tracking-tighter">OOH & DOOH</span>
                 <i class="fas fa-star text-brand-accent text-xl"></i>
-                <span class="px-12 text-gray-300 text-4xl font-black uppercase tracking-tighter italic">Cinema Ads</span>
+                <span class="px-12 max-md:px-5 text-gray-300 text-4xl max-md:text-2xl font-black uppercase tracking-tighter italic">Cinema Ads</span>
                 <i class="fas fa-circle text-xs text-gray-300"></i>
-                <span class="px-12 text-stroke-dark text-4xl font-black uppercase tracking-tighter">BTL Activations</span>
+                <span class="px-12 max-md:px-5 text-stroke-dark text-4xl max-md:text-2xl font-black uppercase tracking-tighter">BTL Activations</span>
                 <i class="fas fa-star text-brand-accent text-xl"></i>
-                <span class="px-12 text-brand-dark text-4xl font-black uppercase tracking-tighter">Digital Tech</span>
+                <span class="px-12 max-md:px-5 text-brand-dark text-4xl max-md:text-2xl font-black uppercase tracking-tighter">Digital Tech</span>
                 <i class="fas fa-circle text-xs text-gray-300"></i>
-                <span class="px-12 text-gray-300 text-4xl font-black uppercase tracking-tighter italic">Events</span>
+                <span class="px-12 max-md:px-5 text-gray-300 text-4xl max-md:text-2xl font-black uppercase tracking-tighter italic">Events</span>
                 <i class="fas fa-star text-brand-accent text-xl"></i>
-                <span class="px-12 text-stroke-dark text-4xl font-black uppercase tracking-tighter">Media Buying</span>
+                <span class="px-12 max-md:px-5 text-stroke-dark text-4xl max-md:text-2xl font-black uppercase tracking-tighter">Media Buying</span>
             </div>
         </div>
     </div>
 
-    <section class="py-24 bg-white relative">
+    <section class="py-24 max-md:py-12 bg-white relative">
         <div class="w-[85vw] max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 max-md:gap-8 items-start">
 
                 <div class="lg:col-span-7">
                     <span class="text-brand-accent font-bold uppercase tracking-widest text-sm mb-2 block">Who We Are</span>
@@ -217,23 +218,23 @@ include 'includes/nav.php';
 
                 <div class="lg:col-span-5 w-full" id="stats-section">
                     <div class="grid grid-cols-2 gap-4">
-                        <div class="bg-brand-gray p-8 rounded-2xl border border-gray-100 hover:border-brand-accent/30 transition group">
-                            <h3 class="text-5xl font-black text-brand-dark mb-1 counter" data-target="12">0</h3>
+                        <div class="bg-brand-gray p-8 max-md:p-5 rounded-2xl border border-gray-100 hover:border-brand-accent/30 transition group">
+                            <h3 class="text-5xl max-md:text-3xl font-black text-brand-dark mb-1 counter" data-target="12">0</h3>
                             <p class="text-xs font-bold text-gray-400 uppercase tracking-widest group-hover:text-brand-accent transition">Years Exp.</p>
                         </div>
 
-                        <div class="bg-brand-accent text-white p-8 rounded-2xl shadow-xl shadow-brand-accent/20 transform translate-y-4">
-                            <h3 class="text-5xl font-black mb-1 counter" data-target="500">0</h3>
+                        <div class="bg-brand-accent text-white p-8 max-md:p-5 rounded-2xl shadow-xl shadow-brand-accent/20 transform translate-y-4">
+                            <h3 class="text-5xl max-md:text-3xl font-black mb-1 counter" data-target="500">0</h3>
                             <p class="text-xs font-bold text-white/80 uppercase tracking-widest">Campaigns</p>
                         </div>
 
-                        <div class="bg-brand-gray p-8 rounded-2xl border border-gray-100 hover:border-brand-accent/30 transition group">
-                            <h3 class="text-5xl font-black text-brand-dark mb-1 counter" data-target="100">0</h3>
+                        <div class="bg-brand-gray p-8 max-md:p-5 rounded-2xl border border-gray-100 hover:border-brand-accent/30 transition group">
+                            <h3 class="text-5xl max-md:text-3xl font-black text-brand-dark mb-1 counter" data-target="100">0</h3>
                             <p class="text-xs font-bold text-gray-400 uppercase tracking-widest group-hover:text-brand-accent transition">Pan India %</p>
                         </div>
 
-                        <div class="bg-brand-gray p-8 rounded-2xl border border-gray-100 hover:border-brand-accent/30 transition group transform translate-y-4">
-                            <h3 class="text-5xl font-black text-brand-dark mb-1 counter" data-target="24">0</h3>
+                        <div class="bg-brand-gray p-8 max-md:p-5 rounded-2xl border border-gray-100 hover:border-brand-accent/30 transition group transform translate-y-4">
+                            <h3 class="text-5xl max-md:text-3xl font-black text-brand-dark mb-1 counter" data-target="24">0</h3>
                             <p class="text-xs font-bold text-gray-400 uppercase tracking-widest group-hover:text-brand-accent transition">Support</p>
                         </div>
                     </div>
@@ -242,7 +243,7 @@ include 'includes/nav.php';
         </div>
     </section>
 
-    <section class="py-24 bg-brand-gray">
+    <section class="py-24 max-md:py-12 bg-brand-gray">
         <div class="w-[85vw] max-w-7xl mx-auto">
             <div class="text-center max-w-3xl mx-auto mb-20">
                 <span class="bg-brand-accent/10 text-brand-accent px-4 py-2 rounded-full text-xs font-bold uppercase tracking-widest">Our Expertise</span>
@@ -320,7 +321,7 @@ include 'includes/nav.php';
         </div>
     </section>
 
-    <section class="py-24 bg-white">
+    <section class="py-24 max-md:py-12 bg-white">
         <div class="w-[85vw] max-w-7xl mx-auto">
             <div class="flex justify-between items-end mb-12">
                 <div>
@@ -331,17 +332,17 @@ include 'includes/nav.php';
 
             <div class="ad-grid">
                 <div class="grid-span-2 grid-row-2 relative rounded-3xl overflow-hidden group cursor-pointer">
-                    <img src="/public/assets/images/Billboards.png" alt="Billboard" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <img src="/public/assets/images/Billboards.png" alt="Billboard" class="w-full h-full max-md:h-[40vh] object-cover transition duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
                     <div class="absolute bottom-0 left-0 p-8">
                         <span class="bg-brand-accent text-white px-3 py-1 rounded text-xs font-bold uppercase mb-3 inline-block">Premium</span>
-                        <h3 class="text-white text-3xl font-bold uppercase mb-2">Large Format Billboards</h3>
+                        <h3 class="text-white text-3xl max-md:text-xl font-bold uppercase mb-2">Large Format Billboards</h3>
                         <p class="text-gray-300 text-sm max-w-sm">Unmissable impact on major highways and arterials.</p>
                     </div>
                 </div>
 
                 <div class="relative rounded-3xl overflow-hidden group cursor-pointer min-h-[250px]">
-                    <img src="/public/assets/images/Bus-Shelters.png" alt="Bus Shelter" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <img src="/public/assets/images/Bus-Shelters.png" alt="Bus Shelter" class="w-full h-full max-md:h-[40vh] object-cover transition duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition duration-500"></div>
                     <div class="absolute bottom-0 left-0 p-6">
                         <h3 class="text-white text-xl font-bold uppercase">Bus Shelters</h3>
@@ -349,7 +350,7 @@ include 'includes/nav.php';
                 </div>
 
                 <div class="relative rounded-3xl overflow-hidden group cursor-pointer min-h-[250px]">
-                    <img src="/public/assets/images/Mall-Media.png" alt="Mall Media" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <img src="/public/assets/images/Mall-Media.png" alt="Mall Media" class="w-full h-full max-md:h-[40vh] object-cover transition duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition duration-500"></div>
                     <div class="absolute bottom-0 left-0 p-6">
                         <h3 class="text-white text-xl font-bold uppercase">Mall Media</h3>
@@ -357,7 +358,7 @@ include 'includes/nav.php';
                 </div>
 
                 <div class="grid-span-2 relative rounded-3xl overflow-hidden group cursor-pointer bg-brand-dark min-h-[250px]">
-                    <img src="/public/assets/images/b3.jpg" alt="Digital Screens" class="w-full h-full object-cover opacity-60 transition duration-700 group-hover:scale-110 group-hover:opacity-40">
+                    <img src="/public/assets/images/b3.jpg" alt="Digital Screens" class="w-full h-full max-md:h-[40vh] object-cover opacity-60 transition duration-700 group-hover:scale-110 group-hover:opacity-40">
                     <div class="absolute bottom-0 left-0 p-8 w-full">
                         <div class="flex items-center justify-between">
                             <div>
@@ -369,7 +370,7 @@ include 'includes/nav.php';
                 </div>
 
                 <div class="relative rounded-3xl overflow-hidden group cursor-pointer min-h-[250px]">
-                    <img src="/public/assets/images/airport.png" alt="Airport Media" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <img src="/public/assets/images/airport.png" alt="Airport Media" class="w-full h-full max-md:h-[40vh] object-cover transition duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition duration-500"></div>
                     <div class="absolute bottom-0 left-0 p-6">
                         <h3 class="text-white text-xl font-bold uppercase">Airport Media</h3>
@@ -388,7 +389,7 @@ include 'includes/nav.php';
                     </div>
                 </div>
                 <div class="relative rounded-3xl overflow-hidden group cursor-pointer min-h-[250px]">
-                    <img src="/public/assets/images/btl-img-3.png" alt="Transit Advertising" class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+                    <img src="/public/assets/images/btl-img-3.png" alt="Transit Advertising" class="w-full h-full max-md:h-[40vh] object-cover transition duration-700 group-hover:scale-110">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition duration-500"></div>
                     <div class="absolute bottom-0 left-0 p-6">
                         <h3 class="text-white text-xl font-bold uppercase">Transit Ads</h3>
@@ -398,7 +399,7 @@ include 'includes/nav.php';
         </div>
     </section>
 
-    <section class="py-24 bg-brand-gray">
+    <section class="py-24 max-md:py-12 bg-brand-gray">
         <div class="w-[85vw] max-w-7xl mx-auto">
             <div class="flex flex-col md:flex-row justify-between md:items-end mb-16">
                 <div>
@@ -413,7 +414,7 @@ include 'includes/nav.php';
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="group cursor-pointer">
                     <div class="rounded-2xl overflow-hidden mb-5 relative shadow-lg">
-                        <img src="/public/assets/images/1.jpg" alt="Billboard" class="w-full h-80 object-cover transition duration-700 group-hover:scale-105">
+                        <img src="/public/assets/images/1.jpg" alt="Billboard" class="w-full h-80 max-md:h-40 object-cover transition duration-700 group-hover:scale-105">
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded text-xs font-bold uppercase tracking-wider">OOH Campaign</div>
                     </div>
                     <h3 class="text-2xl font-bold text-brand-dark mb-2 group-hover:text-brand-accent transition">Fashion Week City Launch</h3>
@@ -422,7 +423,7 @@ include 'includes/nav.php';
 
                 <div class="group cursor-pointer">
                     <div class="rounded-2xl overflow-hidden mb-5 relative shadow-lg">
-                        <img src="/public/assets/images/3.jpg" alt="Meeting" class="w-full h-80 object-cover transition duration-700 group-hover:scale-105">
+                        <img src="/public/assets/images/3.jpg" alt="Meeting" class="w-full h-80 max-md:h-40 object-cover transition duration-700 group-hover:scale-105">
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded text-xs font-bold uppercase tracking-wider">Event</div>
                     </div>
                     <h3 class="text-2xl font-bold text-brand-dark mb-2 group-hover:text-brand-accent transition">Corporate Summit 2024</h3>
@@ -431,7 +432,7 @@ include 'includes/nav.php';
 
                 <div class="group cursor-pointer">
                     <div class="rounded-2xl overflow-hidden mb-5 relative shadow-lg">
-                        <img src="/public/assets/images/7.avif" alt="Digital" class="w-full h-80 object-cover transition duration-700 group-hover:scale-105">
+                        <img src="/public/assets/images/7.avif" alt="Digital" class="w-full h-80 max-md:h-40 object-cover transition duration-700 group-hover:scale-105">
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded text-xs font-bold uppercase tracking-wider">Digital & BTL</div>
                     </div>
                     <h3 class="text-2xl font-bold text-brand-dark mb-2 group-hover:text-brand-accent transition">Product Activation</h3>
@@ -447,7 +448,7 @@ include 'includes/nav.php';
         </div>
     </section>
 
-    <section class="py-24 bg-white relative overflow-hidden">
+    <section class="py-24 max-md:py-12 bg-white relative overflow-hidden">
         <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-brand-accentLight/30 rounded-full blur-[120px] translate-x-1/2 -translate-y-1/2 opacity-50"></div>
         <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-blue-100/50 rounded-full blur-[100px] -translate-x-1/2 translate-y-1/2"></div>
 
@@ -503,7 +504,7 @@ include 'includes/nav.php';
         </div>
     </section>
 
-    <section class="py-24 bg-white relative overflow-hidden">
+    <section class="py-24 max-md:py-12 bg-white relative overflow-hidden">
         <div class="absolute left-0 top-1/2 -translate-y-1/2 w-full h-[1px] bg-gray-100 hidden"></div>
 
         <div class="w-[85vw] max-w-7xl mx-auto relative z-10">
@@ -512,7 +513,7 @@ include 'includes/nav.php';
                     <span class="text-brand-accent font-bold uppercase tracking-widest text-sm mb-2 block">The Workflow</span>
                     <h2 class="text-4xl font-black text-brand-dark">FROM BRIEF TO <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-purple-600">BLOCKBUSTER</span></h2>
                 </div>
-                <p class="text-gray-500 max-w-md mt-4 md:mt-0 text-right md:text-left">
+                <p class="text-gray-500 max-w-md mt-4 md:mt-0 text-right max-md:text-left">
                     We don't guess. We map. A data-backed approach to ensure every rupee spent converts into visibility.
                 </p>
             </div>
@@ -545,7 +546,7 @@ include 'includes/nav.php';
         </div>
     </section>
 
-    <section class="py-24 bg-brand-dark relative overflow-hidden">
+    <section class="py-24 max-md:py-12 bg-brand-dark relative overflow-hidden">
         <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-accent/10 rounded-full blur-[100px] translate-x-1/2 -translate-y-1/2"></div>
 
         <div class="w-[85vw] max-w-7xl mx-auto relative z-10">

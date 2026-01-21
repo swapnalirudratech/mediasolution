@@ -5,7 +5,7 @@ include 'includes/nav.php';
 ?>
 
 <body>
-    <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden min-h-[85vh] flex items-center">
+    <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden h-[85vh] max-md:h-[60vh] flex items-center">
         <div class="absolute inset-0 z-0">
             <img src="/public/assets/images/btl-bg-2.png"
                 class="w-full h-full object-cover"
@@ -23,22 +23,22 @@ include 'includes/nav.php';
 
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">
             <div class="max-w-4xl">
-                <span class="text-brand-accent font-bold uppercase tracking-[0.3em] text-xs mb-6 block">Direct Consumer Engagement</span>
+                <span class="text-brand-accent max-md:hidden font-bold uppercase tracking-[0.3em] text-xs mb-6 block">Direct Consumer Engagement</span>
 
-                <h1 class="text-3xl md:text-8xl font-black text-brand-dark leading-[0.9] uppercase mb-8">
+                <h1 class="text-4xl md:text-8xl font-black text-brand-dark leading-[0.9] uppercase mb-8">
                     BTL <span class="text-transparent" style="-webkit-text-stroke: 1px #7c3aed;">&</span> <br>
                     <span class="text-brand-accent">Activations</span>
                 </h1>
 
-                <p class="text-gray-600 text-sm md:text-xl max-w-2xl border-l-4 border-brand-accent pl-8 max-md:pl-4 mb-12">
+                <p class="text-gray-600 max-md:hidden text-sm md:text-xl max-w-2xl border-l-4 border-brand-accent pl-8 max-md:pl-4 mb-12">
                     Turning brand messages into physical experiences. We create on-ground promotions and mall activations that drive direct interaction and immediate results.
                 </p>
 
                 <div class="flex flex-wrap gap-5">
-                    <a href="/services" class="px-10 py-4 max-md:py-3 bg-brand-accent text-white font-bold uppercase text-[10px] tracking-widest rounded-full hover:shadow-[0_10px_30px_rgba(124,58,237,0.3)] hover:scale-105 transition-all">
+                    <a href="/work" class="px-10 py-4 max-md:py-2 max-md:text-sm max-md:px-6 max-md:py-3 bg-brand-accent text-white font-bold uppercase text-[10px] tracking-widest rounded-full hover:shadow-[0_10px_30px_rgba(124,58,237,0.3)] hover:scale-105 transition-all">
                         View Activation Types
                     </a>
-                    <a href="/contact" class="px-10 py-4 max-md:py-3 border border-brand-dark/20 text-brand-dark font-bold uppercase text-[10px] tracking-widest rounded-full hover:bg-brand-dark hover:text-white transition backdrop-blur-sm">
+                    <a href="/contact" class="px-10 py-4 max-md:hidden max-md:py-3 border border-brand-dark/20 text-brand-dark font-bold uppercase text-[10px] tracking-widest rounded-full hover:bg-brand-dark hover:text-white transition backdrop-blur-sm">
                         Get Started
                     </a>
                 </div>
@@ -92,7 +92,7 @@ include 'includes/nav.php';
                     <img
                         src="/public/assets/images/btl-img-1.png"
                         alt="Service 1"
-                        class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 max-md:h-60 object-cover transition-transform duration-500 group-hover:scale-110">
                     <div class="absolute inset-0 bg-black bg-opacity-0 transition-opacity duration-300 group-hover:bg-opacity-10"></div>
                 </div>
 
@@ -100,7 +100,7 @@ include 'includes/nav.php';
                     <img
                         src="/public/assets/images/btl-img-3.png"
                         alt="Service 3"
-                        class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 max-md:h-60 object-cover transition-transform duration-500 group-hover:scale-110">
                     <div class="absolute inset-0 bg-black bg-opacity-0 transition-opacity duration-300 group-hover:bg-opacity-10"></div>
                 </div>
 
@@ -108,7 +108,7 @@ include 'includes/nav.php';
                     <img
                         src="/public/assets/images/btl-img-2.png"
                         alt="Service 2"
-                        class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 max-md:h-60 object-cover transition-transform duration-500 group-hover:scale-110">
                     <div class="absolute inset-0 bg-black bg-opacity-0 transition-opacity duration-300 group-hover:bg-opacity-10"></div>
                 </div>
 
@@ -175,7 +175,7 @@ include 'includes/nav.php';
                 <p class="text-gray-500 mb-12 max-w-xl max-md:text-sm italic">"From Thane to the rest of India, we manage the logistics so you can focus on the leads."</p>
                 <div class="flex flex-col sm:flex-row gap-4">
                     <a href="/contact" class="px-12 max-md:px-8 py-5 max-md:py-3 bg-brand-accent text-white font-black uppercase text-xs tracking-widest rounded-full hover:scale-105 transition-transform shadow-lg shadow-brand-accent/20">Inquire for Activation</a>
-                    <a href="/services" class="px-12 py-5 max-md:py-3 border border-brand-dark/10 text-brand-dark font-black uppercase text-xs tracking-widest rounded-full hover:bg-brand-dark hover:text-white transition-all">View Gallery</a>
+                    <a href="/work" class="px-12 py-5 max-md:py-3 border border-brand-dark/10 text-brand-dark font-black uppercase text-xs tracking-widest rounded-full hover:bg-brand-dark hover:text-white transition-all">View Gallery</a>
                 </div>
             </div>
         </div>

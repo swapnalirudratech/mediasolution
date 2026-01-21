@@ -6,7 +6,7 @@ include 'includes/nav.php';
 
 <body class="bg-brand-light">
 
-    <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden min-h-[85vh] flex items-center">
+    <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden h-[85vh] max-md:h-[60vh] flex items-center">
         <div class="absolute inset-0 z-0">
             <img src="/public/assets/images/Cinema-Ads.png"
                 class="w-full h-full object-cover transition-transform duration-1000 hover:scale-105"
@@ -22,22 +22,22 @@ include 'includes/nav.php';
 
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">
             <div class="max-w-4xl">
-                <span class="text-brand-accent font-bold uppercase tracking-[0.4em] text-[10px] mb-6 block">Premium Captive Audience</span>
+                <span class="text-brand-accent max-md:hidden font-bold uppercase tracking-[0.4em] text-[10px] mb-6 block">Premium Captive Audience</span>
 
                 <h1 class="text-4xl md:text-8xl font-black text-brand-dark leading-[0.9] uppercase mb-8">
                     Cinema <br>
                     <span class="text-transparent" style="-webkit-text-stroke: 1.5px #7c3aed;">Advertising</span>
                 </h1>
 
-                <p class="text-gray-600 text-sm md:text-xl max-w-2xl mb-12 italic border-l-4 border-brand-accent pl-8 max-md:pl-4 leading-relaxed">
+                <p class="text-gray-600 max-md:hidden text-sm md:text-xl max-w-2xl mb-12 italic border-l-4 border-brand-accent pl-8 max-md:pl-4 leading-relaxed">
                     "Captivate audiences with blockbuster advertising. From high-impact on-screen commercials to immersive lobby branding across India's top multiplex circuits."
                 </p>
 
                 <div class="flex flex-wrap gap-6">
-                    <a href="/services" class="px-10 py-4 bg-brand-accent text-white font-bold uppercase text-[10px] tracking-widest rounded-full hover:shadow-[0_10px_30px_rgba(124,58,237,0.4)] hover:scale-105 transition-all">
+                    <a href="/work" class="px-10 py-4 max-md:py-2 max-md:text-sm max-md:px-6 bg-brand-accent text-white font-bold uppercase text-[10px] tracking-widest rounded-full hover:shadow-[0_10px_30px_rgba(124,58,237,0.4)] hover:scale-105 transition-all">
                         Explore Circuits
                     </a>
-                    <a href="/contact" class="px-10 py-4 border border-brand-dark/20 text-brand-dark font-bold uppercase text-[10px] tracking-widest rounded-full hover:bg-brand-dark hover:text-white transition backdrop-blur-sm">
+                    <a href="/contact" class="px-10 py-4 max-md:hidden border border-brand-dark/20 text-brand-dark font-bold uppercase text-[10px] tracking-widest rounded-full hover:bg-brand-dark hover:text-white transition backdrop-blur-sm">
                         Get Started
                     </a>
                 </div>
@@ -45,8 +45,8 @@ include 'includes/nav.php';
         </div>
     </section>
 
-    <section id="formats" class="py-32 bg-brand-light overflow-hidden">
-        <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 space-y-32">
+    <section id="formats" class="py-32 max-md:py-14 bg-brand-light overflow-hidden">
+        <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 space-y-32 max-md:space-y-14">
 
             <div class="grid md:grid-cols-2 gap-16 items-center group">
                 <div class="relative order-2 md:order-1">
@@ -86,7 +86,7 @@ include 'includes/nav.php';
             </div>
 
             <div class="grid md:grid-cols-2 gap-16 items-center group">
-                <div class="order-1 md:order-2 relative">
+                <div class="order-2 md:order-2 relative">
                     <div class="absolute inset-0 bg-brand-dark/5 rounded-[3rem] -rotate-3 group-hover:-rotate-6 transition-transform duration-500"></div>
                     <div class="relative rounded-[3rem] overflow-hidden shadow-2xl border border-gray-100 aspect-[4/3]">
                         <img src="https://images.unsplash.com/photo-1595769816263-9b910be24d5f?auto=format&fit=crop&w=800&q=80"
@@ -97,7 +97,7 @@ include 'includes/nav.php';
                         </div>
                     </div>
                 </div>
-                <div class="order-2 md:order-1 md:text-right">
+                <div class="order-1 md:order-1 md:text-right">
                     <div class="w-12 h-12 bg-brand-dark/5 rounded-2xl flex items-center justify-center text-brand-dark mb-6 md:ml-auto">
                         <i class="fas fa-users text-xl"></i>
                     </div>

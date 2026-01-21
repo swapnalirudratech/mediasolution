@@ -5,7 +5,7 @@ include 'includes/nav.php';
 ?>
 
 <body>
-    <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden min-h-[85vh] flex items-center">
+    <section class="relative pt-40 pb-32 bg-brand-gray overflow-hidden h-[85vh] max-md:h-[60vh] flex items-center">
         <div class="absolute inset-0 z-0">
             <img src="/public/assets/images/Billboards.png"
                 class="w-full h-full object-cover"
@@ -23,12 +23,12 @@ include 'includes/nav.php';
             <div class="max-w-4xl">
                 <span class="text-brand-accent font-bold uppercase tracking-[0.4em] text-[10px] mb-6 block">Our Track Record</span>
 
-                <h1 class="text-4xl md:text-8xl font-black text-brand-dark leading-none uppercase mb-8">
+                <h1 class="text-4xl md:text-8xl font-black text-brand-dark leading-none uppercase md:mb-8">
                     Selected <br>
                     <span class="text-brand-accent">Campaigns</span>
                 </h1>
 
-                <p class="text-gray-600 text-sm md:text-xl max-w-2xl mb-12 italic border-l-4 border-brand-accent pl-8 max-md:pl-4 leading-relaxed">
+                <p class="text-gray-600 max-md:hidden text-sm md:text-xl max-w-2xl mb-12 italic border-l-4 border-brand-accent pl-8 max-md:pl-4 leading-relaxed">
                     "500+ campaigns executed with precision. From local activations in Thane to massive Pan-India product launches across every media touchpoint."
                 </p>
 

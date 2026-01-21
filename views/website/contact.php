@@ -12,11 +12,11 @@ include 'includes/nav.php';
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 relative z-10">
             <div class="max-w-4xl">
                 <span class="text-brand-accent font-bold uppercase tracking-[0.4em] text-base mb-6 block animate-pulse">Available for New Projects</span>
-                
+
                 <h1 class="text-4xl md:text-8xl font-black text-brand-dark leading-[0.85] uppercase mb-10">
                     Let’s Build <br><span class="text-transparent" style="-webkit-text-stroke: 1.5px #7c3aed;">Your Legacy.</span>
                 </h1>
-                
+
                 <p class="text-gray-600 text-sm md:text-lg max-w-2xl border-l-4 border-brand-accent pl-8 max-md:pl-4 leading-relaxed">
                     Ready to dominate the market? Tell us about your brand goals, and our 360° team will craft a customized media strategy for you.
                 </p>
@@ -24,16 +24,16 @@ include 'includes/nav.php';
         </div>
     </section>
 
-    <section class="py-24 bg-brand-light relative">
+    <section class="py-24 max-md:py-14 bg-brand-light relative">
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4 grid lg:grid-cols-12 gap-16">
 
-            <div class="lg:col-span-4 space-y-12">
-                
+            <div class="lg:col-span-4 space-y-12 max-md:order-2">
+
                 <div class="group cursor-default">
                     <h4 class="text-brand-dark font-black uppercase tracking-widest text-base mb-6 flex items-center">
                         <span class="w-8 h-px bg-brand-accent mr-4"></span> Our Location
                     </h4>
-                    <div class="p-8 bg-brand-gray border border-gray-200 rounded-[2rem] transition-all group-hover:border-brand-accent/30 shadow-sm">
+                    <div class="p-8 max-md:p-6 bg-brand-gray border border-gray-200 rounded-[2rem] max-md:rounded-xl transition-all group-hover:border-brand-accent/30 shadow-sm">
                         <p class="text-brand-dark font-bold mb-2">Mediaa Solutions HQ</p>
                         <p class="text-gray-500 text-sm leading-relaxed mb-6">
                             Thane, Maharashtra, India<br>
@@ -50,36 +50,36 @@ include 'includes/nav.php';
                         <span class="w-8 h-px bg-brand-accent mr-4"></span> Direct Lines
                     </h4>
                     <div class="space-y-4">
-                        <a href="mailto:contact@mediasolutions.com" class="block p-6 bg-brand-gray border border-gray-200 rounded-2xl hover:bg-brand-accent group transition-all shadow-sm">
+                        <a href="mailto:contact@mediasolutions.com" class="block p-6 bg-brand-gray border border-gray-200 rounded-2xl max-md:rounded-xl hover:bg-brand-accent group transition-all shadow-sm">
                             <p class="text-gray-500 text-sm uppercase font-bold group-hover:text-white/80">Email Us</p>
                             <p class="text-brand-dark font-bold group-hover:text-white">contact@mediasolutions.com</p>
                         </a>
-                        <a href="tel:+918976309837" class="block p-6 bg-brand-gray border border-gray-200 rounded-2xl hover:bg-brand-accent group transition-all shadow-sm">
+                        <a href="tel:+918976309837" class="block p-6 bg-brand-gray border border-gray-200 rounded-2xl max-md:rounded-xl hover:bg-brand-accent group transition-all shadow-sm">
                             <p class="text-gray-500 text-sm uppercase font-bold group-hover:text-white/80">Call Support</p>
                             <p class="text-brand-dark font-bold group-hover:text-white">+91 89763 09837</p>
                         </a>
                     </div>
                 </div>
 
-                <div class="relative p-10 bg-brand-accent rounded-[3rem] shadow-xl shadow-brand-accent/30 overflow-hidden group">
-                    <div class="absolute top-0 right-0 p-4 text-white/10 text-7xl font-black italic group-hover:scale-110 transition-transform">24h</div>
+                <div class="relative p-10 max-md:p-6 bg-brand-accent rounded-[3rem] max-md:rounded-xl shadow-xl shadow-brand-accent/30 overflow-hidden group">
+                    <div class="absolute top-0 right-0 p-4 text-white/10 text-7xl max-md:text-5xl font-black italic group-hover:scale-110 transition-transform">24h</div>
                     <p class="text-white font-bold text-base uppercase tracking-widest mb-4 relative z-10">The 24h Promise</p>
-                    <p class="text-white/90 italic text-lg relative z-10">"90% of our clients receive their first customized media plan within 24 hours."</p>
+                    <p class="text-white/90 italic text-lg max-md:text-base relative z-10">"90% of our clients receive their first customized media plan within 24 hours."</p>
                 </div>
             </div>
 
-            <div class="lg:col-span-8">
-                <form action="#" class="space-y-10 bg-white p-8 md:p-16 rounded-[4rem] border border-gray-200 shadow-2xl">
+            <div class="lg:col-span-8 max-md:order-1">
+                <form action="#" class="space-y-10 bg-white p-6 md:p-16 rounded-[4rem] max-md:rounded-xl border border-gray-200 shadow-2xl">
 
                     <div>
                         <label class="text-brand-dark font-black uppercase text-base tracking-[0.3em] mb-8 block opacity-70">Step 1: Select Your Channels</label>
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-md:gap-2">
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 max-md:gap-2">
                             <?php
-                            $services = ['OOH & DOOH', 'Cinema', 'BTL & Events', 'Digital', 'Mainline', 'Other'];
+                            $services = ['OOH & DOOH', 'BTL & Events', 'Cinema', 'Digital', 'Mainline', 'Other'];
                             foreach ($services as $s): ?>
                                 <label class="cursor-pointer">
                                     <input type="checkbox" class="hidden peer">
-                                    <div class="px-4 py-5 max-md:py-2 max-md:px-3 bg-gray-50 border border-gray-200 rounded-2xl text-gray-500 text-sm font-black uppercase tracking-widest text-center peer-checked:bg-brand-accent peer-checked:text-white peer-checked:shadow-lg peer-checked:border-brand-accent transition-all hover:border-brand-accent/50">
+                                    <div class="px-4 py-5 max-md:py-2 max-md:px-3 bg-gray-50 border border-gray-200 rounded-2xl max-md:rounded-xl text-gray-500 text-sm max-md:text-xs font-black uppercase tracking-widest text-center peer-checked:bg-brand-accent peer-checked:text-white peer-checked:shadow-lg peer-checked:border-brand-accent transition-all hover:border-brand-accent/50">
                                         <?php echo $s; ?>
                                     </div>
                                 </label>
@@ -90,7 +90,7 @@ include 'includes/nav.php';
                     <div class="space-y-8">
                         <label class="text-brand-dark font-black uppercase text-base tracking-[0.3em] block opacity-70">Step 2: Project Details</label>
 
-                        <div class="grid md:grid-cols-2 gap-8">
+                        <div class="grid md:grid-cols-2 gap-8 max-md:gap-6">
                             <div class="relative group">
                                 <input type="text" required class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="name" placeholder="Name">
                                 <label for="name" class="absolute left-0 top-4 text-gray-400 uppercase text-sm font-black tracking-widest pointer-events-none transition-all peer-focus:-top-4 peer-focus:text-brand-accent peer-not-placeholder-shown:-top-4">Full Name</label>
@@ -101,7 +101,7 @@ include 'includes/nav.php';
                             </div>
                         </div>
 
-                        <div class="grid md:grid-cols-2 gap-8">
+                        <div class="grid md:grid-cols-2 gap-8 max-md:gap-6">
                             <div class="relative group">
                                 <input type="text" class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="company" placeholder="Company">
                                 <label for="company" class="absolute left-0 top-4 text-gray-400 uppercase text-sm font-black tracking-widest pointer-events-none transition-all peer-focus:-top-4 peer-focus:text-brand-accent peer-not-placeholder-shown:-top-4">Company Name</label>
@@ -120,8 +120,8 @@ include 'includes/nav.php';
                             </div>
                         </div>
 
-                        <div class="relative group pt-4">
-                            <textarea rows="4" class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="message" placeholder="Message"></textarea>
+                        <div class="relative group pt-4 max-md:pt-0">
+                            <textarea rows="4" class="w-full bg-transparent border-b-2 border-gray-300 py-4 max-md:py-0 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="message" placeholder="Message"></textarea>
                             <label for="message" class="absolute left-0 top-8 text-gray-400 uppercase text-sm font-black tracking-widest pointer-events-none transition-all peer-focus:top-0 peer-focus:text-brand-accent peer-not-placeholder-shown:top-0">Your Campaign Vision</label>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ include 'includes/nav.php';
         </div>
     </section>
 
-    <section class="py-24 bg-brand-gray border-t border-gray-200">
+    <section class="py-24 max-md:py-14 bg-brand-gray border-t border-gray-200">
         <div class="w-[80vw] max-md:w-[90vw] mx-auto md:px-4">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-16">
                 <div class="flex items-start gap-6">
