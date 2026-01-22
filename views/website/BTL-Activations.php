@@ -1,5 +1,5 @@
 <?php
-$page = 'home';
+$page = 'btl';
 include 'includes/header.php';
 include 'includes/nav.php';
 ?>

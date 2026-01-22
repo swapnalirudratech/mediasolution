@@ -1,4 +1,4 @@
-<nav id="navbar" class="fixed w-full z-50 bg-white/90 backdrop-blur-md text-brand-dark border-b border-gray-200 transition-all duration-300">
+<nav id="navbar" class="fixed w-full z-[99999] bg-white/90 backdrop-blur-md text-brand-dark border-b border-gray-200 transition-all duration-300">
     <div class="w-[85vw] max-md:w-[90vw] mx-auto px-4 max-md:px-0 max-md:py-4 flex justify-between items-center h-20">
 
         <a href="/" class="font-display font-black text-3xl tracking-tighter uppercase group relative">
@@ -6,17 +6,25 @@
             <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-accent group-hover:w-full transition-all duration-500"></span>
         </a>
 
-        <div class="hidden md:flex space-x-12 items-center">
-            <a href="/" class="hover:text-brand-accent transition text-base font-black uppercase tracking-[0.2em]">Home</a>
+        <div class="hidden md:flex space-x-4 items-center">
 
-            <a href="/about" class="hover:text-brand-accent transition text-base font-black uppercase tracking-[0.2em]">About</a>
+            <a href="/" class="px-5 py-2.5 rounded-full text-xs font-black uppercase tracking-[0.2em] transition-all duration-300 <?= ($page == 'home') ? 'bg-brand-accent/10 text-brand-accent shadow-sm ring-1 ring-brand-accent/20' : 'text-brand-dark hover:bg-gray-100/80 hover:text-brand-accent' ?>">
+                Home
+            </a>
 
-            <div class="relative group h-20 flex items-center">
-                <button class="flex items-center hover:text-brand-accent transition text-base font-black uppercase tracking-[0.2em] outline-none">
+            <a href="/about" class="px-5 py-2.5 rounded-full text-xs font-black uppercase tracking-[0.2em] transition-all duration-300 <?= ($page == 'about') ? 'bg-brand-accent/10 text-brand-accent shadow-sm ring-1 ring-brand-accent/20' : 'text-brand-dark hover:bg-gray-100/80 hover:text-brand-accent' ?>">
+                About
+            </a>
+
+            <div class="relative group h-20 flex items-center px-2">
+                <?php $isServicePage = in_array($page, ['ooh', 'digital', 'btl', 'events', 'cinema']); ?>
+
+                <button class="flex items-center gap-3 px-5 py-2.5 rounded-full text-xs font-black uppercase tracking-[0.2em] outline-none transition-all duration-300 <?= $isServicePage ? 'bg-brand-accent/10 text-brand-accent shadow-sm ring-1 ring-brand-accent/20' : 'text-brand-dark hover:bg-gray-100/80 hover:text-brand-accent' ?>">
                     Services
-                    <div class="ml-3 flex flex-col gap-0.5 group-hover:gap-1 transition-all">
-                        <span class="w-4 h-[2px] bg-brand-accent"></span>
-                        <span class="w-2 h-[2px] bg-brand-dark group-hover:w-4 transition-all group-hover:bg-brand-accent"></span>
+
+                    <div class="flex flex-col gap-0.5 group-hover:gap-1 transition-all">
+                        <span class="w-4 h-[2px] transition-colors <?= $isServicePage ? 'bg-brand-accent' : 'bg-brand-dark group-hover:bg-brand-accent' ?>"></span>
+                        <span class="w-2 h-[2px] transition-all <?= $isServicePage ? 'bg-brand-accent w-4' : 'bg-brand-dark group-hover:w-4 group-hover:bg-brand-accent' ?>"></span>
                     </div>
                 </button>
 
@@ -26,39 +34,39 @@
 
                         <div class="col-span-3 border-r border-gray-100">
                             <p class="text-xs font-black text-brand-accent uppercase tracking-[0.3em] mb-8">Service Index</p>
-                            <ul class="space-y-4">
-                                <li><a href="/work" class="text-2xl font-black text-gray-300 hover:text-brand-dark transition-all hover:pl-2">PORTFOLIO</a></li>
-                                <li><a href="/about" class="text-2xl font-black text-gray-300 hover:text-brand-dark transition-all hover:pl-2">AGENCY</a></li>
-                                <li><a href="/contact" class="text-2xl font-black text-gray-300 hover:text-brand-dark transition-all hover:pl-2">CAREERS</a></li>
+                            <ul class="space-y-2">
+                                <li><a href="/work" class="block py-2 text-2xl font-black transition-all <?= ($page == 'work') ? 'text-brand-dark translate-x-2' : 'text-gray-300 hover:text-brand-dark hover:translate-x-2' ?>">PORTFOLIO</a></li>
+                                <li><a href="/about" class="block py-2 text-2xl font-black transition-all <?= ($page == 'about') ? 'text-brand-dark translate-x-2' : 'text-gray-300 hover:text-brand-dark hover:translate-x-2' ?>">AGENCY</a></li>
+                                <li><a href="/contact" class="block py-2 text-2xl font-black transition-all <?= ($page == 'contact') ? 'text-brand-dark translate-x-2' : 'text-gray-300 hover:text-brand-dark hover:translate-x-2' ?>">CAREERS</a></li>
                             </ul>
                         </div>
 
                         <div class="col-span-6 grid grid-cols-2 gap-x-12 gap-y-10">
                             <a href="/OOH-and-DOOH-Services" class="group/item">
                                 <span class="text-xs font-bold text-gray-300 block mb-2">01.</span>
-                                <h4 class="text-lg font-black text-brand-dark uppercase group-hover/item:text-brand-accent transition-colors">OOH & DOOH</h4>
+                                <h4 class="text-lg font-black <?= ($page == 'ooh') ? 'text-brand-accent' : 'text-brand-dark' ?> uppercase group-hover/item:text-brand-accent transition-colors">OOH & DOOH</h4>
                                 <p class="text-gray-500 text-xs mt-1 leading-relaxed">Prime billboards and digital screens across Pan-India networks.</p>
                             </a>
                             <a href="/Digital-and-Tech-Services" class="group/item">
                                 <span class="text-xs font-bold text-gray-300 block mb-2">02.</span>
-                                <h4 class="text-lg font-black text-brand-dark uppercase group-hover/item:text-brand-accent transition-colors">Digital & Tech</h4>
+                                <h4 class="text-lg font-black <?= ($page == 'digital') ? 'text-brand-accent' : 'text-brand-dark' ?> uppercase group-hover/item:text-brand-accent transition-colors">Digital & Tech</h4>
                                 <p class="text-gray-500 text-xs mt-1 leading-relaxed">Data-driven performance marketing and brand technology solutions.</p>
                             </a>
                             <a href="/BTL-and-Activations-Services" class="group/item">
                                 <span class="text-xs font-bold text-gray-300 block mb-2">03.</span>
-                                <h4 class="text-lg font-black text-brand-dark uppercase group-hover/item:text-brand-accent transition-colors">BTL Activations</h4>
+                                <h4 class="text-lg font-black <?= ($page == 'btl') ? 'text-brand-accent' : 'text-brand-dark' ?> uppercase group-hover/item:text-brand-accent transition-colors">BTL Activations</h4>
                                 <p class="text-gray-500 text-xs mt-1 leading-relaxed">Direct engagement and on-ground brand experiences that convert.</p>
                             </a>
                             <a href="/Events-and-Exhibitions-Services" class="group/item">
                                 <span class="text-xs font-bold text-gray-300 block mb-2">04.</span>
-                                <h4 class="text-lg font-black text-brand-dark uppercase group-hover/item:text-brand-accent transition-colors">Events & Exhibitions</h4>
+                                <h4 class="text-lg font-black <?= ($page == 'events') ? 'text-brand-accent' : 'text-brand-dark' ?> uppercase group-hover/item:text-brand-accent transition-colors">Events & Exhibitions</h4>
                                 <p class="text-gray-500 text-xs mt-1 leading-relaxed">Bespoke stall designing and large-scale corporate event execution.</p>
                             </a>
                         </div>
 
                         <div class="col-span-3">
                             <a href="/Cinema-Advertising-Services">
-                                <div class="bg-brand-dark rounded-2xl p-8 h-full relative overflow-hidden group/promo cursor-pointer shadow-lg">
+                                <div class="bg-brand-dark rounded-2xl p-8 h-full relative overflow-hidden group/promo cursor-pointer shadow-lg transition-all ring-2 <?= ($page == 'cinema') ? 'ring-brand-accent' : 'ring-transparent' ?>">
                                     <div class="relative z-10">
                                         <p class="text-brand-accent text-xs font-bold uppercase tracking-widest mb-4">New Offering</p>
                                         <h4 class="text-white text-xl font-black uppercase">Cinema Advertising</h4>
@@ -89,9 +97,11 @@
                 </div>
             </div>
 
-            <a href="/work" class="hover:text-brand-accent transition text-base font-black uppercase tracking-[0.2em]">Work</a>
+            <a href="/work" class="px-5 py-2.5 rounded-full text-xs font-black uppercase tracking-[0.2em] transition-all duration-300 <?= ($page == 'work') ? 'bg-brand-accent/10 text-brand-accent shadow-sm ring-1 ring-brand-accent/20' : 'text-brand-dark hover:bg-gray-100/80 hover:text-brand-accent' ?>">
+                Work
+            </a>
 
-            <a href="/contact" class="bg-brand-accent text-white px-8 py-3 group rounded-full text-sm font-bold uppercase tracking-widest hover:bg-brand-accent/90 hover:shadow-lg hover:shadow-brand-accent/30 transition-all transform hover:-translate-y-0.5">
+            <a href="/contact" class="ml-4 bg-brand-accent text-white px-8 py-3 group rounded-full text-sm font-bold uppercase tracking-widest hover:bg-brand-accent/90 hover:shadow-lg hover:shadow-brand-accent/30 transition-all transform hover:-translate-y-0.5">
                 Start Project
                 <i class="fas fa-arrow-right ml-2 -rotate-45 group-hover:rotate-0 transition text-white"></i>
             </a>
@@ -104,63 +114,63 @@
         </button>
     </div>
 
-    <div id="mobile-menu" class="fixed inset-0 bg-white h-screen z-50 translate-x-full transition-transform duration-500 ease-in-out md:hidden flex flex-col p-8 pt-10 space-y-5 overflow-y-auto">
+    <div id="mobile-menu" class="fixed inset-0 bg-white h-screen z-50 translate-x-full transition-transform duration-500 ease-in-out md:hidden flex flex-col pl-4 pr-8 pt-8 space-y-4 overflow-y-auto">
 
-        <div class="flex flex-col gap-2 border-b border-gray-100 pb-5">
-            <a href="/" class="text-2xl font-black uppercase tracking-tighter text-brand-dark hover:text-brand-accent transition">Home</a>
-            <a href="/about" class="text-2xl font-black uppercase tracking-tighter text-brand-dark hover:text-brand-accent transition">About</a>
-            <a href="/work" class="text-2xl font-black uppercase tracking-tighter text-brand-dark hover:text-brand-accent transition">Work</a>
+        <div class="flex flex-col gap-1 border-b border-gray-100 pb-5">
+            <a href="/" class="text-xl font-black uppercase tracking-tighter p-2 rounded-xl transition-all <?= ($page == 'home') ? 'text-brand-accent' : 'text-brand-dark hover:bg-gray-50' ?>">Home</a>
+            <a href="/about" class="text-xl font-black uppercase tracking-tighter p-2 rounded-xl transition-all <?= ($page == 'about') ? 'text-brand-accent' : 'text-brand-dark hover:bg-gray-50' ?>">About</a>
+            <a href="/work" class="text-xl font-black uppercase tracking-tighter p-2 rounded-xl transition-all <?= ($page == 'work') ? 'text-brand-accent' : 'text-brand-dark hover:bg-gray-50' ?>">Work</a>
         </div>
 
-        <p class="text-2xl font-bold uppercase tracking-widest text-brand-dark mt-4">Our Services</p>
+        <p class="text-xl font-bold uppercase tracking-widest text-brand-dark mt-4">Our Services</p>
 
-        <div class="grid grid-cols-1">
-            <a href="/OOH-and-DOOH-Services" class="group flex items-center p-3 rounded-xl hover:bg-gray-50 transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-accent/10 flex items-center justify-center text-brand-accent group-hover:bg-brand-accent group-hover:text-white transition-colors">
+        <div class="grid grid-cols-1 gap-2">
+            <a href="/OOH-and-DOOH-Services" class="group flex items-center p-2 rounded-xl transition <?= ($page == 'ooh') ? 'bg-brand-accent/10 ring-1 ring-brand-accent/20' : 'hover:bg-gray-50' ?>">
+                <div class="w-12 h-12 rounded-xl flex items-center justify-center transition-colors <?= ($page == 'ooh') ? 'bg-brand-accent text-white' : 'bg-brand-accent/10 text-brand-accent group-hover:bg-brand-accent group-hover:text-white' ?>">
                     <i class="fas fa-city text-xl"></i>
                 </div>
                 <div class="ml-4">
-                    <span class="text-base font-bold text-brand-dark uppercase tracking-wide block">OOH & DOOH</span>
+                    <span class="text-base font-bold <?= ($page == 'ooh') ? 'text-brand-dark' : 'text-brand-dark' ?> uppercase tracking-wide block">OOH & DOOH</span>
                     <span class="text-[10px] text-gray-500 uppercase tracking-widest">Outdoor Media</span>
                 </div>
             </a>
 
-            <a href="/Digital-and-Tech-Services" class="group flex items-center p-3 rounded-xl hover:bg-gray-50 transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-accent/10 flex items-center justify-center text-brand-accent group-hover:bg-brand-accent group-hover:text-white transition-colors">
+            <a href="/Digital-and-Tech-Services" class="group flex items-center p-2 rounded-xl transition <?= ($page == 'digital') ? 'bg-brand-accent/10 ring-1 ring-brand-accent/20' : 'hover:bg-gray-50' ?>">
+                <div class="w-12 h-12 rounded-xl flex items-center justify-center transition-colors <?= ($page == 'digital') ? 'bg-brand-accent text-white' : 'bg-brand-accent/10 text-brand-accent group-hover:bg-brand-accent group-hover:text-white' ?>">
                     <i class="fas fa-rocket text-xl"></i>
                 </div>
                 <div class="ml-4">
-                    <span class="text-base font-bold text-brand-dark uppercase tracking-wide block">Digital & Tech</span>
+                    <span class="text-base font-bold <?= ($page == 'digital') ? 'text-brand-dark' : 'text-brand-dark' ?> uppercase tracking-wide block">Digital & Tech</span>
                     <span class="text-[10px] text-gray-500 uppercase tracking-widest">Growth & Data</span>
                 </div>
             </a>
 
-            <a href="/Events-and-Exhibitions-Services" class="group flex items-center p-3 rounded-xl hover:bg-gray-50 transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-accent/10 flex items-center justify-center text-brand-accent group-hover:bg-brand-accent group-hover:text-white transition-colors">
+            <a href="/Events-and-Exhibitions-Services" class="group flex items-center p-2 rounded-xl transition <?= ($page == 'events') ? 'bg-brand-accent/10 ring-1 ring-brand-accent/20' : 'hover:bg-gray-50' ?>">
+                <div class="w-12 h-12 rounded-xl flex items-center justify-center transition-colors <?= ($page == 'events') ? 'bg-brand-accent text-white' : 'bg-brand-accent/10 text-brand-accent group-hover:bg-brand-accent group-hover:text-white' ?>">
                     <i class="fas fa-calendar-alt text-xl"></i>
                 </div>
                 <div class="ml-4">
-                    <span class="text-base font-bold text-brand-dark uppercase tracking-wide block">Events</span>
+                    <span class="text-base font-bold <?= ($page == 'events') ? 'text-brand-dark' : 'text-brand-dark' ?> uppercase tracking-wide block">Events</span>
                     <span class="text-[10px] text-gray-500 uppercase tracking-widest">Corporate Hub</span>
                 </div>
             </a>
 
-            <a href="/Cinema-Advertising-Services" class="group flex items-center p-3 rounded-xl hover:bg-gray-50 transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-accent/10 flex items-center justify-center text-brand-accent group-hover:bg-brand-accent group-hover:text-white transition-colors">
+            <a href="/Cinema-Advertising-Services" class="group flex items-center p-2 rounded-xl transition <?= ($page == 'cinema') ? 'bg-brand-accent/10 ring-1 ring-brand-accent/20' : 'hover:bg-gray-50' ?>">
+                <div class="w-12 h-12 rounded-xl flex items-center justify-center transition-colors <?= ($page == 'cinema') ? 'bg-brand-accent text-white' : 'bg-brand-accent/10 text-brand-accent group-hover:bg-brand-accent group-hover:text-white' ?>">
                     <i class="fas fa-film text-xl"></i>
                 </div>
                 <div class="ml-4">
-                    <span class="text-base font-bold text-brand-dark uppercase tracking-wide block">Cinema Ads</span>
+                    <span class="text-base font-bold <?= ($page == 'cinema') ? 'text-brand-dark' : 'text-brand-dark' ?> uppercase tracking-wide block">Cinema Ads</span>
                     <span class="text-[10px] text-gray-500 uppercase tracking-widest">National Screens</span>
                 </div>
             </a>
 
-            <a href="/BTL-and-Activations-Services" class="group flex items-center p-3 rounded-xl hover:bg-gray-50 transition">
-                <div class="w-12 h-12 rounded-xl bg-brand-accent/10 flex items-center justify-center text-brand-accent group-hover:bg-brand-accent group-hover:text-white transition-colors">
+            <a href="/BTL-and-Activations-Services" class="group flex items-center p-2 rounded-xl transition <?= ($page == 'btl') ? 'bg-brand-accent/10 ring-1 ring-brand-accent/20' : 'hover:bg-gray-50' ?>">
+                <div class="w-12 h-12 rounded-xl flex items-center justify-center transition-colors <?= ($page == 'btl') ? 'bg-brand-accent text-white' : 'bg-brand-accent/10 text-brand-accent group-hover:bg-brand-accent group-hover:text-white' ?>">
                     <i class="fas fa-bullhorn text-xl"></i>
                 </div>
                 <div class="ml-4">
-                    <span class="text-base font-bold text-brand-dark uppercase tracking-wide block">BTL Activations</span>
+                    <span class="text-base font-bold <?= ($page == 'btl') ? 'text-brand-dark' : 'text-brand-dark' ?> uppercase tracking-wide block">BTL Activations</span>
                     <span class="text-[10px] text-gray-500 uppercase tracking-widest">Brand Experience</span>
                 </div>
             </a>

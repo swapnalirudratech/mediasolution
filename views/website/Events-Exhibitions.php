@@ -1,5 +1,5 @@
 <?php
-$page = 'home';
+$page = 'events';
 include 'includes/header.php';
 include 'includes/nav.php';
 ?>

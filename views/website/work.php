@@ -1,5 +1,5 @@
 <?php
-$page = 'services';
+$page = 'work';
 include 'includes/header.php';
 include 'includes/nav.php';
 ?>

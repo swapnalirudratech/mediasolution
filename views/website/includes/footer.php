@@ -70,4 +70,81 @@
              </div>
          </div>
      </div>
+
+     <!------------------------ fix buttons------------------------ -->
+
+     <div class="fixed top-1/2 right-0 transform -translate-y-1/2 flex flex-col gap-2 z-50">
+         <a
+             href="tel:+918976309837"
+             class="w-12 h-12 max-md:w-10 max-md:h-10 bg-blue-500 hover:bg-blue-600 text-white rounded-l-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center"
+             aria-label="Call Us">
+             <i class="fa-solid fa-phone text-xl max-md:text-sm"></i>
+         </a>
+         <a
+             href="https://wa.me/8976309837"
+             target="_blank"
+             class="w-12 h-12 max-md:w-10 max-md:h-10 bg-green-500 hover:bg-green-600 text-white rounded-l-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center"
+             aria-label="Chat on WhatsApp">
+             <i class="fa-brands fa-whatsapp text-2xl max-md:text-lg"></i>
+         </a>
+     </div>
+     <div class="fixed bottom-4 right-4 max-md:bottom-3 max-md:right-3 z-50">
+         <button
+             id="scrollButton"
+             class="w-12 h-12 max-md:w-10 max-md:h-10 bg-brand-accent hover:bg-brand-accent text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center opacity-0 pointer-events-none">
+             <i id="scrollIcon" class="fas fa-arrow-down max-md:text-sm"></i>
+         </button>
+     </div>
+
+     <script>
+         const scrollButton = document.getElementById('scrollButton');
+         const scrollIcon = document.getElementById('scrollIcon');
+
+         function updateScrollButton() {
+             const scrollPosition = window.scrollY;
+             const pageHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+             // Show/hide button based on scroll position
+             if (scrollPosition > 50) {
+                 scrollButton.classList.remove('opacity-0', 'pointer-events-none');
+                 scrollButton.classList.add('opacity-100');
+             } else {
+                 scrollButton.classList.add('opacity-0', 'pointer-events-none');
+                 scrollButton.classList.remove('opacity-100');
+             }
+
+             // Change icon depending on scroll position
+             if (scrollPosition > pageHeight / 2) {
+                 scrollIcon.classList.remove('fa-arrow-down');
+                 scrollIcon.classList.add('fa-arrow-up');
+             } else {
+                 scrollIcon.classList.remove('fa-arrow-up');
+                 scrollIcon.classList.add('fa-arrow-down');
+             }
+         }
+
+         // Scroll smoothly to top or bottom
+         scrollButton.addEventListener('click', () => {
+             const scrollPosition = window.scrollY;
+             const pageHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+             if (scrollPosition < pageHeight / 2) {
+                 window.scrollTo({
+                     top: document.body.scrollHeight,
+                     behavior: 'smooth'
+                 });
+             } else {
+                 window.scrollTo({
+                     top: 0,
+                     behavior: 'smooth'
+                 });
+             }
+         });
+
+         // Listen to scroll events
+         window.addEventListener('scroll', updateScrollButton);
+
+         // Initial check
+         updateScrollButton();
+     </script>
  </footer>

@@ -1,5 +1,5 @@
 <?php
-$page = 'home';
+$page = 'digital';
 include 'includes/header.php';
 include 'includes/nav.php';
 ?>
