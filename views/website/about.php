@@ -217,8 +217,8 @@ include 'includes/nav.php';
           <div class="flex items-center pt-6 border-t border-gray-100">
             <img src="/public/assets/images/profile.jpeg" alt="Client" class="w-12 h-12 rounded-full border-2 border-brand-accent mr-4">
             <div>
-              <h4 class="text-brand-dark font-bold uppercase tracking-wide text-sm">Vikram Mehta</h4>
-              <p class="text-gray-400 text-xs uppercase">VP Marketing, Urban Estates</p>
+              <h4 class="text-brand-dark font-bold uppercase tracking-wide text-sm">Narayan School</h4>
+              <p class="text-gray-400 text-xs uppercase">Narayan International School</p>
             </div>
           </div>
         </div>
@@ -237,8 +237,8 @@ include 'includes/nav.php';
           <div class="flex items-center pt-6 border-t border-brand-accent/20">
             <img src="/public/assets/images/profile.jpeg" alt="Client" class="w-12 h-12 rounded-full border-2 border-white mr-4">
             <div>
-              <h4 class="text-brand-dark font-bold uppercase tracking-wide text-sm">Anjali Kapoor</h4>
-              <p class="text-brand-dark/70 text-xs uppercase">Brand Head, Fresh Foods</p>
+              <h4 class="text-brand-dark font-bold uppercase tracking-wide text-sm">Dr. Lal Tanwani</h4>
+              <p class="text-brand-dark/70 text-xs uppercase">Padma Coaching Classes</p>
             </div>
           </div>
         </div>
@@ -257,8 +257,8 @@ include 'includes/nav.php';
           <div class="flex items-center pt-6 border-t border-gray-100">
             <img src="/public/assets/images/profile.jpeg" alt="Client" class="w-12 h-12 rounded-full border-2 border-brand-accent mr-4">
             <div>
-              <h4 class="text-brand-dark font-bold uppercase tracking-wide text-sm">Sameer Khan</h4>
-              <p class="text-gray-400 text-xs uppercase">Director, TechNova Solutions</p>
+              <h4 class="text-brand-dark font-bold uppercase tracking-wide text-sm">Mutha Bandhu</h4>
+              <p class="text-gray-400 text-xs uppercase">Mutha Jewellers</p>
             </div>
           </div>
         </div>

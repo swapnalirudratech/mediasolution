@@ -466,8 +466,8 @@ include 'includes/nav.php';
                     <div class="flex items-center gap-4 border-t border-gray-100 pt-6">
                         <img src="/public/assets/images/profile.jpeg" class="w-12 h-12 rounded-full ring-2 ring-gray-100">
                         <div>
-                            <h4 class="font-bold text-brand-dark text-sm">Vikram Mehta</h4>
-                            <p class="text-xs text-gray-500 uppercase">VP Marketing, Urban Estates</p>
+                            <h4 class="font-bold text-brand-dark text-sm">Narayan School</h4>
+                            <p class="text-xs text-gray-500 uppercase">Narayan International School</p>
                         </div>
                     </div>
                 </div>
@@ -481,8 +481,8 @@ include 'includes/nav.php';
                     <div class="flex items-center gap-4 border-t border-white/10 pt-6 relative z-10">
                         <img src="/public/assets/images/profile.jpeg" class="w-12 h-12 rounded-full ring-2 ring-brand-accent">
                         <div>
-                            <h4 class="font-bold text-white text-sm">Anjali Kapoor</h4>
-                            <p class="text-xs text-gray-400 uppercase">Brand Head, Fresh Foods</p>
+                            <h4 class="font-bold text-white text-sm">Dr. Lal Tanwani</h4>
+                            <p class="text-xs text-gray-400 uppercase">Padma Coaching Classes</p>
                         </div>
                     </div>
                 </div>
@@ -495,8 +495,8 @@ include 'includes/nav.php';
                     <div class="flex items-center gap-4 border-t border-gray-100 pt-6">
                         <img src="/public/assets/images/profile.jpeg" class="w-12 h-12 rounded-full ring-2 ring-gray-100">
                         <div>
-                            <h4 class="font-bold text-brand-dark text-sm">Sameer Khan</h4>
-                            <p class="text-xs text-gray-500 uppercase">Director, TechNova</p>
+                            <h4 class="font-bold text-brand-dark text-sm">Mutha Bandhu</h4>
+                            <p class="text-xs text-gray-500 uppercase">Mutha Jewellers</p>
                         </div>
                     </div>
                 </div>
