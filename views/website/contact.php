@@ -50,9 +50,9 @@ include 'includes/nav.php';
                         <span class="w-8 h-px bg-brand-accent mr-4"></span> Direct Lines
                     </h4>
                     <div class="space-y-4">
-                        <a href="mailto:contact@mediasolutions.com" class="block p-6 bg-brand-gray border border-gray-200 rounded-2xl max-md:rounded-xl hover:bg-brand-accent group transition-all shadow-sm">
+                        <a href="mailto:contactus@mediaasolutions.com" class="block p-6 bg-brand-gray border border-gray-200 rounded-2xl max-md:rounded-xl hover:bg-brand-accent group transition-all shadow-sm">
                             <p class="text-gray-500 text-sm uppercase font-bold group-hover:text-white/80">Email Us</p>
-                            <p class="text-brand-dark font-bold group-hover:text-white">contact@mediasolutions.com</p>
+                            <p class="text-brand-dark font-bold group-hover:text-white">contactus@mediaasolutions.com</p>
                         </a>
                         <a href="tel:+918976309837" class="block p-6 bg-brand-gray border border-gray-200 rounded-2xl max-md:rounded-xl hover:bg-brand-accent group transition-all shadow-sm">
                             <p class="text-gray-500 text-sm uppercase font-bold group-hover:text-white/80">Call Support</p>
@@ -69,7 +69,8 @@ include 'includes/nav.php';
             </div>
 
             <div class="lg:col-span-8 max-md:order-1">
-                <form action="#" class="space-y-10 bg-white p-6 md:p-16 rounded-[4rem] max-md:rounded-xl border border-gray-200 shadow-2xl">
+                <form id="contactMail" action="/contact-email" method="post"
+                    class="space-y-10 bg-white p-6 md:p-16 rounded-[4rem] max-md:rounded-xl border border-gray-200 shadow-2xl">
 
                     <div>
                         <label class="text-brand-dark font-black uppercase text-base tracking-[0.3em] mb-8 block opacity-70">Step 1: Select Your Channels</label>
@@ -78,7 +79,7 @@ include 'includes/nav.php';
                             $services = ['OOH & DOOH', 'BTL & Events', 'Cinema', 'Digital', 'Mainline', 'Other'];
                             foreach ($services as $s): ?>
                                 <label class="cursor-pointer">
-                                    <input type="checkbox" class="hidden peer">
+                                    <input type="checkbox" name="services[]" value="<?php echo $s; ?>" class="hidden peer">
                                     <div class="px-4 py-5 max-md:py-2 max-md:px-3 bg-gray-50 border border-gray-200 rounded-2xl max-md:rounded-xl text-gray-500 text-sm max-md:text-xs font-black uppercase tracking-widest text-center peer-checked:bg-brand-accent peer-checked:text-white peer-checked:shadow-lg peer-checked:border-brand-accent transition-all hover:border-brand-accent/50">
                                         <?php echo $s; ?>
                                     </div>
@@ -92,27 +93,28 @@ include 'includes/nav.php';
 
                         <div class="grid md:grid-cols-2 gap-8 max-md:gap-6">
                             <div class="relative group">
-                                <input type="text" required class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="name" placeholder="Name">
+                                <input type="text" name="name" required class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="name" placeholder="Name">
                                 <label for="name" class="absolute left-0 top-4 text-gray-400 uppercase text-sm font-black tracking-widest pointer-events-none transition-all peer-focus:-top-4 peer-focus:text-brand-accent peer-not-placeholder-shown:-top-4">Full Name</label>
                             </div>
                             <div class="relative group">
-                                <input type="email" required class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="email" placeholder="Email">
+                                <input type="email" name="email" required class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="email" placeholder="Email">
                                 <label for="email" class="absolute left-0 top-4 text-gray-400 uppercase text-sm font-black tracking-widest pointer-events-none transition-all peer-focus:-top-4 peer-focus:text-brand-accent peer-not-placeholder-shown:-top-4">Email Address</label>
                             </div>
                         </div>
 
                         <div class="grid md:grid-cols-2 gap-8 max-md:gap-6">
                             <div class="relative group">
-                                <input type="text" class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="company" placeholder="Company">
+                                <input type="text" name="comapny" 
+                                class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="company" placeholder="Company">
                                 <label for="company" class="absolute left-0 top-4 text-gray-400 uppercase text-sm font-black tracking-widest pointer-events-none transition-all peer-focus:-top-4 peer-focus:text-brand-accent peer-not-placeholder-shown:-top-4">Company Name</label>
                             </div>
                             <div class="relative group">
-                                <select class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-gray-500 focus:outline-none focus:border-brand-accent transition-colors appearance-none cursor-pointer">
-                                    <option class="bg-white">Select Budget Range</option>
-                                    <option class="bg-white">Below 5L</option>
-                                    <option class="bg-white">5L - 20L</option>
-                                    <option class="bg-white">20L - 50L</option>
-                                    <option class="bg-white">50L+</option>
+                                <select name="budget" class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-gray-500 focus:outline-none focus:border-brand-accent transition-colors appearance-none cursor-pointer">
+                                    <option disabled selected class="bg-white">Select Budget Range</option>
+                                    <option value="Below 5L" class="bg-white">Below 5L</option>
+                                    <option value="5L - 20L" class="bg-white">5L - 20L</option>
+                                    <option value="20L - 50L" class="bg-white">20L - 50L</option>
+                                    <option value="50L+" class="bg-white">50L+</option>
                                 </select>
                                 <div class="absolute right-0 top-5 pointer-events-none text-brand-accent text-base">
                                     <i class="fas fa-chevron-down"></i>
@@ -121,7 +123,7 @@ include 'includes/nav.php';
                         </div>
 
                         <div class="relative group pt-4 max-md:pt-0">
-                            <textarea rows="4" class="w-full bg-transparent border-b-2 border-gray-300 py-4 max-md:py-0 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="message" placeholder="Message"></textarea>
+                            <textarea rows="4" name="message" class="w-full bg-transparent border-b-2 border-gray-300 py-4 max-md:py-0 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="message" placeholder="Message"></textarea>
                             <label for="message" class="absolute left-0 top-8 text-gray-400 uppercase text-sm font-black tracking-widest pointer-events-none transition-all peer-focus:top-0 peer-focus:text-brand-accent peer-not-placeholder-shown:top-0">Your Campaign Vision</label>
                         </div>
                     </div>
@@ -164,6 +166,76 @@ include 'includes/nav.php';
             </div>
         </div>
     </section>
-</body>
 
+    <div id="toast"
+        class="hidden fixed top-5 right-5 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg transition-opacity duration-300">
+        Thank you! Your message has been sent.
+    </div>
+
+    <style>
+        #toast {
+            display: none;
+            position: fixed;
+            align-items: center;
+            text-align: center;
+            top: 100px;
+            right: 20px;
+            background-color: #38a169;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        #toast.show {
+            display: block;
+            opacity: 1;
+        }
+    </style>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const form = document.getElementById("contactMail");
+            const toast = document.getElementById("toast");
+
+            form.addEventListener("submit", function(e) {
+                e.preventDefault();
+
+                const formData = new FormData(form);
+
+                showToast("Processing... Please wait.", "#3182ce");
+
+                fetch("/contact-email", {
+                        method: "POST",
+                        body: formData
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        const message = data.success ? "Message sent successfully! Thank you!" : "Failed to send message.";
+                        const color = data.success ? "#38a169" : "#e53e3e";
+                        showToast(message, color);
+                    })
+                    .catch(() => {
+                        showToast("Something went wrong. Please try again.", "#e53e3e");
+                    })
+                    .finally(() => {
+                        form.reset();
+                    });
+            });
+
+            function showToast(message, bgColor = "#38a169") {
+                toast.innerText = message;
+                toast.style.backgroundColor = bgColor;
+                toast.classList.add("show");
+
+                setTimeout(() => {
+                    toast.classList.remove("show");
+                }, 3000);
+            }
+        });
+    </script>
+
+</body>
 <?php include 'includes/footer.php'; ?>

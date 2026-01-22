@@ -36,11 +36,11 @@
                      </li>
                      <li class="flex items-center gap-3">
                          <i class="fas fa-envelope text-brand-accent"></i>
-                         <a href="mailto:info@mediasolutions.com" class="hover:text-white transition">info@mediasolutions.com</a>
+                         <a href="mailto:info@mediaasolutions.com" class="hover:text-white transition">info@mediaasolutions.com</a>
                      </li>
                      <li class="flex items-center gap-3">
                          <i class="fas fa-envelope text-brand-accent"></i>
-                         <a href="mailto:contact@mediasolutions.com" class="hover:text-white transition">contact@mediasolutions.com</a>
+                         <a href="mailto:contactus@mediaasolutions.com" class="hover:text-white transition">contactus@mediaasolutions.com</a>
                      </li>
                      <!-- <li class="flex items-center gap-3">
                          <i class="fas fa-globe text-brand-accent"></i>

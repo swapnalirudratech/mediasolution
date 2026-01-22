@@ -464,7 +464,7 @@ include 'includes/nav.php';
                     </div>
                     <p class="text-gray-600 italic leading-relaxed mb-8 flex-grow">"Mediaa Solutions executed our pan-India billboard campaign flawlessly. The prime locations they secured gave us visibility we didn't think was possible."</p>
                     <div class="flex items-center gap-4 border-t border-gray-100 pt-6">
-                        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-12 h-12 rounded-full ring-2 ring-gray-100">
+                        <img src="/public/assets/images/profile.jpeg" class="w-12 h-12 rounded-full ring-2 ring-gray-100">
                         <div>
                             <h4 class="font-bold text-brand-dark text-sm">Vikram Mehta</h4>
                             <p class="text-xs text-gray-500 uppercase">VP Marketing, Urban Estates</p>
@@ -479,7 +479,7 @@ include 'includes/nav.php';
                     </div>
                     <p class="text-gray-300 italic leading-relaxed mb-8 flex-grow relative z-10">"We needed a partner who understood both OOH and Digital. Their team integrated our bus shelter ads with a geo-targeted mobile campaign."</p>
                     <div class="flex items-center gap-4 border-t border-white/10 pt-6 relative z-10">
-                        <img src="https://randomuser.me/api/portraits/women/44.jpg" class="w-12 h-12 rounded-full ring-2 ring-brand-accent">
+                        <img src="/public/assets/images/profile.jpeg" class="w-12 h-12 rounded-full ring-2 ring-brand-accent">
                         <div>
                             <h4 class="font-bold text-white text-sm">Anjali Kapoor</h4>
                             <p class="text-xs text-gray-400 uppercase">Brand Head, Fresh Foods</p>
@@ -493,7 +493,7 @@ include 'includes/nav.php';
                     </div>
                     <p class="text-gray-600 italic leading-relaxed mb-8 flex-grow">"Professionalism at its peak. From the initial pitch to the final execution report, the team at Mediaa Solutions kept us informed."</p>
                     <div class="flex items-center gap-4 border-t border-gray-100 pt-6">
-                        <img src="https://randomuser.me/api/portraits/men/86.jpg" class="w-12 h-12 rounded-full ring-2 ring-gray-100">
+                        <img src="/public/assets/images/profile.jpeg" class="w-12 h-12 rounded-full ring-2 ring-gray-100">
                         <div>
                             <h4 class="font-bold text-brand-dark text-sm">Sameer Khan</h4>
                             <p class="text-xs text-gray-500 uppercase">Director, TechNova</p>
