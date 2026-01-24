@@ -93,21 +93,22 @@ include 'includes/nav.php';
 
                         <div class="grid md:grid-cols-2 gap-8 max-md:gap-6">
                             <div class="relative group">
-                                <input type="text" name="name" required class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="name" placeholder="Name">
-                                <label for="name" class="absolute left-0 top-4 text-gray-400 uppercase text-sm font-black tracking-widest pointer-events-none transition-all peer-focus:-top-4 peer-focus:text-brand-accent peer-not-placeholder-shown:-top-4">Full Name</label>
+                                <input type="text" name="name" required class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer" id="name" placeholder=" ">
+                                <label for="name" class="absolute left-0 top-4 text-gray-400 uppercase text-sm font-black tracking-widest pointer-events-none transition-all peer-focus:-top-4 peer-focus:text-brand-accent peer-[:not(:placeholder-shown)]:-top-4">Full Name</label>
                             </div>
+
                             <div class="relative group">
-                                <input type="email" name="email" required class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="email" placeholder="Email">
-                                <label for="email" class="absolute left-0 top-4 text-gray-400 uppercase text-sm font-black tracking-widest pointer-events-none transition-all peer-focus:-top-4 peer-focus:text-brand-accent peer-not-placeholder-shown:-top-4">Email Address</label>
+                                <input type="email" name="email" required class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer" id="email" placeholder=" ">
+                                <label for="email" class="absolute left-0 top-4 text-gray-400 uppercase text-sm font-black tracking-widest pointer-events-none transition-all peer-focus:-top-4 peer-focus:text-brand-accent peer-[:not(:placeholder-shown)]:-top-4">Email Address</label>
                             </div>
                         </div>
 
                         <div class="grid md:grid-cols-2 gap-8 max-md:gap-6">
                             <div class="relative group">
-                                <input type="text" name="comapny" 
-                                class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="company" placeholder="Company">
-                                <label for="company" class="absolute left-0 top-4 text-gray-400 uppercase text-sm font-black tracking-widest pointer-events-none transition-all peer-focus:-top-4 peer-focus:text-brand-accent peer-not-placeholder-shown:-top-4">Company Name</label>
+                                <input type="text" name="comapny" class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer" id="company" placeholder=" ">
+                                <label for="company" class="absolute left-0 top-4 text-gray-400 uppercase text-sm font-black tracking-widest pointer-events-none transition-all peer-focus:-top-4 peer-focus:text-brand-accent peer-[:not(:placeholder-shown)]:-top-4">Company Name</label>
                             </div>
+
                             <div class="relative group">
                                 <select name="budget" class="w-full bg-transparent border-b-2 border-gray-300 py-4 text-gray-500 focus:outline-none focus:border-brand-accent transition-colors appearance-none cursor-pointer">
                                     <option disabled selected class="bg-white">Select Budget Range</option>
@@ -123,8 +124,8 @@ include 'includes/nav.php';
                         </div>
 
                         <div class="relative group pt-4 max-md:pt-0">
-                            <textarea rows="4" name="message" class="w-full bg-transparent border-b-2 border-gray-300 py-4 max-md:py-0 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer placeholder-transparent" id="message" placeholder="Message"></textarea>
-                            <label for="message" class="absolute left-0 top-8 text-gray-400 uppercase text-sm font-black tracking-widest pointer-events-none transition-all peer-focus:top-0 peer-focus:text-brand-accent peer-not-placeholder-shown:top-0">Your Campaign Vision</label>
+                            <textarea rows="4" name="message" class="w-full bg-transparent border-b-2 border-gray-300 py-4 max-md:py-0 text-brand-dark focus:outline-none focus:border-brand-accent transition-colors peer" id="message" placeholder=" "></textarea>
+                            <label for="message" class="absolute left-0 top-8 text-gray-400 uppercase text-sm font-black tracking-widest pointer-events-none transition-all peer-focus:top-0 peer-focus:text-brand-accent peer-[:not(:placeholder-shown)]:top-0">Your Campaign Vision</label>
                         </div>
                     </div>
 
